@@ -99,7 +99,7 @@
 			event.returnValue = false;
 			$.ajax({
 				type: "POST",
-				url: "subscribe.php",
+				url: "/suscribe",
 				data: {email: $("input[name=email]").val()},
 				success: function(data) {
 					if (data == "successful") {

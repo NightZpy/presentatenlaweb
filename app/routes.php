@@ -15,3 +15,22 @@ Route::get('/', function()
 {
 	return View::make('themes.coming-soon.pages.home');
 });
+
+///Route::pattern('email', '[b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}]b');
+
+Route::post('suscribe', function(){
+	$validator = Validator::make(Input::all(), array('email' => 'email'));
+	if($validator->fails()) {
+		return 'invalid_email';
+	} else {
+		Mail::send('emails.suscribe', array(), function($message)
+		{
+		  $message->to(Input::get('email'), Input::get('email'))
+		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb Atención al cliente');
+		          	->subject('Te has suscrito a Presente en la Web!');
+		});	
+		return 'successful';
+	}
+});
+
+
