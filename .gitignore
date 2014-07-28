@@ -1,0 +1,33 @@
+# Apache conf files
+/logs/*
+/conf/*
+*.log
+*.conf
+
+# Laravel
+/bootstrap/compiled.php
+/vendor
+/app/storage
+_
+
+# Configuration
+/app/config/local
+/app/config/staging
+/app/config/production
+
+# Composer
+composer.phar
+composer.lock
+
+# OS
+.DS_Store
+.idea/
+vagrant
+.vagrant
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+
+# Packages
+_ide_helpers.php
