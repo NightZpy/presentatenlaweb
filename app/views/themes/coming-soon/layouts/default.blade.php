@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   
   <!-- Page title -->
-  <title>Presentatenlaweb muy pronto</title>
+  <title>Presentate en la web, muy pronto</title>
 
   <link rel="shortcut icon" href="{{asset('themes/coming-soon/favicon.png')}}">
   
