@@ -21,15 +21,15 @@ Route::post('suscribe', function(){
 	if($validator->fails()) {
 		return 'invalid_email';
 	} else {
+		if(Subscriber::alreadySubscriber(Input::get('email')))
+			return 'already_subscribed';
+		
 		Mail::send('emails.suscribe', array(), function($message)
 		{
 		  $message->to(Input::get('email'), Input::get('email'))
 		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb Atención al cliente')
 		          	->subject('Te has suscrito a Presente en la Web!');
-		});	
-		
-		if(Subscriber::alreadySubscriber(Input::get('email')))
-			return 'already_subscribed';
+		});			
 
 		$subscriber = new Subscriber();
 		$subscriber->email = Input::get('email');
