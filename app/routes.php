@@ -26,7 +26,7 @@ Route::post('suscribe', function(){
 		Mail::send('emails.suscribe', array(), function($message)
 		{
 		  $message->to(Input::get('email'), Input::get('email'))
-		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb Atención al cliente');
+		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb Atención al cliente')
 		          	->subject('Te has suscrito a Presente en la Web!');
 		});	
 		return 'successful';
