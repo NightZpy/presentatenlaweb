@@ -26,8 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('homestead'),
-
+	'local' => array('NightZpy-PC'),
+	'production' => array('gator4164.hostgator.com')
 ));
 
 /*

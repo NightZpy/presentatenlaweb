@@ -16,8 +16,6 @@ Route::get('/', function()
 	return View::make('themes.coming-soon.pages.home');
 });
 
-///Route::pattern('email', '[b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}]b');
-
 Route::post('suscribe', function(){
 	$validator = Validator::make(Input::all(), array('email' => 'email'));
 	if($validator->fails()) {
@@ -29,6 +27,13 @@ Route::post('suscribe', function(){
 		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb Atención al cliente')
 		          	->subject('Te has suscrito a Presente en la Web!');
 		});	
+		
+		if(Subscriber::alreadySubscriber(Input::get('email')))
+			return 'already_subscribed';
+
+		$subscriber = new Subscriber();
+		$subscriber->email = Input::get('email');
+		$subscriber->save();
 		return 'successful';
 	}
 });
