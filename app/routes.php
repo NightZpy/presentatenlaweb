@@ -13,7 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('themes.coming-soon.pages.home');
+	return View::make('themes.mamba.pages.home');
 });
 
 Route::post('suscribe', function(){
