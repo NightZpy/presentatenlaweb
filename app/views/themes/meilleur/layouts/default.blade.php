@@ -81,7 +81,13 @@
         	</div>
     	</div>
 		
+		<!-- jump1 -->	
 		@yield('jump1')
+		<!-- jump1 end -->
+
+		<!--jump2 -->
+		@yield('jump2')
+		<!--jump2 end-->	
 		
 		<!--Scripts-->
     	<script type="text/javascript" src="{{asset('themes/meilleur/js/jquery-1.10.2.min.js')}}"></script>
