@@ -88,7 +88,11 @@
 		<!--jump2 -->
 		@yield('jump2')
 		<!--jump2 end-->	
-		
+
+		<!--jump2 -->
+        @yield('jump3')
+        <!--jump2 end-->		
+
 		<!--Scripts-->
     	<script type="text/javascript" src="{{asset('themes/meilleur/js/jquery-1.10.2.min.js')}}"></script>
    	 	<script type="text/javascript" src="{{asset('themes/meilleur/js/bootstrap.min.js')}}"></script>
