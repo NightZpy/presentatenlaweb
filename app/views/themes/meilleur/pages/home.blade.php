@@ -1273,3 +1273,191 @@
 
     </div>
 @stop
+
+@section('jump5')
+	<div id="jump5" class="jumper">
+
+    </div>
+
+    <div class="section type-2">
+
+        <div class="container">
+
+            <div class="section-headlines">
+
+                <h4>
+
+                    Testimonials</h4>
+
+                <h2>
+
+                    Read our clients talking about us!</h2>
+
+                <div>
+
+                    We worked on digital strategies for 200 brands worldwide.
+
+                </div>
+
+            </div>
+
+            <div id="carousel-testimonial" class="carousel slide bs-docs-carousel-example">
+
+                <ol class="carousel-indicators">
+
+                    <li data-target="#carousel-testimonial" data-slide-to="0" class=""></li>
+
+                    <li data-target="#carousel-testimonial" data-slide-to="1" class=""></li>
+
+                    <li data-target="#carousel-testimonial" data-slide-to="2" class=""></li>
+
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="item active">
+
+                        <div class="testimonial media">
+
+                            <div class="testimonial-avatar pull-right hidden-xs	">
+
+                                <img src="img/avatar/avatar-2.jpg" class="avatar size-default img-circle">
+
+                            </div>
+
+                            <div class="testimonial-content media-body">
+
+                                <p class="lead">
+
+                                    It is a long established fact that a reader will be distracted by the readable content
+
+                                    of a page when looking at its layout. The point of using Lorem Ipsum is that it
+
+                                    has a more-or-less normal distribution of letters, as opposed to using 'Content
+
+                                    here, content here', making it look like readable English.
+
+                                </p>
+
+                                Founder at EGrappler.com - <b>John Donga</b>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+
+                        <div class="testimonial media">
+
+                            <div class="testimonial-avatar pull-right hidden-xs	">
+
+                                <img src="img/avatar/avatar-3.jpg" class="avatar size-default img-circle">
+
+                            </div>
+
+                            <div class="testimonial-content media-body">
+
+                                <p class="lead">
+
+                                    It is a long established fact that a reader will be distracted by the readable content
+
+                                    of a page when looking at its layout. The point of using Lorem Ipsum is that it
+
+                                    has a more-or-less normal distribution of letters, as opposed to using 'Content
+
+                                    here, content here', making it look like readable English.
+
+                                </p>
+
+                                Founder at Greepit.com - <b>John Donga</b>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+
+                        <div class="testimonial media">
+
+                            <div class="testimonial-avatar pull-right hidden-xs	">
+
+                                <img src="img/avatar/avatar-1.jpg" class="avatar size-default img-circle">
+
+                            </div>
+
+                            <div class="testimonial-content media-body">
+
+                                <p class="lead">
+
+                                    It is a long established fact that a reader will be distracted by the readable content
+
+                                    of a page when looking at its layout. The point of using Lorem Ipsum is that it
+
+                                    has a more-or-less normal distribution of letters, as opposed to using 'Content
+
+                                    here, content here', making it look like readable English.
+
+                                </p>
+
+                                Founder at EGrappler.com - <b>John Donga</b>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+
+                        <div class="testimonial media">
+
+                            <div class="testimonial-avatar pull-right hidden-xs	">
+
+                                <img src="img/avatar/avatar-1.jpg" class="avatar size-default img-circle">
+
+                            </div>
+
+                            <div class="testimonial-content media-body">
+
+                                <p class="lead">
+
+                                    It is a long established fact that a reader will be distracted by the readable content
+
+                                    of a page when looking at its layout. The point of using Lorem Ipsum is that it
+
+                                    has a more-or-less normal distribution of letters, as opposed to using 'Content
+
+                                    here, content here', making it look like readable English.
+
+                                </p>
+
+                                Founder at EGrappler.com - <b>John Donga</b>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-controller btn-group">
+
+                    <a class="btn btn-xs btn-inverse" href="#carousel-testimonial" data-slide="prev"><i
+
+                        class="icon-angle-left"></i></a><a class="btn btn-xs btn-inverse" href="#carousel-testimonial"
+
+                            data-slide="next"><i class="icon-angle-right"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+@stop
