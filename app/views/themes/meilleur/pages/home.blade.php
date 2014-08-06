@@ -1,180 +1,93 @@
 @extends('themes.meilleur.layouts.default')
 
 @section('jump1')
-	 <div id="jump1" class="jumper">
-
-    </div>
-
+	<div id="jump1" class="jumper">
+	</div>
     <div class="section type-2">
-
-        <div class="container">
-
-            <div class="section-headlines">
-
-                <h4>
-
-                    Our Services</h4>
-
-                <div>
-
+  		<div class="container">
+       		<div class="section-headlines">
+           		<h4>Our Services</h4>
+               	<div>
                     We love creating innovative strategies for the web. All kind of brands hire us:
-
                     we make difficult things easy, but never take anything lightly.
-
                 </div>
-
             </div>
-
             <div class="row">
-
-                <div class="col-lg-6 features">
-
-                    <div class="media">
-
-                        <i class=" icon-wrench pull-left animated bounce"></i>
-
+           		<div class="col-lg-6 features">
+                	<div class="media">
+                   		<i class=" icon-wrench pull-left animated bounce"></i>
                         <div class="media-body">
+                       	<h3>Websites</h3>
+                        <div>Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+               		</div>
+        		</div>
 
-                            <h3>
-
-                                Websites</h3>
-
-                            <div>
-
-                                Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
-
-                        </div>
-
-                    </div>
-
-                    <br class="gap-30" />
-
-                    <div class="media">
-
-                        <i class=" icon-bar-chart pull-left animated bounce"></i>
-
-                        <div class="media-body">
-
-                            <h3>
-
-                                Social Media Campaigns</h3>
-
-                            <div>
-
-                                The point of using Lorem Ipsum is that it has a more-or-less normal dist.</div>
-
-                        </div>
-
-                    </div>
-
-                    <br class="gap-30" />
-
-                    <div class="media">
-
-                        <i class=" icon-mobile-phone pull-left animated bounce"></i>
-
-                        <div class="media-body">
-
-                            <h3>
-
-                                iOS and Android Apps</h3>
-
-                            <div>
-
+           	 	<br class="gap-30" />
+              	<div class="media">
+               		<i class=" icon-bar-chart pull-left animated bounce"></i>
+                   	<div class="media-body">
+                    <h3>Social Media Campaigns</h3>
+                  	<div>The point of using Lorem Ipsum is that it has a more-or-less normal dist.</div>
+               	</div>
+     		</div>
+			<br class="gap-30" />
+        	<div class="media">
+            	<i class=" icon-mobile-phone pull-left animated bounce"></i>
+          		<div class="media-body">
+					<h3>iOS and Android Apps</h3>
+					<div>
                                 It is a long established fact that a reader will be distracted by the readable content
+                                of a page when looking at its layout.
+					</div>
+       			</div>
+     		</div>
+        	<div class="visible-xs visible-sm">
+				<br class="gap-30" />
+				<hr class="gap-divider" />
+				<br class="gap-30" />	
+			</div>
+		</div>
+		<div class="col-lg-6 features">
+			<div class="panel-group" id="accordion">
+         		<div class="panel">
+             		<div class="panel-heading">
+                   		 <h3 class="panel-title">
+                       		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            	Responsive Layout <i class="icon-plus"></i><i class="icon-minus"></i>
+							</a>
 
-                                of a page when looking at its layout.</div>
+                        </h3>
+             		</div>
+					<div id="collapseOne" class="panel-collapse collapse in">
+						<div class="panel-body">
+							Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+							in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+							<br/>
+							<br/>
+							Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
+							up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                            and going through the cites of the word in classical literature, discovered the
+							undoubtable source.
+						</div>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                             	href="#collapseTwo">Retina Ready <i class="icon-plus"></i>
+								<i class="icon-minus"></i>
+							</a>
+                    	</h3>
 
-                        </div>
-
-                    </div>
-
-                    <div class="visible-xs visible-sm">
-
-                        <br class="gap-30" />
-
-                        <hr class="gap-divider" />
-
-                        <br class="gap-30" />
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6 features">
-
-                    <div class="panel-group" id="accordion">
-
-                        <div class="panel">
-
-                            <div class="panel-heading">
-
-                                <h3 class="panel-title">
-
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-
-                                        Responsive Layout <i class="icon-plus"></i><i class="icon-minus"></i></a>
-
-                                </h3>
-
-                            </div>
-
-                            <div id="collapseOne" class="panel-collapse collapse in">
-
-                                <div class="panel-body">
-
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-
-                                    in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-
+                	</div>
+             		<div id="collapseTwo" class="panel-collapse collapse">
+             			<div class="panel-body">
+                   			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                         	in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                                     <br />
-
                                     <br />
-
                                     Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
-
-                                    up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-
-                                    and going through the cites of the word in classical literature, discovered the
-
-                                    undoubtable source.
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="panel">
-
-                            <div class="panel-heading">
-
-                                <h3 class="panel-title">
-
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-
-                                        href="#collapseTwo">Retina Ready <i class="icon-plus"></i><i class="icon-minus">
-
-                                        </i></a>
-
-                                </h3>
-
-                            </div>
-
-                            <div id="collapseTwo" class="panel-collapse collapse">
-
-                                <div class="panel-body">
-
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-
-                                    in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-
-                                    <br />
-
-                                    <br />
-
-                                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
-
                                     up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
 
                                     and going through the cites of the word in classical literature, discovered the
@@ -372,6 +285,5 @@
             </div>
 
         </div>
-
-    </div>
+	</div>
 @stop
