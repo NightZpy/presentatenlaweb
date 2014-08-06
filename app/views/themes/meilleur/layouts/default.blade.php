@@ -91,7 +91,11 @@
 
 		<!--jump2 -->
         @yield('jump3')
-        <!--jump2 end-->		
+        <!--jump2 end-->
+		
+		<!--jump2 -->
+        @yield('jump4')
+        <!--jump2 end--> 		
 
 		<!--Scripts-->
     	<script type="text/javascript" src="{{asset('themes/meilleur/js/jquery-1.10.2.min.js')}}"></script>
