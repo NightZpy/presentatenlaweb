@@ -371,7 +371,7 @@
 
                         <div class="media-thumb">
 
-                            <img src="img/portfolio/place-4.jpg">
+                            <img src="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg">
 
                             <div class="media-desc">
 
