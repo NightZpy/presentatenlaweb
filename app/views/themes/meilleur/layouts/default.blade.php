@@ -81,7 +81,40 @@
         	</div>
     	</div>
 		
+		<!-- jump1 -->	
 		@yield('jump1')
+		<!-- jump1 end -->
+
+		<!--jump2 -->
+		@yield('jump2')
+		<!--jump2 end-->	
+
+		<!--jump2 -->
+        @yield('jump3')
+        <!--jump2 end-->
+		
+		<!--jump2 -->
+        @yield('jump4')
+        <!--jump2 end--> 		
+
+		<!--jump2 -->
+        @yield('jump5')
+        <!--jump2 end-->			
+		
+		<!--jump2 -->
+        @yield('jump6')
+        <!--jump2 end--> 
+	
+		<footer class="footer">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-lg-12">
+                   		 Meilleur - A Free Responsive Bootstrap 3 Template &copy; 2014 - <a href="http://www.egrappler.com">
+                        EGrappler.com</a>
+                	</div>
+            	</div>
+        	</div>
+    	</footer>
 		
 		<!--Scripts-->
     	<script type="text/javascript" src="{{asset('themes/meilleur/js/jquery-1.10.2.min.js')}}"></script>
