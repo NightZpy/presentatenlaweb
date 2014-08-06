@@ -100,7 +100,10 @@
 		<!--jump2 -->
         @yield('jump5')
         <!--jump2 end-->			
-
+		
+		<!--jump2 -->
+        @yield('jump6')
+        <!--jump2 end--> 
 
 		<!--Scripts-->
     	<script type="text/javascript" src="{{asset('themes/meilleur/js/jquery-1.10.2.min.js')}}"></script>
