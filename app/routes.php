@@ -13,7 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('themes.mamba.pages.home');
+	return View::make('themes.meilleur.pages.home');
 });
 
 Route::post('suscribe', function(){
