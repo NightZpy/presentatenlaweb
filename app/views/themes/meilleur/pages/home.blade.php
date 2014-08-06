@@ -1321,7 +1321,7 @@
 
                             <div class="testimonial-avatar pull-right hidden-xs	">
 
-                                <img src="img/avatar/avatar-2.jpg" class="avatar size-default img-circle">
+                                <img src="{{asset('themes/meilleur/img/avatar/avatar-2.jpg')}}" class="avatar size-default img-circle">
 
                             </div>
 
@@ -1353,7 +1353,7 @@
 
                             <div class="testimonial-avatar pull-right hidden-xs	">
 
-                                <img src="img/avatar/avatar-3.jpg" class="avatar size-default img-circle">
+                                <img src="{{asset('themes/meilleur/img/avatar/avatar-3.jpg')}}" class="avatar size-default img-circle">
 
                             </div>
 
@@ -1385,7 +1385,7 @@
 
                             <div class="testimonial-avatar pull-right hidden-xs	">
 
-                                <img src="img/avatar/avatar-1.jpg" class="avatar size-default img-circle">
+                                <img src="{{asset('themes/meilleur/img/avatar/avatar-2.jpg')}}" class="avatar size-default img-circle">
 
                             </div>
 
@@ -1417,7 +1417,7 @@
 
                             <div class="testimonial-avatar pull-right hidden-xs	">
 
-                                <img src="img/avatar/avatar-1.jpg" class="avatar size-default img-circle">
+                                <img src="{{asset('themes/meilleur/img/avatar/avatar-1.jpg')}}" class="avatar size-default img-circle">
 
                             </div>
 
@@ -1460,4 +1460,131 @@
         </div>
 
     </div>
+@stop
+
+@section('jump6')
+	    <div id="jump6" class="jumper">
+
+    </div>
+
+    <div class="section type-1 section-contact">
+
+        <div class="container">
+
+            <div class="section-headlines">
+
+                <h4>
+
+                    Contact Us</h2>
+
+                    <h2>
+
+                        Let's have a coffee</h2>
+
+            </div>
+
+            <form>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+
+                    <address>
+
+                        <div class="address-row">
+
+                            <div class="address-sign">
+
+                                <i class="icon-map-marker"></i>
+
+                            </div>
+
+                            <div style="address-info">
+
+                                <b>Single Page Responsive Template</b>,<br>
+
+                                Using Twitter Bootstrap 3,<br>
+
+                                EGrappler.com
+
+                            </div>
+
+                        </div>
+
+                    </address>
+
+                    <div class="visible-xs visible-sm">
+
+                        <br class="gap-30" />
+
+                        <hr class="gap-divider" />
+
+                        <br class="gap-30" />
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-7 col-lg-offset-1">
+
+                    <form role="form" method="post" action="#" id="contactform">
+
+                    <div class="form-group">
+
+                        <div class="row">
+
+                            <div class="col-lg-6">
+
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name *"><br
+
+                                    class="gap-15" />
+
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Your Email *"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+
+                    </div>
+
+                    <button id="button-send" class="btn btn-block btn-success">
+
+                        Send Message Now
+
+                    </button>
+
+                    <div id="success">
+
+                        Your message has been successfully!</div>
+
+                    <div id="error">
+
+                        Unable to send your message, please try later.</div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
 @stop
