@@ -27,7 +27,7 @@
                        		<span class="icon-bar"></span><span class="icon-bar"></span>
                    		</button>
                  		<a class="navbar-brand" href="#">
-                      		<img src="img/logo.png" alt="" />
+                      		<img src="{{asset('themes/meilleur/img/logo.png')}}" alt="" />
                   		</a>
               		</div>
   
@@ -58,8 +58,31 @@
           		</div>
       		</nav>
   		</header>
-		
+		<div class="jumper" id="jump0">
+    	</div>
 
+    	<div class="section type-1 big splash">
+        	<div class="splash-cover">
+        	</div>
+
+        	<div class="container">
+            	<div class="splash-block">
+                	<div class="centered">
+                    	<div class="container">
+                       		<div class="section-headlines">
+                            	<h1>Meilleur - A Bootstrap 3 based single page responsive free template</h1>
+                            	<p>Finally, a free website template - Easier, Prettier, Smarter and Fun!</p>
+                        	</div>
+                        	<a href="#jump2" class="btn btn-outline btn-lg">Our Portfolio </a>&nbsp; 
+							<a href="#jump6" class="btn btn-outline btn-lg">Hire Us </a>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+		
+		@yield('jump1')
+		
 		<!--Scripts-->
     	<script type="text/javascript" src="{{asset('themes/meilleur/js/jquery-1.10.2.min.js')}}"></script>
    	 	<script type="text/javascript" src="{{asset('themes/meilleur/js/bootstrap.min.js')}}"></script>
