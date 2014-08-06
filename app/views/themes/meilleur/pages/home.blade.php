@@ -991,3 +991,285 @@
 
     </div>
 @stop
+
+@section('jump4')
+	<div id="jump4" class="jumper">
+
+    </div>
+
+    <div class="section type-3">
+
+        <div class="container">
+
+            <div class="section-headlines">
+
+                <h4>
+
+                    Our Team</h4>
+
+                <h2>
+
+                    We are a small team with lots of friends!</h2>
+
+                <div>
+
+                    It is a long established fact that a reader will be distracted by the readable content
+
+                    of a page when looking at its layout.
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+
+                    <div class="person media">
+
+                        <div class="person-avatar pull-left">
+
+                            <img src="{{asset('themes/meilleur/img/avatar/avatar-1.jpg')}}" class="avatar  img-circle">
+
+                        </div>
+
+                        <div class="media-body">
+
+                            <h4 class="person-name">
+
+                                John Donga</h4>
+
+                            <p class="person-brief muted">
+
+                                Account and Marketing</p>
+
+                            <div class="social-links">
+
+                                <a href="#"><i class="social-icon-twitter"></i></a><a href="#"><i class="social-icon-facebook">
+
+                                </i></a><a href="#"><i class="social-icon-linkedin"></i></a><a href="#"><i class="social-icon-instagram">
+
+                                </i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--end:.col-->
+
+                <div class="col-lg-4">
+
+                    <div class="person media">
+
+                        <div class="person-avatar pull-left">
+
+                            <img src="{{asset('themes/meilleur/img/avatar/avatar-2.jpg')}}" class="avatar size-default img-circle">
+
+                        </div>
+
+                        <div class="media-body">
+
+                            <h4 class="person-name">
+
+                                Julia Donga</h4>
+
+                            <p class="person-brief muted">
+
+                                Strateg and Photography</p>
+
+                            <div class="social-links">
+
+                                <a href="#"><i class="social-icon-twitter"></i></a><a href="#"><i class="social-icon-facebook">
+
+                                </i></a><a href="#"><i class="social-icon-linkedin"></i></a><a href="#"><i class="social-icon-instagram">
+
+                                </i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--end:.col-->
+
+                <div class="col-lg-4">
+
+                    <div class="person media">
+
+                        <div class="person-avatar pull-left">
+
+                            <img src="{{asset('themes/meilleur/img/avatar/avatar-2.jpg')}}" class="avatar size-default img-circle">
+
+                        </div>
+
+                        <div class="media-body">
+
+                            <h4 class="person-name">
+
+                                Julia Donga</h4>
+
+                            <p class="person-brief muted">
+
+                                Strateg and Photography</p>
+
+                            <div class="social-links">
+
+                                <a href="#"><i class="social-icon-twitter"></i></a><a href="#"><i class="social-icon-facebook">
+
+                                </i></a><a href="#"><i class="social-icon-linkedin"></i></a><a href="#"><i class="social-icon-instagram">
+
+                                </i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--end:.col-->
+
+            </div>
+
+            <!--end:.row-->
+
+            <br>
+
+            <br>
+
+            <br>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+
+                    <div class="person media">
+
+                        <div class="person-avatar pull-left">
+
+                            <img src="{{asset('themes/meilleur/img/avatar/avatar-1.jpg')}}" class="avatar  img-circle">
+
+                        </div>
+
+                        <div class="media-body">
+
+                            <h4 class="person-name">
+
+                                John Donga</h4>
+
+                            <p class="person-brief muted">
+
+                                Account and Marketing</p>
+
+                            <div class="social-links">
+
+                                <a href="#"><i class="social-icon-twitter"></i></a><a href="#"><i class="social-icon-facebook">
+
+                                </i></a><a href="#"><i class="social-icon-linkedin"></i></a><a href="#"><i class="social-icon-instagram">
+
+                                </i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--end:.col-->
+
+                <div class="col-lg-4">
+
+                    <div class="person media">
+
+                        <div class="person-avatar pull-left">
+
+                            <img src="{{asset('themes/meilleur/img/avatar/avatar-1.jpg')}}" class="avatar size-default img-circle">
+
+                        </div>
+
+                        <div class="media-body">
+
+                            <h4 class="person-name">
+
+                                Julia Donga</h4>
+
+                            <p class="person-brief muted">
+
+                                Strateg and Photography</p>
+
+                            <div class="social-links">
+
+                                <a href="#"><i class="social-icon-twitter"></i></a><a href="#"><i class="social-icon-facebook">
+
+                                </i></a><a href="#"><i class="social-icon-linkedin"></i></a><a href="#"><i class="social-icon-instagram">
+
+                                </i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--end:.col-->
+
+                <div class="col-lg-4">
+
+                    <div class="person media">
+
+                        <div class="person-avatar pull-left">
+
+                            <img src="{{asset('themes/meilleur/img/avatar/avatar-2.jpg')}}" class="avatar size-default img-circle">
+
+                        </div>
+
+                        <div class="media-body">
+
+                            <h4 class="person-name">
+
+                                Julia Donga</h4>
+
+                            <p class="person-brief muted">
+
+                                Strateg and Photography</p>
+
+                            <div class="social-links">
+
+                                <a href="#"><i class="social-icon-twitter"></i></a><a href="#"><i class="social-icon-facebook">
+
+                                </i></a><a href="#"><i class="social-icon-linkedin"></i></a><a href="#"><i class="social-icon-instagram">
+
+                                </i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--end:.col-->
+
+            </div>
+
+            <!--end:.row-->
+
+        </div>
+
+        <!--end:.container-->
+
+    </div>
+@stop
