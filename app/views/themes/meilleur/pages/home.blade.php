@@ -694,7 +694,7 @@
     </div>
 @stop
 
-@section('jump3')
+@section('pricing_plans')
 	<div id="jump3" class="jumper">
 
     </div>
@@ -992,7 +992,7 @@
     </div>
 @stop
 
-@section('jump4')
+@section('our_team')
 	<div id="jump4" class="jumper">
 
     </div>
