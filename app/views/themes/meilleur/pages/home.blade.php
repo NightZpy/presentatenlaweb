@@ -1,6 +1,6 @@
 @extends('themes.meilleur.layouts.default')
 
-@section('jump1')
+@section('our_services')
 	<div id="jump1" class="jumper">
 	</div>
     <div class="section type-2">
@@ -288,7 +288,7 @@
 	</div>
 @stop
 
-@section('jump2')
+@section('featured_works')
 	   <div id="jump2" class="jumper">
 
     </div>
@@ -694,7 +694,7 @@
     </div>
 @stop
 
-@section('jump3')
+@section('pricing_plans')
 	<div id="jump3" class="jumper">
 
     </div>
@@ -992,7 +992,7 @@
     </div>
 @stop
 
-@section('jump4')
+@section('our_team')
 	<div id="jump4" class="jumper">
 
     </div>
@@ -1274,7 +1274,7 @@
     </div>
 @stop
 
-@section('jump5')
+@section('testimonial')
 	<div id="jump5" class="jumper">
 
     </div>
@@ -1462,7 +1462,7 @@
     </div>
 @stop
 
-@section('jump6')
+@section('contact_us')
 	    <div id="jump6" class="jumper">
 
     </div>
