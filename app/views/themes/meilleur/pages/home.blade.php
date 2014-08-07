@@ -1462,7 +1462,7 @@
     </div>
 @stop
 
-@section('jump6')
+@section('contact_us')
 	    <div id="jump6" class="jumper">
 
     </div>
