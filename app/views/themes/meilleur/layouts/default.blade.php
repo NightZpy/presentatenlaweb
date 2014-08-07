@@ -82,7 +82,7 @@
     	</div>
 		
 		<!-- jump1 -->	
-		@yield('jump1')
+		@yield('our_services')
 		<!-- jump1 end -->
 
 		<!--jump2 -->
