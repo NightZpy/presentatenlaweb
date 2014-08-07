@@ -100,7 +100,7 @@
         <!--jump2 end-->			
 		
 		<!--jump2 -->
-        @yield('jump6')
+        @yield('contact_us')
         <!--jump2 end--> 
 	
 		<footer class="footer">
