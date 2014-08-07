@@ -86,7 +86,7 @@
 		<!-- jump1 end -->
 
 		<!--jump2 -->
-		@yield('jump2')
+		@yield('featured_works')
 		<!--jump2 end-->	
 
 		<!--jump2 -->
