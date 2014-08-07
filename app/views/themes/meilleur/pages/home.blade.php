@@ -1,6 +1,6 @@
 @extends('themes.meilleur.layouts.default')
 
-@section('jump1')
+@section('our_services')
 	<div id="jump1" class="jumper">
 	</div>
     <div class="section type-2">
