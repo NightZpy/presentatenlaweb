@@ -82,27 +82,25 @@
     	</div>
 		
 		<!-- jump1 -->	
-		@yield('jump1')
+		@yield('our_services')
 		<!-- jump1 end -->
 
 		<!--jump2 -->
-		@yield('jump2')
+		@yield('featured_works')
 		<!--jump2 end-->	
 
 		<!--jump2 -->
-        @yield('jump3')
+        @yield('pricing_plans')
         <!--jump2 end-->
 		
 		<!--jump2 -->
-        @yield('jump4')
         <!--jump2 end--> 		
 
 		<!--jump2 -->
-        @yield('jump5')
         <!--jump2 end-->			
 		
 		<!--jump2 -->
-        @yield('jump6')
+        @yield('contact_us')
         <!--jump2 end--> 
 	
 		<footer class="footer">
