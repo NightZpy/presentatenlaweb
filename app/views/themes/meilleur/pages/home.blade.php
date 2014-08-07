@@ -288,7 +288,7 @@
 	</div>
 @stop
 
-@section('jump2')
+@section('featured_works')
 	   <div id="jump2" class="jumper">
 
     </div>
