@@ -94,11 +94,9 @@
         <!--jump2 end-->
 		
 		<!--jump2 -->
-        @yield('jump4')
         <!--jump2 end--> 		
 
 		<!--jump2 -->
-        @yield('jump5')
         <!--jump2 end-->			
 		
 		<!--jump2 -->
