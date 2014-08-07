@@ -37,8 +37,8 @@
                      		<li><a href="#jump1">Services</a></li>
                       		<li><a href="#jump2">Portfolio</a></li>
                       		<li><a href="#jump3">Pricing</a></li>
-                      		<li><a href="#jump4">Our Team</a></li>
-                      		<li><a href="#jump5">Testimonials</a></li>
+                      		<!--<li><a href="#jump4">Our Team</a></li>
+                      		<li><a href="#jump5">Testimonials</a></li>-->
                       		<li><a href="#jump6">Contact Us</a></li>
                   		</ul>
               		</div>
