@@ -6,10 +6,9 @@
     <div class="section type-2">
   		<div class="container">
        		<div class="section-headlines">
-           		<h4>Our Services</h4>
+           		<h4>{{ trans('titulos.our_services') }}</h4>
                	<div>
-                    We love creating innovative strategies for the web. All kind of brands hire us:
-                    we make difficult things easy, but never take anything lightly.
+					{{ trans('textos.our_services') }}
                 </div>
             </div>
             <div class="row">
