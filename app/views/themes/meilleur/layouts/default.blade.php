@@ -40,6 +40,13 @@
                       		<!--<li><a href="#jump4">Our Team</a></li>
                       		<li><a href="#jump5">Testimonials</a></li>-->
                       		<li><a href="#jump6">Contact Us</a></li>
+							<li class="dropdown">
+                            	<a href="" class="dropdown-toggle" data-toggle="dropdown">Idiomas<b class="caret"></b></a>
+                               	<ul class="dropdown-menu">
+									  <li><a href="">Ingles</a></li>
+									  <li><a href="">Español</a></li>	
+                               	</ul>
+                        	</li>
                   		</ul>
               		</div>
               		<!-- /.navbar-collapse -->
