@@ -1,12 +1,12 @@
-<?php	
-	//app/lang/es/titulos.php
-   
+<?php
+ 
 return array(
-	"our_services" => "Nuestros Sevicios",
-	"websites"=>"Sitios Webs",
- 	"web_design"=>"Diseño de Páginas Web",
-	"mobile_applications"=>"Aplicaciones Móviles",
- 	"hosting _and_Domains"=>"Hosting y Dominios"
-  );
-~                                                                                                                                                      
-~           
+    "our_services" => "Titulo 1",
+
+	"websites" => "Titulo 2",
+	"web_design" => "Titulo 3",
+	"mobile_applications" => "Titulo 4",
+	"hosting _and_Domains" => "Titulo 5",
+);
+
+?>
