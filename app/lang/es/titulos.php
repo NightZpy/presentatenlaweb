@@ -1,6 +1,7 @@
 <?php
  
 return array(
+	"Software_Development_Company" => "Empresa de desarrollo de software",
     "our_services" => "NUESTROS SERVICIOS",
 	"websites" => "Aplicaciones Web",
 	"web_design" => "Diseño de Páginas Web",
