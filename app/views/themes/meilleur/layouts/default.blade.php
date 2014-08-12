@@ -114,8 +114,7 @@
         	<div class="container">
             	<div class="row">
                 	<div class="col-lg-12">
-                   		 Meilleur - A Free Responsive Bootstrap 3 Template &copy; 2014 - <a href="http://www.egrappler.com">
-                        EGrappler.com</a>
+                   		 &copy; Copyright  by presentatenlaweb.com - All Rights Reserved.</a>
                 	</div>
             	</div>
         	</div>
