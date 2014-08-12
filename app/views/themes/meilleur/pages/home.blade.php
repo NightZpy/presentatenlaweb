@@ -144,112 +144,57 @@
 @stop
 
 @section('featured_works')
-	   <div id="jump2" class="jumper">
-
+	<div id="jump2" class="jumper">
     </div>
 
     <div class="section type-1" style="padding-bottom: 0">
-
-        <div class="container">
-
-            <div class="section-headlines">
-
-                <h4>
-
-                    Featured Works</h4>
-
-                <h2>
-
-                    Exceptional work. Stunning viewpoints.</h2>
-
+		<div class="container">
+        	<div class="section-headlines">
+            	<h4>{{trans('titulos.FEATURED_WORKS')}}</h4>
+                <h2>{{trans('titulos.Exceptional_Work')}}</h2>
                 <div>
-
-                    There are many variations of passages of Lorem Ipsum available, but the majority
-
-                    have suffered alteration in some form, by injected humour, or randomised words which
-
-                    don't look even slightly believable.
-
-                </div>
-
+					{{trans('textos.Exceptional_Work')}}
+           		</div>
             </div>
-
             <div class="gallery-control">
-
                 <div data-toggle="buttons">
-
                     <label class="btn btn-outline filter active" data-filter="phone tablet desktop">
-
-                        <input type="radio" name="options" id="option1">
-
+                    	<input type="radio" name="options" id="option1">
                         All
-
                     </label>
-
                     <label class="btn btn-outline filter" data-filter="phone">
-
                         <input type="radio" name="options" id="option2">
-
                         Phone
-
                     </label>
-
                     <label class="btn btn-outline filter" data-filter="tablet">
-
                         <input type="radio" name="options" id="option3">
-
                         Tablet
-
                     </label>
-
                     <label class="btn btn-outline filter" data-filter="desktop">
-
                         <input type="radio" name="options" id="option3">
-
                         Desktop
-
                     </label>
-
                 </div>
-
             </div>
-
         </div>
 
         <div class="mixitup">
-
             <ul id="portfolio" class="unstyled">
-
                 <li class="mix phone">
-
                     <div>
-
-                        <div class="media-thumb">
-
-                            <img src="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg">
-
+                    	<div class="media-thumb">
+                        	<img src="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg">
                             <div class="media-desc">
-
                                 <div>
-
                                     <p>
-
                                         <b>A Project</b></p>
-
                                     <div>
-
                                         The generated Lorem Ipsum is therefore always free from repetition, injected humour,
-
                                         or non-characteristic words etc.</div>
-
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
-
                 </li>
 
                 <li class="mix tablet">
