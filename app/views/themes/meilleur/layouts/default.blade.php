@@ -33,18 +33,18 @@
   
               		<div class="collapse navbar-collapse hidden-xs">
                  		<ul class="nav navbar-nav navbar-right">
-                      		<li class="active"><a href="#jump0">Home</a></li>
-                     		<li><a href="#jump1">Services</a></li>
-                      		<li><a href="#jump2">Portfolio</a></li>
-                      		<li><a href="#jump3">Pricing</a></li>
+                      		<li class="active"><a href="#jump0">{{trans('enlaces.Home')}}</a></li>
+                     		<li><a href="#jump1">{{trans('enlaces.Services')}}</a></li>
+                      		<li><a href="#jump2">{{trans('enlaces.Portfolio')}}</a></li>
+                      		<li><a href="#jump3">{{trans('enlaces.Pricing')}}</a></li>
                       		<!--<li><a href="#jump4">Our Team</a></li>
                       		<li><a href="#jump5">Testimonials</a></li>-->
-                      		<li><a href="#jump6">Contact Us</a></li>
+                      		<li><a href="#jump6">{{trans('enlaces.Contact_Us')}}</a></li>
 							<li class="dropdown">
-                            	<a id="idiomas" href="" class="dropdown-toggle" data-toggle="dropdown">Idiomas<b class="caret"></b></a>
+                            	<a id="idiomas" href="" class="dropdown-toggle" data-toggle="dropdown">{{trans('enlaces.languages')}}<b class="caret"></b></a>
                                	<ul class="dropdown-menu">
-									<li><a id="idioma1" href="{{ URL::to('change_locale/es') }}">Español</a></li>
-    								<li><a id="idioma2" href="{{ URL::to('change_locale/en') }}">English</a></li>
+									<li><a id="idioma1" href="{{ URL::to('change_locale/es') }}">{{trans('enlaces.Spanish')}}</a></li>
+    								<li><a id="idioma2" href="{{ URL::to('change_locale/en') }}">{{trans('enlaces.English')}}</a></li>
 								</ul>
                         	</li>
                   		</ul>
