@@ -496,87 +496,40 @@
 
 @section('pricing_plans')
 	<div id="jump3" class="jumper">
-
     </div>
 
     <div class="section type-2">
-
         <div class="container">
-
             <div class="section-headlines">
-
-                <h4>
-
-                    Pricing Plans</h4>
-
-                <h2>
-
-                    Our Pricing Packages</h2>
-
+                <h4>{{trans('titulos.Pricing_Plans')}}</h4>
+                <h2>{{trans('titulos.Our_Pricing_Packages')}}</h2>
                 <div>
-
-                    There are many variations of passages of Lorem Ipsum available, but the majority
-
-                    have suffered alteration in some form, by injected humour, or randomised words which
-
-                    don't look even slightly believable.
-
                 </div>
-
             </div>
-
             <div class="pricing-plans row">
-
                 <div class="col-lg-3">
-
                     <div class="plan radius3">
-
                         <div class="plan-name">
-
-                            <h2>
-
-                                Beginner</h2>
-
-                            <p class="muted">
-
-                                Simple dummy text of the printing and typesetting industry.</p>
-
+                            <h2>Beginner</h2>
+                            <p class="muted">Simple dummy text of the printing and typesetting industry.</p>
                         </div>
-
                         <div class="plan-price">
-
                             <b>$1</b> / month
-
                         </div>
-
                         <div class="plan-details">
-
                             <div>
-
                                 <span class="icon-remove"></span>&nbsp; <b>Beginner</b> Feature
-
                             </div>
-
                             <div>
-
                                 <span class="icon-ok"></span>&nbsp; Feature 2
-
                             </div>
-
                             <div>
-
                                 <span class="icon-ok"></span>&nbsp; Paid Support
-
                             </div>
-
                         </div>
-
                         <div class="plan-action">
-
                             <a href="#" class="btn btn-inverse btn-block btn-large">Buy</a>
-
                         </div>
-
                     </div>
 
                     <div class="visible-xs visible-sm">
