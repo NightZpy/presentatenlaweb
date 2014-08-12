@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
     	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>Meilleur - Free Responsive Single Page BS3 Template</title>
+    	<title>{{trans('titulos.Software_Development_Company')}}</title>
     	
 		<!-- Stylesheets -->
     	<link type="text/css" href="{{asset('themes/meilleur/css/bootstrap.css')}}" rel="stylesheet">
