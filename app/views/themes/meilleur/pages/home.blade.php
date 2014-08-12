@@ -179,39 +179,22 @@
         </div>
 
         <div class="mixitup">
-
             <ul id="portfolio" class="unstyled">
-
                 <li class="mix phone">
-
                     <div>
-
-                        <div class="media-thumb">
-
-                            <img src="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg">
-
+                    	<div class="media-thumb">
+                        	<img src="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg">
                             <div class="media-desc">
-
                                 <div>
-
                                     <p>
-
                                         <b>A Project</b></p>
-
                                     <div>
-
                                         The generated Lorem Ipsum is therefore always free from repetition, injected humour,
-
                                         or non-characteristic words etc.</div>
-
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
-
                 </li>
 
                 <li class="mix tablet">
