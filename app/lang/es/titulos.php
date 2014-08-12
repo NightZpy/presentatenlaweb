@@ -15,7 +15,9 @@ return array(
 	"Built_Using_Bootstrap_3"=>"Construimos usando Bootstrap 3",
 	"Get_To_Know_Us"=>"Conózcanos",
 	"FEATURED_WORKS"=>"Trabajos Destacados",
-	"Exceptional_Work"=>"Proyectos Excepcionales Realizados"
+	"Exceptional_Work"=>"Proyectos Excepcionales Realizados",
+	"Pricing_Plans" =>"Planes de Precios",
+	"Our_Pricing_Packages" => "Nuestros paquetes de Precios"
 )
 
 ?>
