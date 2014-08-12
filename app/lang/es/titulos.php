@@ -17,7 +17,9 @@ return array(
 	"FEATURED_WORKS"=>"Trabajos Destacados",
 	"Exceptional_Work"=>"Proyectos Excepcionales Realizados",
 	"Pricing_Plans" =>"Planes de Precios",
-	"Our_Pricing_Packages" => "Nuestros paquetes de Precios"
-)
+	"Our_Pricing_Packages" => "Nuestros paquetes de Precios",
+	"Contact_Us"=>"Contáctenos",
+	"have_a_coffee" => "Vamos a tomar un café",
+);
 
 ?>
