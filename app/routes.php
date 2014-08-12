@@ -16,6 +16,22 @@ Route::get('/', function()
 	return View::make('themes.meilleur.pages.home');
 });
 
+Route::get('change_locale/{local}',function($local) {
+	//Set locale
+	Session::put('my.locale', $local);
+    return Redirect::to('/');
+});
+
+Route::get('test', function() 
+{
+    $a = File::getRequire(base_path().'/app/lang/en/titulos.php');
+
+    foreach($a as $key => $value)
+    {
+        echo "$key => $value<br>";
+    }
+});
+
 Route::post('suscribe', function(){
 	$validator = Validator::make(Input::all(), array('email' => 'email'));
 	if($validator->fails()) {
