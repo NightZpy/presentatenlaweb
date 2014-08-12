@@ -26,7 +26,7 @@
                        		<span class="icon-bar"></span>
                        		<span class="icon-bar"></span><span class="icon-bar"></span>
                    		</button>
-                 		<a class="navbar-brand" href="#">
+                 		<a class="navbar-brand" href="{{ URL::to('test') }}">
                       		<img src="{{asset('themes/meilleur/img/logo.png')}}" alt="" />
                   		</a>
               		</div>
@@ -40,6 +40,13 @@
                       		<!--<li><a href="#jump4">Our Team</a></li>
                       		<li><a href="#jump5">Testimonials</a></li>-->
                       		<li><a href="#jump6">Contact Us</a></li>
+							<li class="dropdown">
+                            	<a id="idiomas" href="" class="dropdown-toggle" data-toggle="dropdown">Idiomas<b class="caret"></b></a>
+                               	<ul class="dropdown-menu">
+									<li><a id="idioma1" href="{{ URL::to('change_locale/es') }}">Español</a></li>
+    								<li><a id="idioma2" href="{{ URL::to('change_locale/en') }}">English</a></li>
+								</ul>
+                        	</li>
                   		</ul>
               		</div>
               		<!-- /.navbar-collapse -->
@@ -73,8 +80,8 @@
                             	<h1>Meilleur - A Bootstrap 3 based single page responsive free template</h1>
                             	<p>Finally, a free website template - Easier, Prettier, Smarter and Fun!</p>
                         	</div>
-                        	<a href="#jump2" class="btn btn-outline btn-lg">Our Portfolio </a>&nbsp; 
-							<a href="#jump6" class="btn btn-outline btn-lg">Hire Us </a>
+                        	<a href="{{ URL::to('change_locale/es') }}" class="btn btn-outline btn-lg">Our Portfolio </a>&nbsp; 
+							<a href="{{ URL::to('change_locale/en') }}" class="btn btn-outline btn-lg">Hire Us </a>
                     	</div>
                 	</div>
             	</div>
