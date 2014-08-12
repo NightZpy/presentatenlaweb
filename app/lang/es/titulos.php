@@ -13,7 +13,9 @@ return array(
 	"Software_Development" => "Desarrollo de software",
 	"Responsive_Layout" => "Diseño sensible", 
 	"Built_Using_Bootstrap_3"=>"Construimos usando Bootstrap 3",
-	"Get_To_Know_Us"=>"Conózcanos"
-);
+	"Get_To_Know_Us"=>"Conózcanos",
+	"FEATURED_WORKS"=>"Trabajos Destacados",
+	"Exceptional_Work"=>"Proyectos Excepcionales Realizados"
+)
 
 ?>
