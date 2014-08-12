@@ -77,11 +77,11 @@
                 	<div class="centered">
                     	<div class="container">
                        		<div class="section-headlines">
-                            	<h1>Meilleur - A Bootstrap 3 based single page responsive free template</h1>
-                            	<p>Finally, a free website template - Easier, Prettier, Smarter and Fun!</p>
+                            	<h1>Presentatenlaweb</h1>
+                            	<p></p>
                         	</div>
-                        	<a href="{{ URL::to('change_locale/es') }}" class="btn btn-outline btn-lg">Our Portfolio </a>&nbsp; 
-							<a href="{{ URL::to('change_locale/en') }}" class="btn btn-outline btn-lg">Hire Us </a>
+                        	<a href="{{ URL::to('change_locale/es') }}" class="btn btn-outline btn-lg">{{trans('enlaces.Our_Portfolio')}}</a>&nbsp; 
+							<a href="{{ URL::to('change_locale/en') }}" class="btn btn-outline btn-lg">{{trans('enlaces.Contact_Us')}}</a>
                     	</div>
                 	</div>
             	</div>
