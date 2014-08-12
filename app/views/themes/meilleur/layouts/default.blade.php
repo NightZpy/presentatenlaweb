@@ -40,12 +40,11 @@
                       		<!--<li><a href="#jump4">Our Team</a></li>
                       		<li><a href="#jump5">Testimonials</a></li>-->
                       		<li><a href="#jump6">Contact Us</a></li>
-							<li><a href="{{  URL::to('test') }}">TEST</a></li>
 							<li class="dropdown">
-                            	<a href="" class="dropdown-toggle" data-toggle="dropdown">Idiomas<b class="caret"></b></a>
+                            	<a id="idiomas" href="" class="dropdown-toggle" data-toggle="dropdown">Idiomas<b class="caret"></b></a>
                                	<ul class="dropdown-menu">
-									<li><a href="{{ URL::to('test') }}">Español</a></li>
-    								<li><a href="{{ URL::to('change_locale/en') }}">English</a></li>
+									<li><a id="idioma1" href="{{ URL::to('change_locale/es') }}">Español</a></li>
+    								<li><a id="idioma2" href="{{ URL::to('change_locale/en') }}">English</a></li>
 								</ul>
                         	</li>
                   		</ul>
