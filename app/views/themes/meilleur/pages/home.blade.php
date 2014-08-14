@@ -1483,8 +1483,6 @@
 
             </div>
 
-            <form>
-
             <div class="row">
 
                 <div class="col-lg-4">
@@ -1527,7 +1525,7 @@
 
                 <div class="col-lg-7 col-lg-offset-1">
 
-                    <form role="form" method="post" action="#" id="contactform">
+                    <form role="form" method="post" action="#" id="frmContact">
 
                     <div class="form-group">
 
@@ -1535,15 +1533,16 @@
 
                             <div class="col-lg-6">
 
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name *"><br
-
-                                    class="gap-15" />
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name *">
+                                <label for="name" id="name-error"></label>
+                                <br class="gap-15" />                                
 
                             </div>
 
                             <div class="col-lg-6">
-
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Your Email *"></div>
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Your Email *">
+                                <label for="email" id="email-error"></label>
+                            </div>
 
                         </div>
 
@@ -1552,12 +1551,14 @@
                     <div class="form-group">
 
                         <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                        <label for="subject" id="subject-error"></label>
 
                     </div>
 
                     <div class="form-group">
 
                         <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                        <label for="message" id="message-error"></label>
 
                     </div>
 
@@ -1575,13 +1576,14 @@
 
                         Unable to send your message, please try later.</div>
 
+                        <input type="hidden" id="btnSending" value="Sending E-mail...">
+                        <input type="hidden" id="btnSend" value="Send E-mail">
+
                     </form>
 
                 </div>
 
             </div>
-
-            </form>
 
         </div>
 

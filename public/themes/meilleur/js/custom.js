@@ -28,25 +28,30 @@ $(function () {
 
     //setup email here
     $('#button-send').click(function (event) {
-        $('#button-send').html('Sending E-Mail...');
+        $('#button-send').html($('#btnSending').val());
         event.preventDefault();
 
         $.ajax({
             type: 'POST',
-            url: 'send_form_email.php',
-            data: $('#contact_form').serialize(),
+            url: '/registerContact',
+            data: $('#frmContact').serialize(),
             success: function (html) {
-                if (html.success == '1') {
-                    $('#button-send').html('Send E-Mail');
+                if (html.success == 0) {
+                    $('#button-send').html($('#btnSend').val());
+                    console.log("Bien");
+                    $('#error').hide();
                     $('#success').show();
                 }
                 else {
-                    $('#button-send').html('Send E-Mail');
+                    $('#button-send').html($('#btnSend').val());
+                    $.each( JSON.parse(html)[0], function( key, value ) {
+                      $('#'+key+'-error').text(value).addClass('error');
+                    });
                     $('#error').show();
                 }
             },
             error: function () {
-                $('#button-send').html('Send E-Mail');
+                $('#button-send').html($('#btnSend').val());
                 $('#error').show();
             }
         });

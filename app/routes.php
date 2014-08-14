@@ -38,4 +38,29 @@ Route::post('suscribe', function(){
 	}
 });
 
+Route::post('registerContact', function ()
+{
+	$rules = array(
+					'name' => 'required|alpha_num|digits_between:3,128',
+					'email' => 'required|email',
+					'subject' => 'required|digits_between:3,128',
+					'message' => 'required|digits_between:10,512'
+				);
+
+	$validator = Validator::make(Input::all(), $rules);
+
+	if ($validator->fails()) {
+		return json_encode(array('success' => 1, $validator->messages()));
+	} else {
+		$contact = new Contact;
+		$contact->name = Input::get('name');
+		$contact->email = Input::get('email');
+		$contact->subject = Input::get('subject');
+		$contact->message = Input::get('message');
+		$contact->save();
+
+		return json_encode(array('success' => 0, 'name' => $contact->name, 'email' => $contact->email));
+	}
+});
+
 
