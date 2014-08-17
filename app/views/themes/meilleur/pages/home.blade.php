@@ -1,14 +1,14 @@
 @extends('themes.meilleur.layouts.default')
 
 @section('our_services')
-	<div id="jump1" class="jumper">
-	</div>
-	<div class="section type-2">
+    <div id="jump1" class="jumper">
+    </div>
+    <div class="section type-2">
         <div class="container">
             <div class="section-headlines">
                 <h4>{{ trans('titulos.our_services') }}</h4>
                 <div>
-					{{ trans('textos.our_services') }}
+                    {{ trans('textos.our_services') }}
                 </div>
             </div>
             <div class="row">
@@ -36,13 +36,13 @@
                             <div>{{ trans('textos.mobile_applications') }}</div>
                         </div>
                     </div>
-					<br class="gap-30">
-					<div class="media">
-                  		<i class=" icon-bar-chart pull-left animated bounce"></i>
-                   		<div class="media-body">
-                      		<h3>{{ trans('titulos.hosting _and_Domains') }}</h3>
-                        	<div>{{ trans('textos.hosting _and_Domains') }}</div>
-                       		</div>
+                    <br class="gap-30">
+                    <div class="media">
+                        <i class=" icon-bar-chart pull-left animated bounce"></i>
+                        <div class="media-body">
+                            <h3>{{ trans('titulos.hosting _and_Domains') }}</h3>
+                            <div>{{ trans('textos.hosting _and_Domains') }}</div>
+                            </div>
                        </div>
 
                     <div class="visible-xs visible-sm">
@@ -57,12 +57,12 @@
                             <div class="panel-heading">
                                 <h3 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                        				{{ trans('titulos.Responsive_Layout') }}<i class="icon-plus"></i><i class="icon-minus"></i></a>
+                                        {{ trans('titulos.Responsive_Layout') }}<i class="icon-plus"></i><i class="icon-minus"></i></a>
                                 </h3>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
-									{{ trans('textos.Responsive_Layout') }}
+                                    {{ trans('textos.Responsive_Layout') }}
                                 </div>
                             </div>
                         </div>
@@ -75,8 +75,8 @@
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
-									{{ trans('textos.Built_Using_Bootstrap_3') }}
-                             	</div>
+                                    {{ trans('textos.Built_Using_Bootstrap_3') }}
+                                </div>
                             </div>
                         </div>
                         <!--<div class="panel">
@@ -88,7 +88,7 @@
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
-									{{ trans('') }}
+                                    {{ trans('') }}
                                 </div>
                             </div>
                         </div>-->
@@ -135,31 +135,31 @@
                 <div class="col-lg-6 features">
                     <h3>{{ trans('titulos.Get_To_Know_Us') }}</h3>
                     <p>
-						{{ trans('textos.Get_To_Know_Us') }}
-                   	</p>
-           		</div>
+                        {{ trans('textos.Get_To_Know_Us') }}
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 @stop
 
 @section('featured_works')
-	<div id="jump2" class="jumper">
+    <div id="jump2" class="jumper">
     </div>
 
     <div class="section type-1" style="padding-bottom: 0">
-		<div class="container">
-        	<div class="section-headlines">
-            	<h4>{{trans('titulos.FEATURED_WORKS')}}</h4>
+        <div class="container">
+            <div class="section-headlines">
+                <h4>{{trans('titulos.FEATURED_WORKS')}}</h4>
                 <h2>{{trans('titulos.Exceptional_Work')}}</h2>
                 <div>
-					{{trans('textos.Exceptional_Work')}}
-           		</div>
+                    {{trans('textos.Exceptional_Work')}}
+                </div>
             </div>
             <div class="gallery-control">
                 <div data-toggle="buttons">
                     <label class="btn btn-outline filter active" data-filter="phone tablet desktop">
-                    	<input type="radio" name="options" id="option1">
+                        <input type="radio" name="options" id="option1">
                         All
                     </label>
                     <label class="btn btn-outline filter" data-filter="phone">
@@ -182,8 +182,8 @@
             <ul id="portfolio" class="unstyled">
                 <li class="mix phone">
                     <div>
-                    	<div class="media-thumb">
-                        	<img src="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg">
+                        <div class="media-thumb">
+                            <img src="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg">
                             <div class="media-desc">
                                 <div>
                                     <p>
@@ -495,7 +495,7 @@
 @stop
 
 @section('pricing_plans')
-	<div id="jump3" class="jumper">
+    <div id="jump3" class="jumper">
     </div>
 
     <div class="section type-2">
@@ -746,7 +746,7 @@
 @stop
 
 @section('our_team')
-	<div id="jump4" class="jumper">
+    <div id="jump4" class="jumper">
 
     </div>
 
@@ -1028,7 +1028,7 @@
 @stop
 
 @section('testimonial')
-	<div id="jump5" class="jumper">
+    <div id="jump5" class="jumper">
 
     </div>
 
@@ -1072,7 +1072,7 @@
 
                         <div class="testimonial media">
 
-                            <div class="testimonial-avatar pull-right hidden-xs	">
+                            <div class="testimonial-avatar pull-right hidden-xs ">
 
                                 <img src="{{asset('themes/meilleur/img/avatar/avatar-2.jpg')}}" class="avatar size-default img-circle">
 
@@ -1104,7 +1104,7 @@
 
                         <div class="testimonial media">
 
-                            <div class="testimonial-avatar pull-right hidden-xs	">
+                            <div class="testimonial-avatar pull-right hidden-xs ">
 
                                 <img src="{{asset('themes/meilleur/img/avatar/avatar-3.jpg')}}" class="avatar size-default img-circle">
 
@@ -1136,7 +1136,7 @@
 
                         <div class="testimonial media">
 
-                            <div class="testimonial-avatar pull-right hidden-xs	">
+                            <div class="testimonial-avatar pull-right hidden-xs ">
 
                                 <img src="{{asset('themes/meilleur/img/avatar/avatar-2.jpg')}}" class="avatar size-default img-circle">
 
@@ -1168,7 +1168,7 @@
 
                         <div class="testimonial media">
 
-                            <div class="testimonial-avatar pull-right hidden-xs	">
+                            <div class="testimonial-avatar pull-right hidden-xs ">
 
                                 <img src="{{asset('themes/meilleur/img/avatar/avatar-1.jpg')}}" class="avatar size-default img-circle">
 
@@ -1216,18 +1216,15 @@
 @stop
 
 @section('contact_us')
-	<div id="jump6" class="jumper">
-    </div>
-
-    <div class="section type-1 section-contact">
-        <div class="container">
-            <div class="section-headlines">
-                <h4>{{trans('titulos.Contact_Us')}}</h2>
-                	<h2>{{trans('titulos.have_a_coffee')}}</h2>
-            </div>
-            <form>
-           		<div class="row">
-                	<div class="col-lg-4">
+<div id="jump6" class="jumper"></div>
+<div class="section type-1 section-contact">
+    <div class="container">
+        <div class="section-headlines">
+            <h4>{{trans('titulos.Contact_Us')}}</h2>
+            <h2>{{trans('titulos.have_a_coffee')}}</h2>
+        </div>
+            <div class="row">
+                <div class="col-lg-4">
                     	<!--<address>				
 							<div class="address-row">
                     			<div class="address-sign">
@@ -1253,75 +1250,49 @@
                                 </div>
                         	</div>
                     	</address>-->
-
                     <div class="visible-xs visible-sm">
-
                         <br class="gap-30" />
-
                         <hr class="gap-divider" />
-
                         <br class="gap-30" />
-
                     </div>
-
                 </div>
-
                 <div class="col-lg-7 col-lg-offset-1">
-
-                    <form role="form" method="post" action="#" id="contactform">
-
-                    <div class="form-group">
-
-                        <div class="row">
-
-                            <div class="col-lg-6">
-                                             
-                                <input type="text" class="form-control" id="name" name="name" placeholder="{{trans('formulario.Your_Name')}} *"><br class="gap-15" />
-
+                    <form role="form" method="post" action="#" id="frmContact">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="{{trans('formulario.Your_Name')}} *"><br class="gap-15" />
+                                    <label for="name" id="name-error"></label>
+                                    <br class="gap-15" />
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="{{trans('formulario.Your_Email')}} *">
+                                    <label for="email" id="email-error"></label>
+                                </div>                                    
                             </div>
-
-                            <div class="col-lg-6">
-
-                                <input type="text" class="form-control" id="email" name="email" placeholder="{{trans('formulario.Your_Email')}} *"></div>
-
                         </div>
-
-                    </div>
-
-                    <div class="form-group">
-
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="{{trans('formulario.Subject')}}">
-
-                    </div>
-
-                    <div class="form-group">
-
-                        <textarea class="form-control" id="message" name="message" rows="8"></textarea>
-
-                    </div>
-
-                    <button id="button-send" class="btn btn-block btn-success">
-						{{trans('formulario.Send_Message_Now')}}
-                    </button>
-
-                    <div id="success">
-
-                        Your message has been successfully!</div>
-
-                    <div id="error">
-
-                        Unable to send your message, please try later.</div>
-
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="{{trans('formulario.Subject')}}">
+                            <label for="subject" id="subject-error"></label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                            <label for="message" id="message-error"></label>
+                        </div>
+                        <button id="button-send" class="btn btn-block btn-success">
+                            {{trans('formulario.Send_Message_Now')}}
+                        </button>
+                        <div id="success">
+                            Your message has been successfully!
+                        </div>
+                        <div id="error">
+                            Unable to send your message, please try later.
+                        </div>
+                        <input type="hidden" id="btnSending" value="Sending E-mail...">
+                        <input type="hidden" id="btnSend" value="Send E-mail">
                     </form>
-
                 </div>
-
             </div>
-
-            </form>
-
-        </div>
-
     </div>
 
 @stop
