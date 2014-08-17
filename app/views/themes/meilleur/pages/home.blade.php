@@ -1225,35 +1225,34 @@
                 <h4>{{trans('titulos.Contact_Us')}}</h2>
                 	<h2>{{trans('titulos.have_a_coffee')}}</h2>
             </div>
-            <form>
-           		<div class="row">
-                	<div class="col-lg-4">
-                    	<address>				
-							<div class="address-row">
-                    			<div class="address-sign">
-                      				<i class="icon-map-marker"></i>
-                       			</div>
-                       			<div style="address-info">
-                        			<b>Oficina</b>,<br>
-									 Dirección: Calle 5 Norte. No 18A - 122 Bambusa Plaza | Armenia, Quindío CO.<br>
-							     	 Telefono Fijo: +57 6-7482760 <br>
- 								 	 Móvil: +57 3174399301 <br>
- 							    	 E-mail: info@rhiss.net <br>
-                        		</div>
-                     		</div>	
-							<div class="address-row">
-                            	<div class="address-sign">
-                                	<i class="icon-map-marker"></i>
-                            	</div>
-                            	<div style="address-info">
-									<b>Horario de Atención</b><br>
-									Lunes a Viernes: 8:00am a 12:00m y 2:00pm a 6:00pm<br>
-	 								Sábados: 8:00 am a 12:00 pm<br>
- 									Domingos y Festivos: info@rhiss.net
-                                </div>
-                        	</div>
-                    	</address>
 
+            <div class="row">
+
+                <div class="col-lg-4">
+
+                    <address>
+
+                        <div class="address-row">
+
+                            <div class="address-sign">
+
+                                <i class="icon-map-marker"></i>
+
+                            </div>
+
+                            <div style="address-info">
+
+                                <b>Single Page Responsive Template</b>,<br>
+
+                                Using Twitter Bootstrap 3,<br>
+
+                                EGrappler.com
+
+                            </div>
+
+                        </div>
+
+                    </address>
                     <div class="visible-xs visible-sm">
 
                         <br class="gap-30" />
@@ -1268,35 +1267,36 @@
 
                 <div class="col-lg-7 col-lg-offset-1">
 
-                    <form role="form" method="post" action="#" id="contactform">
+                    <form role="form" method="post" action="#" id="frmContact">
 
                     <div class="form-group">
 
                         <div class="row">
 
-                            <div class="col-lg-6">
-                                             
+                            <div class="col-lg-6">                                             
                                 <input type="text" class="form-control" id="name" name="name" placeholder="{{trans('formulario.Your_Name')}} *"><br class="gap-15" />
+                                <label for="name" id="name-error"></label>
+                                <br class="gap-15" />                                
 
                             </div>
 
                             <div class="col-lg-6">
-
                                 <input type="text" class="form-control" id="email" name="email" placeholder="{{trans('formulario.Your_Email')}} *"></div>
-
+                                <label for="email" id="email-error"></label>
+                            </div>
                         </div>
 
                     </div>
 
                     <div class="form-group">
-
                         <input type="text" class="form-control" id="subject" name="subject" placeholder="{{trans('formulario.Subject')}}">
-
+                        <label for="subject" id="subject-error"></label>
                     </div>
 
                     <div class="form-group">
 
                         <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                        <label for="message" id="message-error"></label>
 
                     </div>
 
@@ -1310,15 +1310,15 @@
 
                     <div id="error">
 
-                        Unable to send your message, please try later.</div>
-
+                        Unable to send your message, please try later.
+                    </div>
+                        <input type="hidden" id="btnSending" value="Sending E-mail...">
+                        <input type="hidden" id="btnSend" value="Send E-mail">
                     </form>
 
                 </div>
 
             </div>
-
-            </form>
 
         </div>
 
