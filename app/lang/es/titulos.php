@@ -20,7 +20,7 @@ return array(
 	"Pricing_Plans" =>"Planes de Precios",
 	"Our_Pricing_Packages" => "Nuestros paquetes de Precios",
 	"Contact_Us"=>"Contáctenos",
-	"have_a_coffee" => "Vamos a tomar un café",
+	"have_a_coffee" => "Contáctanos aqui",
 );
 
 ?>
