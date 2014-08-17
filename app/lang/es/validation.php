@@ -18,7 +18,7 @@ return array(
 	"after"                => "The :attribute must be a date after :date.",
 	"alpha"                => "The :attribute may only contain letters.",
 	"alpha_dash"           => "The :attribute may only contain letters, numbers, and dashes.",
-	"alpha_num"            => "El :attribute sólo puede contener letras y números.",
+	"alpha_num"            => "Sólo puede contener letras y números.",
 	"array"                => "The :attribute must be an array.",
 	"before"               => "The :attribute must be a date before :date.",
 	"between"              => array(
@@ -32,8 +32,8 @@ return array(
 	"date_format"          => "The :attribute does not match the format :format.",
 	"different"            => "The :attribute and :other must be different.",
 	"digits"               => "The :attribute must be :digits digits.",
-	"digits_between"       => "El :attribute debe contener :min y :max digitos.",
-	"email"                => "El :attribute debe ser válido.",
+	"digits_between"       => "Solo puede contener entre :min y :max digitos.",
+	"email"                => "Debe ser un E-mail válido.",
 	"exists"               => "The selected :attribute is invalid.",
 	"image"                => "The :attribute must be an image.",
 	"in"                   => "The selected :attribute is invalid.",
@@ -55,7 +55,7 @@ return array(
 	"not_in"               => "The selected :attribute is invalid.",
 	"numeric"              => "The :attribute must be a number.",
 	"regex"                => "The :attribute format is invalid.",
-	"required"             => "El :attribute campo es requerido.",
+	"required"             => "Este campo es obligatorio.",
 	"required_if"          => "The :attribute field is required when :other is :value.",
 	"required_with"        => "The :attribute field is required when :values is present.",
 	"required_with_all"    => "The :attribute field is required when :values is present.",
@@ -68,7 +68,7 @@ return array(
 		"string"  => "The :attribute must be :size characters.",
 		"array"   => "The :attribute must contain :size items.",
 	),
-	"unique"               => "El :attribute ya fue registrado.",
+	"unique"               => "Ya se encuentra registrado.",
 	"url"                  => "The :attribute format is invalid.",
 
 	/*
