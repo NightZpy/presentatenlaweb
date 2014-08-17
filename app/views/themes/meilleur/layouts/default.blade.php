@@ -36,17 +36,17 @@
                       		<li class="active"><a href="#jump0">{{trans('enlaces.Home')}}</a></li>
                      		<li><a href="#jump1">{{trans('enlaces.Services')}}</a></li>
                       		<li><a href="#jump2">{{trans('enlaces.Portfolio')}}</a></li>
-                      		<li><a href="#jump3">{{trans('enlaces.Pricing')}}</a></li>
+                      		<!--<li><a href="#jump3">{{trans('enlaces.Pricing')}}</a></li>-->
                       		<!--<li><a href="#jump4">Our Team</a></li>
                       		<li><a href="#jump5">Testimonials</a></li>-->
                       		<li><a href="#jump6">{{trans('enlaces.Contact_Us')}}</a></li>
-							<li class="dropdown">
+							<!--<li class="dropdown">
                             	<a id="idiomas" href="" class="dropdown-toggle" data-toggle="dropdown">{{trans('enlaces.languages')}}<b class="caret"></b></a>
                                	<ul class="dropdown-menu">
 									<li><a id="idioma1" href="{{ URL::to('change_locale/es') }}">{{trans('enlaces.Spanish')}}</a></li>
     								<li><a id="idioma2" href="{{ URL::to('change_locale/en') }}">{{trans('enlaces.English')}}</a></li>
 								</ul>
-                        	</li>
+                        	</li>-->
                   		</ul>
               		</div>
               		<!-- /.navbar-collapse -->
@@ -77,11 +77,11 @@
                 	<div class="centered">
                     	<div class="container">
                        		<div class="section-headlines">
-                            	<h1>Presentatenlaweb</h1>
+                            	<h1>Presentate en La Web</h1>
                             	<p></p>
                         	</div>
-                        	<a href="{{ URL::to('change_locale/es') }}" class="btn btn-outline btn-lg">{{trans('enlaces.Our_Portfolio')}}</a>&nbsp; 
-							<a href="{{ URL::to('change_locale/en') }}" class="btn btn-outline btn-lg">{{trans('enlaces.Contact_Us')}}</a>
+                        	<a href="#jump2" class="btn btn-outline btn-lg">{{trans('enlaces.Our_Portfolio')}}</a>&nbsp; 
+							<a href="#jump6" class="btn btn-outline btn-lg">{{trans('enlaces.Contact_Us')}}</a>
                     	</div>
                 	</div>
             	</div>
@@ -97,7 +97,6 @@
 		<!--jump2 end-->	
 
 		<!--jump2 -->
-        @yield('pricing_plans')
         <!--jump2 end-->
 		
 		<!--jump2 -->

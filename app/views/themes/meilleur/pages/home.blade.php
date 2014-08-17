@@ -1216,8 +1216,7 @@
 @stop
 
 @section('contact_us')
-<div id="jump6" class="jumper">
-</div>
+<div id="jump6" class="jumper"></div>
 <div class="section type-1 section-contact">
     <div class="container">
         <div class="section-headlines">
@@ -1226,7 +1225,31 @@
         </div>
             <div class="row">
                 <div class="col-lg-4">
-                    
+                    	<!--<address>				
+							<div class="address-row">
+                    			<div class="address-sign">
+                      				<i class="icon-map-marker"></i>
+                       			</div>
+                       			<div style="address-info">
+                        			<b>Oficina</b>,<br>
+									 Dirección: Calle 5 Norte. No 18A - 122 Bambusa Plaza | Armenia, Quindío CO.<br>
+							     	 Telefono Fijo: +57 6-7482760 <br>
+ 								 	 Móvil: +57 3174399301 <br>
+ 							    	 E-mail: info@rhiss.net <br>
+                        		</div>
+                     		</div>	
+							<div class="address-row">
+                            	<div class="address-sign">
+                                	<i class="icon-map-marker"></i>
+                            	</div>
+                            	<div style="address-info">
+									<b>Horario de Atención</b><br>
+									Lunes a Viernes: 8:00am a 12:00m y 2:00pm a 6:00pm<br>
+	 								Sábados: 8:00 am a 12:00 pm<br>
+ 									Domingos y Festivos: info@rhiss.net
+                                </div>
+                        	</div>
+                    	</address>-->
                     <div class="visible-xs visible-sm">
                         <br class="gap-30" />
                         <hr class="gap-divider" />
