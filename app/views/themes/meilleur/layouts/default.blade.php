@@ -97,7 +97,6 @@
 		<!--jump2 end-->	
 
 		<!--jump2 -->
-        @yield('pricing_plans')
         <!--jump2 end-->
 		
 		<!--jump2 -->
