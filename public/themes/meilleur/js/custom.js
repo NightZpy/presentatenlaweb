@@ -30,7 +30,6 @@ $(function () {
     $('#button-send').click(function (event) {
         $('#button-send').html($('#btnSending').val());
         event.preventDefault();
-
         $.ajax({
             type: 'POST',
             url: '/registerContact',
