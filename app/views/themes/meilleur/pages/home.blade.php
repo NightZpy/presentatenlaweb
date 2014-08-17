@@ -1216,7 +1216,9 @@
 @stop
 
 @section('contact_us')
-<div id="jump6" class="jumper"></div>
+<div id="jump6" class="jumper">
+</div>
+
 <div class="section type-1 section-contact">
     <div class="container">
         <div class="section-headlines">
@@ -1225,7 +1227,7 @@
         </div>
             <div class="row">
                 <div class="col-lg-2">
-                    	<!--<address>				
+                    	<!--a<address>				
 							<div class="address-row">
                     			<div class="address-sign">
                       				<i class="icon-map-marker"></i>
@@ -1294,5 +1296,5 @@
                 </div>
             </div>
     </div>
-
+</div>
 @stop
