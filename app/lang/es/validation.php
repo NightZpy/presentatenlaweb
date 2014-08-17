@@ -18,7 +18,7 @@ return array(
 	"after"                => "The :attribute must be a date after :date.",
 	"alpha"                => "The :attribute may only contain letters.",
 	"alpha_dash"           => "The :attribute may only contain letters, numbers, and dashes.",
-	"alpha_num"            => "The :attribute may only contain letters and numbers.",
+	"alpha_num"            => "El :attribute sólo puede contener letras y números.",
 	"array"                => "The :attribute must be an array.",
 	"before"               => "The :attribute must be a date before :date.",
 	"between"              => array(
@@ -32,8 +32,8 @@ return array(
 	"date_format"          => "The :attribute does not match the format :format.",
 	"different"            => "The :attribute and :other must be different.",
 	"digits"               => "The :attribute must be :digits digits.",
-	"digits_between"       => "The :attribute must be between :min and :max digits.",
-	"email"                => "The :attribute must be a valid email address.",
+	"digits_between"       => "El :attribute debe contener :min y :max digitos.",
+	"email"                => "El :attribute debe ser válido.",
 	"exists"               => "The selected :attribute is invalid.",
 	"image"                => "The :attribute must be an image.",
 	"in"                   => "The selected :attribute is invalid.",
@@ -68,7 +68,7 @@ return array(
 		"string"  => "The :attribute must be :size characters.",
 		"array"   => "The :attribute must contain :size items.",
 	),
-	"unique"               => "The :attribute has already been taken.",
+	"unique"               => "El :attribute ya fue registrado.",
 	"url"                  => "The :attribute format is invalid.",
 
 	/*
