@@ -80,8 +80,8 @@
                             	<h1>Presentatenlaweb</h1>
                             	<p></p>
                         	</div>
-                        	<a href="{{ URL::to('change_locale/es') }}" class="btn btn-outline btn-lg">{{trans('enlaces.Our_Portfolio')}}</a>&nbsp; 
-							<a href="{{ URL::to('change_locale/en') }}" class="btn btn-outline btn-lg">{{trans('enlaces.Contact_Us')}}</a>
+                        	<a href="#jump2" class="btn btn-outline btn-lg">{{trans('enlaces.Our_Portfolio')}}</a>&nbsp; 
+							<a href="#jump6" class="btn btn-outline btn-lg">{{trans('enlaces.Contact_Us')}}</a>
                     	</div>
                 	</div>
             	</div>
