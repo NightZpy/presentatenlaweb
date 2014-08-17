@@ -36,18 +36,22 @@ $(function () {
             url: '/registerContact',
             data: $('#frmContact').serialize(),
             success: function (html) {
-                if (html.success == 0) {
+                if (JSON.parse(html).success == 0) {
                     $('#button-send').html($('#btnSend').val());
-                    console.log("Bien");
+                    $('.error').hide();
                     $('#error').hide();
                     $('#success').show();
                 }
-                else {
-                    $('#button-send').html($('#btnSend').val());
-                    $.each( JSON.parse(html)[0], function( key, value ) {
-                      $('#'+key+'-error').text(value).addClass('error');
-                    });
-                    $('#error').show();
+                else {      
+                    if(JSON.parse(html).already == 0) {                        
+                        $('#email-error').text($('#alreadyEmailTxt').val()).addClass('error');
+                    } else {
+                        $('#button-send').html($('#btnSend').val());
+                        $.each( JSON.parse(html)[0], function( key, value ) {
+                          $('#'+key+'-error').text(value).addClass('error');
+                        });
+                        $('#error').show();                        
+                    }
                 }
             },
             error: function () {

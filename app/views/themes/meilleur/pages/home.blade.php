@@ -1574,10 +1574,12 @@
 
                     <div id="error">
 
-                        Unable to send your message, please try later.</div>
+                        Unable to send your message, please try later.
+                    </div>
 
                         <input type="hidden" id="btnSending" value="Sending E-mail...">
                         <input type="hidden" id="btnSend" value="Send E-mail">
+                        <input type="hidden" id="alreadyEmailTxt" value="Email already registered!">
 
                     </form>
 
