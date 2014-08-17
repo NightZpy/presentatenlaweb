@@ -12,7 +12,7 @@ return array(
 	"Javascript" => "Javascript",
 	"Mobile_Apps_Development" => "Desarrollo de Aplicaciones Móviles",
 	"Software_Development" => "Desarrollo de software",
-	"Responsive_Layout" => "Diseño sensible", 
+	"Responsive_Layout" => "Diseño sensible (Responsivo)", 
 	"Built_Using_Bootstrap_3"=>"Construimos usando Bootstrap 3",
 	"Get_To_Know_Us"=>"Conózcanos",
 	"FEATURED_WORKS"=>"Trabajos Destacados",
