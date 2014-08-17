@@ -1228,7 +1228,7 @@
             <form>
            		<div class="row">
                 	<div class="col-lg-4">
-                    	<address>				
+                    	<!--<address>				
 							<div class="address-row">
                     			<div class="address-sign">
                       				<i class="icon-map-marker"></i>
@@ -1252,7 +1252,7 @@
  									Domingos y Festivos: info@rhiss.net
                                 </div>
                         	</div>
-                    	</address>
+                    	</address>-->
 
                     <div class="visible-xs visible-sm">
 
