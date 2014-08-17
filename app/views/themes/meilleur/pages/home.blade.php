@@ -1280,7 +1280,7 @@
                             <label for="message" id="message-error"></label>
                         </div>
                         <button id="button-send" class="btn btn-block btn-success">
-                            {{trans('formulario.Send_Message_Now')}}
+                            
                         </button>
                         <div id="success">
                             Your message has been successfully!
@@ -1288,8 +1288,8 @@
                         <div id="error">
                             Unable to send your message, please try later.
                         </div>
-                        <input type="hidden" id="btnSending" value="Sending E-mail...">
-                        <input type="hidden" id="btnSend" value="Send E-mail">
+                        <input type="hidden" id="btnSending" value="{{trans('formulario.Sending_E_mail')}}">
+                        <input type="hidden" id="btnSend" value="{{trans('formulario.Send_E_mail')}}">
                     </form>
                 </div>
             </div>
