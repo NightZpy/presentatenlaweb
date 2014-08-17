@@ -40,13 +40,13 @@
                       		<!--<li><a href="#jump4">Our Team</a></li>
                       		<li><a href="#jump5">Testimonials</a></li>-->
                       		<li><a href="#jump6">{{trans('enlaces.Contact_Us')}}</a></li>
-							<li class="dropdown">
+							<!--<li class="dropdown">
                             	<a id="idiomas" href="" class="dropdown-toggle" data-toggle="dropdown">{{trans('enlaces.languages')}}<b class="caret"></b></a>
                                	<ul class="dropdown-menu">
 									<li><a id="idioma1" href="{{ URL::to('change_locale/es') }}">{{trans('enlaces.Spanish')}}</a></li>
     								<li><a id="idioma2" href="{{ URL::to('change_locale/en') }}">{{trans('enlaces.English')}}</a></li>
 								</ul>
-                        	</li>
+                        	</li>-->
                   		</ul>
               		</div>
               		<!-- /.navbar-collapse -->
