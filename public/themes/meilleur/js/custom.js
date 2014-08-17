@@ -1,4 +1,6 @@
 $(function () {
+    $('#button-send').text($('#btnSend').val());
+
     $('a.folio').fancybox();
     $('#portfolio').mixitup();
 
