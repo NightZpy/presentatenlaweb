@@ -1283,10 +1283,10 @@
                             
                         </button>
                         <div id="success">
-                            Your message has been successfully!
+                           {{trans('formulario.Success')}}
                         </div>
                         <div id="error">
-                            Unable to send your message, please try later.
+                            {{trans('formulario.Error')}}
                         </div>
                         <input type="hidden" id="btnSending" value="{{trans('formulario.Sending_E_mail')}}">
                         <input type="hidden" id="btnSend" value="{{trans('formulario.Send_E_mail')}}">
