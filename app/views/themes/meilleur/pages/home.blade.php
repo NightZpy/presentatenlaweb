@@ -36,14 +36,14 @@
                             <div>{{ trans('textos.mobile_applications') }}</div>
                         </div>
                     </div>
-                    <br class="gap-30">
+                    <!--<br class="gap-30">
                     <div class="media">
                         <i class=" icon-bar-chart pull-left animated bounce"></i>
                         <div class="media-body">
                             <h3>{{ trans('titulos.hosting _and_Domains') }}</h3>
                             <div>{{ trans('textos.hosting _and_Domains') }}</div>
                             </div>
-                       </div>
+                       </div>-->
 
                     <div class="visible-xs visible-sm">
                         <br class="gap-30">
@@ -1224,7 +1224,7 @@
             <h2>{{trans('titulos.have_a_coffee')}}</h2>
         </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-2">
                     	<!--<address>				
 							<div class="address-row">
                     			<div class="address-sign">
@@ -1283,10 +1283,10 @@
                             
                         </button>
                         <div id="success">
-                            Your message has been successfully!
+                           {{trans('formulario.Success')}}
                         </div>
                         <div id="error">
-                            Unable to send your message, please try later.
+                            {{trans('formulario.Error')}}
                         </div>
                         <input type="hidden" id="btnSending" value="{{trans('formulario.Sending_E_mail')}}">
                         <input type="hidden" id="btnSend" value="{{trans('formulario.Send_E_mail')}}">
