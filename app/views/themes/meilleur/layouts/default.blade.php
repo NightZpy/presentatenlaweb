@@ -36,7 +36,7 @@
                       		<li class="active"><a href="#jump0">{{trans('enlaces.Home')}}</a></li>
                      		<li><a href="#jump1">{{trans('enlaces.Services')}}</a></li>
                       		<li><a href="#jump2">{{trans('enlaces.Portfolio')}}</a></li>
-                      		<li><a href="#jump3">{{trans('enlaces.Pricing')}}</a></li>
+                      		<!--<li><a href="#jump3">{{trans('enlaces.Pricing')}}</a></li>-->
                       		<!--<li><a href="#jump4">Our Team</a></li>
                       		<li><a href="#jump5">Testimonials</a></li>-->
                       		<li><a href="#jump6">{{trans('enlaces.Contact_Us')}}</a></li>
