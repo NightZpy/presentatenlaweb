@@ -77,7 +77,7 @@
                 	<div class="centered">
                     	<div class="container">
                        		<div class="section-headlines">
-                            	<h1>Presentatenlaweb</h1>
+                            	<h1>Presentate en La Web</h1>
                             	<p></p>
                         	</div>
                         	<a href="#jump2" class="btn btn-outline btn-lg">{{trans('enlaces.Our_Portfolio')}}</a>&nbsp; 
