@@ -1224,7 +1224,7 @@
             <h2>{{trans('titulos.have_a_coffee')}}</h2>
         </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-2">
                     	<!--<address>				
 							<div class="address-row">
                     			<div class="address-sign">
