@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Eduktivo Sistema De Control De Procesos Escolares</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('themes/landing-page/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -72,8 +72,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1>Eduktivo</h1>
+                        <h3>Sistema De Control De Procesos Escolares</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
