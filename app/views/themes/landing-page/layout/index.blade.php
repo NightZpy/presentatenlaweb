@@ -52,10 +52,13 @@
                         <a href="#jump1">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#jump2">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#jump3">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#jump4">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -123,7 +126,7 @@ cobrar más rápido por tus ventas.</p>
     </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b">
+    <div class="content-section-b" id="jump2">
 
         <div class="container">
 
@@ -145,7 +148,7 @@ cobrar más rápido por tus ventas.</p>
     </div>
     <!-- /.content-section-b -->
 
-    <div class="content-section-a">
+    <div class="content-section-a" id="jump3">
 
         <div class="container">
 
@@ -168,7 +171,7 @@ cobrar más rápido por tus ventas.</p>
     <!-- /.content-section-a -->
 
 
-    <div class="content-section-b">
+    <div class="content-section-b" id="jump4">
 
         <div class="container">
 
