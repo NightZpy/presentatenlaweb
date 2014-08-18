@@ -222,7 +222,7 @@ cobrar más rápido por tus ventas.</p>
     <!-- /.banner -->
 
     <!-- Footer -->
-    <footer>
+    <!--<footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -230,7 +230,7 @@ cobrar más rápido por tus ventas.</p>
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>-->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="{{asset('themes/educativo-page/js/jquery-1.11.0.js')}}"></script>
