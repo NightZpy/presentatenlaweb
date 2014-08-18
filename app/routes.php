@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::get('eduktivo', function()
 {
-	return View::make('themes.landing-page.layout.index');
+	return View::make('themes.educativo-page.layout.index');
 });
 
 Route::get('change_locale/{local}',function($local) {
