@@ -16,6 +16,11 @@ Route::get('/', function()
 	return View::make('themes.meilleur.pages.home');
 });
 
+Route::get('eduktivo', function()
+{
+	return View::make('themes.landing-page.layout.index');
+});
+
 Route::get('change_locale/{local}',function($local) {
 	//Set locale
 	Session::put('my.locale', $local);
@@ -31,6 +36,7 @@ Route::get('test', function()
         echo "$key => $value<br>";
     }
 });
+
 
 Route::post('suscribe', function(){
 	$validator = Validator::make(Input::all(), array('email' => 'email'));
