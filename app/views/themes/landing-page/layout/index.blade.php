@@ -12,14 +12,14 @@
     <title>Landing Page - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{asset('themes/landing-page/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="{{asset('themes/landing-page/css/landing-page.css')}}" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="{{asset('themes/landing-page/font-awesome-4.1.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="http://foassetnts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -110,7 +110,7 @@
                     <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="{{asset('themes/landing-page/img/ipad.png')}}" alt="">
                 </div>
             </div>
 
@@ -132,7 +132,7 @@
                     <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img class="img-responsive" src="{{asset('themes/landing-page/img/dog.png')}}" alt="">
                 </div>
             </div>
 
@@ -154,7 +154,7 @@
                     <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <img class="img-responsive" src="{{asset('themes/landing-page/img/phones.png')}}" alt="">
                 </div>
             </div>
 
@@ -222,10 +222,10 @@
     </footer>
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+    <script src="{{asset('themes/landing-page/js/jquery-1.11.0.js')}}"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{asset('themes/landing-page/js/bootstrap.min.js')}}"></script>
 
 </body>
 
