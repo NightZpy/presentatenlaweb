@@ -64,16 +64,14 @@
     	</nav>
 
 	<!-- Header -->
-    	<div class="intro-header">
-        	<div class="container">
-            	<div class="row">
-                	<div class="col-lg-12">
-                    	<div class="intro-message">
-                        <h1>Eduktivo</h1>
+	<div class="intro-header" id="jump1">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-12">
+               		<div class="intro-message">
+                   		<h1>Educativo</h1>
                         <h3>Sistema De Control De Procesos Escolares</h3>
-                        <p>Intiza te ayudará a gestionar eficientemente
-las cobranzas de tu empresa. Así podrás
-cobrar más rápido por tus ventas.</p>
+                        <p>Educativo te ayudará a gestionar eficientemente el trabajo de todo tipos de instituciones educativas</p>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
@@ -89,7 +87,6 @@ cobrar más rápido por tus ventas.</p>
                     </div>
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
     </div>
