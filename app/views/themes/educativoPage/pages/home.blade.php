@@ -1,7 +1,7 @@
 @extends('themes.educativoPage.layout.index')
 
 @section('caracteristicas')	
-	<div class="content-section-a">
+	<div class="content-section-a" id="jump2">
     	<div class="container">
         	<div class="row">
             	<div class="col-lg-5 col-sm-6">
