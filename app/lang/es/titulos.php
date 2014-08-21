@@ -21,6 +21,12 @@ return array(
 	"Our_Pricing_Packages" => "Nuestros paquetes de Precios",
 	"Contact_Us"=>"Contáctenos",
 	"have_a_coffee" => "Comunícate con nosotros",
+	"features_educativo" => "Características",
+    "manager" => "Administrador",
+    "teacher" => "Maestro",
+    "student" => "Estudiante",
+    "parent" => "Representante",
+    "account_manager" => "Cuenta - Administrador",
 );
 
 ?>
