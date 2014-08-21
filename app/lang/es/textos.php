@@ -17,7 +17,11 @@ return array(
 	"Exceptional_Work" => "Trabajamos con nuestros clientes de una manera interactiva para definir los proyectos, así como los principios bajo los cuales vamos a trabajar juntos.",
 	"features_educativo" => "Características",
 	"educativo" => "Sistema de gestión para todos los tipos de instituciones educativas como escuelas y colegios. Integra y facilita 
-4 tipos de cuentas de usuario:"
+4 tipos de cuentas de usuario:",
+	"manager" => "Administrador",
+	"teacher" => "Maestro",
+	"student" => "Estudiante",
+	"parent" => "Representante",
 );
 
 
