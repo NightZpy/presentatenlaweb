@@ -9,6 +9,12 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ trans('textos.features_educativo') }}</h2>
                     <p class="lead">{{trans('textos.educativo')}}</p>
+					<ul>
+						<li>1. {{trans('textos.manager')}}</li>
+						<li>2. {{trans('textos.teacher')}}</li>
+						<li>3. {{trans('textos.student')}}</li>
+						<li>4. {{trans('textos.parent')}}</li>
+					</ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                 	<img class="img-responsive" src="{{asset('themes/educativo-page/img/ipad.png')}}" alt="">
