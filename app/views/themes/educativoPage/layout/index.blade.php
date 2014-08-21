@@ -90,7 +90,10 @@
     <!-- /.intro-header -->
     <!-- Page Content -->
 
+	<!-- Seccion Caracteristicas -->
 	@yield('caracteristicas')
+	<!-- Seccion Cuenta Administrador -->
+	@yield('cuenta_administrador')
 	
       
     <!-- Footer -->
