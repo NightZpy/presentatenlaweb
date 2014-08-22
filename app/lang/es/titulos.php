@@ -26,7 +26,7 @@ return array(
     "teacher" => "Maestro",
     "student" => "Estudiante",
     "parent" => "Representante",
-    "account_manager" => "Cuenta - Administrador",
+    "account_administrator" => "Cuenta - Administrador permite:",
 );
 
 ?>
