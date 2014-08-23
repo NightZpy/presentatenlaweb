@@ -1,4 +1,4 @@
-@extends('themes.educativoPage.layout.index')
+@extends('themes.eduktivo-page.layout.index')
 
 @section('caracteristicas')	
 	<div class="content-section-a" id="jump2">
@@ -17,7 +17,7 @@
 					</ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                	<img class="img-responsive" src="{{asset('themes/educativo-page/img/ipad.png')}}" alt="">
+                	<img class="img-responsive" src="{{asset('themes/eduktivo-page/img/ipad.png')}}" alt="">
               	</div>
             </div>
         </div>
@@ -72,7 +72,7 @@
 					</ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="{{asset('themes/educativo-page/img/dog.png')}}" alt="">
+                    <img class="img-responsive" src="{{asset('themes/eduktivo-page/img/dog.png')}}" alt="">
                 </div>
             </div>
         </div>

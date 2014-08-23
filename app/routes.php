@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::get('eduktivo', function()
 {
-	return View::make('themes.educativoPage.pages.home');
+	return View::make('themes.eduktivo-page.pages.home');
 });
 
 Route::get('change_locale/{local}',function($local) {
@@ -26,17 +26,6 @@ Route::get('change_locale/{local}',function($local) {
 	Session::put('my.locale', $local);
     return Redirect::to('/');
 });
-
-Route::get('test', function() 
-{
-    $a = File::getRequire(base_path().'/app/lang/en/titulos.php');
-
-    foreach($a as $key => $value)
-    {
-        echo "$key => $value<br>";
-    }
-});
-
 
 Route::post('suscribe', function(){
 	$validator = Validator::make(Input::all(), array('email' => 'email'));
@@ -95,8 +84,7 @@ Route::post('contactBuy', function ()
 	$rules = array(
 					'name' => 'required|alpha_num|digits_between:3,128',
 					'email' => 'required|email|unique:contacts,email',
-					'subject' => 'required|digits_between:3,128',
-					'message' => 'required|digits_between:10,512'
+					'software_id' => 'required|alphabet',
 				);
 
 	$validator = Validator::make(Input::all(), $rules);
