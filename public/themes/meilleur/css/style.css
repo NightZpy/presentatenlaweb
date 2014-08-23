@@ -832,13 +832,22 @@ label {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /*= RESPONSIVE RESET
-  ---------------------------------------------------------------------------------------------- */
+  #logo {
+    background-image: url('/themes/meilleur/img/logo-min.png');
+    width: 180px;
+    height: 30px;
+  }
 }
-@media (max-width: 979px) {
-  /*= RESPONSIVE RESET
-  ---------------------------------------------------------------------------------------------- */
+
+@media (min-width: 979px) {
+  #logo {
+    background-image: url('/themes/meilleur/img/logo-max.png');
+    width: 240px;
+    height: 30px;
+  }
 }
+
+
 #success{
 	width: 100%;
 	padding: 10px;
