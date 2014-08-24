@@ -78,5 +78,12 @@
         "View_dormitory_listing_and_their_status"=>"Lista Ver dormitorio y su estado",
         "View_noticeboard_and_school_events_in_calendar"=>"Ver tablón de anuncios de la escuela y los eventos en el calendario",
         "Manage_own_profile"=>"Gestionar propio perfil",
+        
+       "Converting_the_software_to_your_native_language_is_so_easy_Follow_these_steps"=>"Convirtiendo el software en su lengua materna es tan fácil. Siga estos pasos:",
+       "Login_to_administrative_panel"=>"Ingresa para panel administrativo",
+       "Go_to_settings_manage_language"=>"Vaya a Configuración> gestionar idioma",
+       "You_can_add_delete_any_language_to_the_database"=>"Usted puede añadir / eliminar cualquier idioma a la base de datos",
+       "Update_the_default_phrases_into_your_language_and_save_it"=>"Actualización de las frases por defecto en su idioma y guardarlo",
+       "Simply_and_easily_make_the_software_your_native"=>"Simple y fácil de hacer que el software de su nativa!",
 	);
 ?>
