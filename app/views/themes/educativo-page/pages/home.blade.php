@@ -148,3 +148,33 @@
         <!-- /.container -->
     </div>
 @stop
+
+@section('cuenta_representante')
+    <div class="content-section-a" id="jump2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{trans('titulos.account_parent')}}</h2>
+                    <ul>
+                        <li>{{trans('caracteristicas.View_teacher_profile')}}</li>
+                        <li>{{trans('caracteristicas.View_own_childs_marks_and_attendances_and_other_comments_from_teacher')}}</li>
+                        <li>{{trans('caracteristicas.View_own_childs_class_routine')}}</li>
+                        <li>{{trans('caracteristicas.View_own_childs_invoice_and_payment_list')}}</li>
+                        <li>{{trans('caracteristicas.Make_online_or_offline_payment')}}</li>
+                        <li>{{trans('caracteristicas.Online_payment_can_be_paid_via_[paypal]')}}</li>
+                        <li>{{trans('caracteristicas.View_library_and_book_status')}}</li>
+                        <li>{{trans('caracteristicas.View_school_transportaion_and_routes_status')}}</li>
+                        <li>{{trans('caracteristicas.View_noticeboard_and_school_events_in_calendar')}}</li>
+                        <li>{{trans('caracteristicas.Manage_own_profile')}}</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xipad.png.pagespeed.ic.Hj9CKpLnDh.png" alt="" pagespeed_url_hash="1068595440">
+                </div>
+            </div>
+        </div>
+       <!-- /.container -->
+    </div>
+@stop()
