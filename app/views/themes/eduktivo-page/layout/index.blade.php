@@ -71,8 +71,8 @@
             	<div class="col-lg-12">
                		<div class="intro-message">
                    		<h1>Educativo</h1>
-                        <h3>Sistema De Control De Procesos Escolares</h3>
-                        <p>Educativo te ayudará a gestionar eficientemente el trabajo de todo tipos de instituciones educativas</p>
+                        <h3>{{trans('titulos.Educational_institute_management_system')}}</h3>
+                        <p>{{trans('textos.Educativo')}}</p>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
