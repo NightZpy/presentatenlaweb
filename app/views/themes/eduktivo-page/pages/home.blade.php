@@ -1,4 +1,4 @@
-@extends('themes.eduktivo-page.layout.index')
+@extends('themes.eduktivo-page.layout.default')
 
 @section('caracteristicas')	
 	<div class="content-section-a" id="jump2">
@@ -23,9 +23,9 @@
         </div>
        <!-- /.container -->
     </div>
-@stop()
+@stop()   
 
-@section('cuenta_administrador')
+@section('cuenta_administrador')    
 	<div class="content-section-b">
     	<div class="container">
         	<div class="row">
@@ -77,5 +77,43 @@
             </div>
         </div>
         <!-- /.container -->
-    </div>
+    </div>  
+@stop()
+
+@section('solicitar')
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-offset-1 col-lg-11 col-sm-offset-1 col-sm-11">
+                    <form class="form-inline" role="form">
+                        <input type="hidden" name="software_id" value="eduktivo">  
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="icon-user"></i></span>
+                                <input class="form-control input-lg" type="text" id="name" name="name" placeholder="Ingresar nombre">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="icon-envelope"></i></div>
+                                <input class="form-control input-lg" type="email" id="email" name="email" placeholder="Ingresar e-mail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="icon-phone"></i></span>
+                                <input class="form-control input-lg" type="phone" id="phone" name="phone" placeholder="Ingresar teléfono">
+                            </div>
+                        </div>                                                              
+                        <div class="form-group">
+                            <div class="input-group">
+                                <button type="submit" class="btn btn-primary btn-lg pull-right"><i class="icon-check"></i>Solicitar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>  
 @stop()

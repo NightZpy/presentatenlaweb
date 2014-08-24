@@ -831,21 +831,21 @@ label {
     width: 80px;
   }
 }
-@media (min-width: 768px) and (max-width: 979px) {
+/* @media (min-width: 768px) and (max-width: 979px) { 
   #logo {
     background-image: url('/themes/meilleur/img/logo-min.png');
-    width: 180px;
+    width: 124px;
     height: 30px;
   }
-}
+}*/
 
-@media (min-width: 979px) {
+/*@media (min-width: 979px) { */  
   #logo {
-    background-image: url('/themes/meilleur/img/logo-max.png');
-    width: 240px;
-    height: 30px;
+    background-image: url('/themes/meilleur/img/logo-header.png');
+    width: 172px;
+    height: 50px;
   }
-}
+/*}*/
 
 
 #success{

@@ -1275,12 +1275,16 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="subject" name="subject" placeholder="{{trans('formulario.Subject')}}">
-                            <label for="subject" id="subject-error"></label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="{{trans('formulario.Subject')}}">
+                                <label for="subject" id="subject-error"></label>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="message" name="message" rows="8"></textarea>
-                            <label for="message" id="message-error"></label>
+                            <div class="input-group">
+                                <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                                <label for="message" id="message-error"></label>
+                            </div>
                         </div>
                         <button id="button-send" class="btn btn-block btn-success">
                             
