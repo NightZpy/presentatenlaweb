@@ -79,3 +79,27 @@
         <!-- /.container -->
     </div>
 @stop()
+
+@section('cuenta_profesor')
+<div class="content-section-a" id="jump2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{trans('titulos.account_teacher')}}</h2>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/ipad.png" alt="" pagespeed_url_hash="1068595440">
+                </div>
+            </div>
+        </div>
+       <!-- /.container -->
+    </div>
+@stop
