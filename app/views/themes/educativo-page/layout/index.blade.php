@@ -103,7 +103,9 @@
     <!-- Seccion Elegir Idioma -->
     @yield('elegir_idioma') 
     <!--Seccion Importar Paquete De Idiomas-->
-    @yield('importar_paquete_de_idioma')  
+    @yield('importar_paquete_de_idioma') 
+    <!-- Seccion Alineamiento del texto  -->
+    @yield('alineacion_de_texto') 
     
     <!-- Footer -->
     <!--<footer>
