@@ -204,3 +204,31 @@
         <!-- /.container -->
     </div>
 @stop()
+
+@section('importar_paquete_de_idioma')
+    <div class="content-section-a" id="jump2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{trans('titulos.Import_language_pack')}}</h2>
+                    <p class="lead">{{trans('caracteristicas.From_version_there_are_20_language_pack_available_Follow_these_steps_to_import_language_pac')}}</p>
+                    <ul>
+                        <li>{{trans('caracteristicas.')}}</li>
+                        <li>{{trans('caracteristicas.Login_to_phpmyadmin')}}</li>
+                        <li>{{trans('caracteristicas.Go_to_your_database_where_you_have_installed_this_script')}}</li>
+                        <li>{{trans('caracteristicas.Go_to_import_menu_in_right_side')}}</li>
+                        <li>{{trans('caracteristicas.Upload_the_language_sql_file_from_uploads_directory_and_import_it')}}</li>
+                        <li>{{trans('caracteristicas.You_will_see_20_language_pack_is_installed_in_your_admin_panel')}}</li>
+                        <li>{{trans('caracteristicas.Simply_and_easily_make_the_software_your_native')}}</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xipad.png.pagespeed.ic.Hj9CKpLnDh.png" alt="" pagespeed_url_hash="1068595440">
+                </div>
+            </div>
+        </div>
+       <!-- /.container -->
+    </div>
+@stop()
