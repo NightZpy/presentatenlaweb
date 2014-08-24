@@ -34,5 +34,24 @@
 		"Create_backup_and_restore_anytime"=>"Crear copia de seguridad y restaurar en cualquier momento",
 		"Manage_own_profile"=>"Gestionar propio perfil",
 		"Access_account_from_anywhere_by_any_device_like_desktop_laptop_smartphone_and_tablet"=>"Acceso cuenta desde cualquier lugar, mediante cualquier dispositivo como escritorio, portátil, smartphone y la tableta",
+        
+        /*"Manage_students_class_group_wise"=>"Gestionar los estudiantes de clase / grupo de sabios",
+        "Add_edit_delete_student"=>"Añadir / editar / borrar estudiante",
+        "View_profile_of_students"=>"Ver el perfil de los estudiantes",
+        "View_marksheet_of_sudent"=>"Ver marksheet del estudiante",
+        "View_ID_card_of_student"=>"Ver tarjeta de identificación de estudiante",
+        "View_teacher_profile"=>"Ver perfil del profesor",
+        "Manage_Daily_Attendance"=>"Gestionar Asistencia Diaria",
+        "Create_edit_delete_subjects_here_from_subject_menu"=>"Crear / editar / borrar temas aquí desde el menú objeto",
+        "Subjects_can_be_defined_seperately_according_to_each_classes"=>"Los sujetos se pueden definir por separado de acuerdo a cada clase",
+        "Manage_exam_semester_listing"=>"Gestionar examen / lista semestre",
+        "Manage_marks_edit_update_and_attendance_exam_class_student_wise"=>"Gestionar marcas (edit / update) y examen de la asistencia a clase, y estudiante inteligente
+",
+        "View_class_routine"=>"Ver rutina de la clase",
+        "View_library_and_book_status"=>"Vista de la biblioteca y el estado del libro",
+        "View_school_transportation_routes_status"=>"Ver el estado de las rutas de transporte escolar",
+        "View_edit_noticeboard_or_school_events"=>"Ver / editar tablón de anuncios o eventos escolares",
+        "Create_backup_and_restore_anytime"=>"Crear copia de seguridad y restaurar en cualquier momento",
+        "Manage_own_profile"=>"Gestionar propio perfil",*/
 	);
 ?>
