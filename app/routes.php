@@ -75,7 +75,7 @@ Route::post('registerContact', function ()
 		$contact->subject = Input::get('subject');
 		$contact->message = Input::get('message');
 		$contact->save();
-		return json_encode(array('success' => 0, 'name' => $contact->name, 'email' => $contact->email));
+		return json_encode(array('success' => 0);
 	}
 });
 
@@ -96,7 +96,7 @@ Route::post('contactBuy', function ()
 		
 		Mail::send('emails.softwareApplication', array('name' => Input::get('name'), 'software' => Input::get('software')), function($message)
 		{
-		  $message->to(Input::get('name'), Input::get('email'))
+		  $message->to(Input::get('email'), Input::get('name'))
 		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb: Atención al cliente')
 		          	->subject('Solicitud adquisición ' . Input::get('software'));
 		});
@@ -122,6 +122,6 @@ Route::post('contactBuy', function ()
 		$softwareApplication->phone 	= Input::get('phone');
 		$softwareApplication->software 	= Input::get('software');
 		$softwareApplication->save();
-		return json_encode(array('success' => 0, 'name' => $softwareApplication->name, 'email' => $softwareApplication->email));
+		return json_encode(array('success' => 0);
 	}
 });
