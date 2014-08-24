@@ -12,6 +12,11 @@ return array(
 	"languages"=>"Idiomas",
 	"Spanish"=>"Español",
 	"English"=>"Ingles",
+    "feature"=>"Características",
+    "account_manager"=>"Cuenta - Administrador",
+    "account_teacher"=>"Cuenta - Profesor",
+    "account_student"=>"Cuenta - Estudiante",
+    "account_parent"=>"Cuenta - Representante",
 );
 
 ?>
