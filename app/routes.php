@@ -93,12 +93,29 @@ Route::post('contactBuy', function ()
 	if ($validator->fails()) {
 		return json_encode(array('success' => 1, $validator->messages()));
 	} else {
-		Mail::send('emails.softwareApplication', array('name' => Input::get('name')), function($message)
+		
+		Mail::send('emails.softwareApplication', array('name' => Input::get('name'), 'software' => Input::get('software')), function($message)
 		{
-		  $message->to(Input::get('email'), Input::get('email'))
-		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb Atención al cliente')
-		          	->subject('Solicitud compra Eduktivo.');
+		  $message->to(Input::get('name'), Input::get('email'))
+		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb: Atención al cliente')
+		          	->subject('Solicitud adquisición ' . Input::get('software'));
 		});
+
+		Mail::send('emails.softwareApplication', array('name' => Input::get('name'), 'software' => Input::get('software')), function($message)
+		{
+		  $message->to('informacion@presentatenlaweb.com', 'Presentatenlaweb: Atención al cliente')
+		  			->from(Input::get('email'), Input::get('name'))
+		          	->subject('Solicitud adquisición ' . Input::get('software'));
+		});
+
+		Mail::send('emails.softwareApplication', array('name' => Input::get('name'), 'software' => Input::get('software')), function($message)
+		{
+		  $message->to('nightzpy@gmail.com', 'Lenyn Alcántara')
+		  			->from(Input::get('email'), Input::get('name'))
+		          	->subject('Solicitud adquisición ' . Input::get('software'));
+		});
+
+
 		$softwareApplication 			= new SoftwareApplication;
 		$softwareApplication->name 		= Input::get('name');
 		$softwareApplication->email 	= Input::get('email');
