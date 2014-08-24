@@ -35,7 +35,7 @@
 		"Manage_own_profile"=>"Gestionar propio perfil",
 		"Access_account_from_anywhere_by_any_device_like_desktop_laptop_smartphone_and_tablet"=>"Acceso cuenta desde cualquier lugar, mediante cualquier dispositivo como escritorio, portátil, smartphone y la tableta",
         
-        /*"Manage_students_class_group_wise"=>"Gestionar los estudiantes de clase / grupo de sabios",
+        "Manage_students_class_group_wise"=>"Gestionar los estudiantes de clase / grupo de sabios",
         "Add_edit_delete_student"=>"Añadir / editar / borrar estudiante",
         "View_profile_of_students"=>"Ver el perfil de los estudiantes",
         "View_marksheet_of_sudent"=>"Ver marksheet del estudiante",
@@ -52,6 +52,6 @@
         "View_school_transportation_routes_status"=>"Ver el estado de las rutas de transporte escolar",
         "View_edit_noticeboard_or_school_events"=>"Ver / editar tablón de anuncios o eventos escolares",
         "Create_backup_and_restore_anytime"=>"Crear copia de seguridad y restaurar en cualquier momento",
-        "Manage_own_profile"=>"Gestionar propio perfil",*/
+        "Manage_own_profile"=>"Gestionar propio perfil",
 	);
 ?>
