@@ -105,7 +105,7 @@
                         <li>{{trans('caracteristicas.View_school_transportation_routes_status')}}</li>
                         <li>{{trans('caracteristicas.View_edit_noticeboard_or_school_events')}}</li>
                         <li>{{trans('caracteristicas.Create_backup_and_restore_anytime')}}</li>
-                        <li>{{trans('caracteristicas.Manage_own_profile')}}</li>
+                        <li>{{trans('caracteristicas.manage_own_profile')}}</li>
                     </ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -114,5 +114,37 @@
             </div>
         </div>
        <!-- /.container -->
+    </div>
+@stop
+
+@section('cuenta_estudiante')
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{trans('titulos.account_student')}}</h2>
+                    <ul>
+                        <li>{{trans('caracteristicas.View_teacher_profile')}}</li>
+                        <li>{{trans('caracteristicas.View_own_class_subjects')}}</li>
+                        <li>{{trans('caracteristicas.View_own_marks_and_attendances')}}</li>
+                        <li>{{trans('caracteristicas.View_class_routine')}}</li>
+                        <li>{{trans('caracteristicas.View_invoice_and_payment_list')}}</li>
+                        <li>{{trans('caracteristicas.Make_online_or_offline_payment')}}</li>
+                        <li>{{trans('caracteristicas.Online_payment_can_be_paid_via_[paypal]')}}</li>
+                        <li>{{trans('caracteristicas.View_library_and_book_status')}}</li>
+                        <li>{{trans('caracteristicas.View_school_transportaion_and_routes_status')}}</li>
+                        <li>{{trans('caracteristicas.View_dormitory_listing_and_their_status')}}</li>
+                        <li>{{trans('caracteristicas.View_noticeboard_and_school_events_in_calendar')}}</li>
+                        <li>{{trans('caracteristicas.Manage_own_profile')}}</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xdog.png.pagespeed.ic.Ga_lvw8zSc.png" alt="" pagespeed_url_hash="473355468">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
     </div>
 @stop
