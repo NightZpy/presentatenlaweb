@@ -45,17 +45,18 @@
             	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 	<ul class="nav navbar-nav navbar-right">
                     	<li>
-                        	<a href="#jump1">About</a>
+                        	<a href="#jump1">{{trans('enlaces.feature')}}</a>
                     	</li>
                     	<li>
-                        	<a href="#jump2">Services</a>
+                        	<a href="#jump2">{{trans('enlaces.account_manager')}}</a>
                     	</li>
                     	<li>
-                        	<a href="#jump3">Contact</a>
+                        	<a href="#jump3">{{trans('enlaces.account_teacher')}}</a>
                     	</li>
                     	<li>
-                        	<a href="#jump4">Contact</a>
+                        	<a href="#jump4">{{trans('enlaces.account_student')}}</a>
                     	</li>
+                        <li><a href="#jump5">{{trans('enlaces.account_parent')}}</a></li>
                 	</ul>
             	</div>
             	<!-- /.navbar-collapse -->
