@@ -89,10 +89,23 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{trans('titulos.account_teacher')}}</h2>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li</li>
+                        <li>{{trans('caracteristicas.Manage_students_class_group_wise')}}</li>
+                        <li>{{trans('caracteristicas.Add_edit_delete_student')}}</li>
+                        <li>{{trans('caracteristicas.View_profile_of_students')}}</li>
+                        <li>{{trans('caracteristicas.View_marksheet_of_sudent')}}</li>
+                        <li>{{trans('caracteristicas.View_ID_card_of_student')}}</li>
+                        <li>{{trans('caracteristicas.View_teacher_profile')}}</li>
+                        <li>{{trans('caracteristicas.Manage_Daily_Attendance')}}</li>
+                        <li>{{trans('caracteristicas.Create_edit_delete_subjects_here_from_subject_menu')}}</li>
+                        <li>{{trans('caracteristicas.Subjects_can_be_defined_seperately_according_to_each_classes')}}</li>
+                        <li>{{trans('caracteristicas.Manage_exam_semester_listing')}}</li>
+                        <li>{{trans('caracteristicas.Manage_marks_edit_update_and_attendance_exam_class_student_wise')}}</li>
+                        <li>{{trans('caracteristicas.View_class_routine')}}</li>
+                        <li>{{trans('caracteristicas.View_library_and_book_status')}}</li>
+                        <li>{{trans('caracteristicas.View_school_transportation_routes_status')}}</li>
+                        <li>{{trans('caracteristicas.View_edit_noticeboard_or_school_events')}}</li>
+                        <li>{{trans('caracteristicas.Create_backup_and_restore_anytime')}}</li>
+                        <li>{{trans('caracteristicas.Manage_own_profile')}}</li>
                     </ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
