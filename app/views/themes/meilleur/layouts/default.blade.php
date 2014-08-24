@@ -16,7 +16,7 @@
     	<link type="text/css" href="{{asset('themes/meilleur/css/style.css')}}" rel="stylesheet">
 	</head>
 
-	<body>
+    <body>
 		<header class="header" id="jump">
        		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
            		<div class="container">
