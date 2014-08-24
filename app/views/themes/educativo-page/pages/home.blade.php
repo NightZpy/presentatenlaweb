@@ -178,3 +178,29 @@
        <!-- /.container -->
     </div>
 @stop()
+
+@section('elegir_idioma')
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{trans('titulos.Convert_to_your_language')}}</h2>
+                    <p class="lead">{{trans('caracteristicas.Converting_the_software_to_your_native_language_is_so_easy_Follow_these_steps')}}</p>
+                    <ul>
+                        <li>{{trans('caracteristicas.Login_to_administrative_panel')}}</li>
+                        <li>{{trans('caracteristicas.Go_to_settings_manage_language')}}</li>
+                        <li>{{trans('caracteristicas.You_can_add_delete_any_language_to_the_database')}}</li>
+                        <li>{{trans('caracteristicas.Update_the_default_phrases_into_your_language_and_save_it')}}</li>
+                        <li>{{trans('caracteristicas.Simply_and_easily_make_the_software_your_native')}}</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xdog.png.pagespeed.ic.Ga_lvw8zSc.png" alt="" pagespeed_url_hash="473355468">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+@stop()
