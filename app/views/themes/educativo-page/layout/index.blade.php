@@ -101,7 +101,9 @@
     <!-- Seccion Cuenta Representante -->
     @yield('cuenta_representante')
     <!-- Seccion Elegir Idioma -->
-    @yield('elegir_idioma')   
+    @yield('elegir_idioma') 
+    <!--Seccion Importar Paquete De Idiomas-->
+    @yield('importar_paquete_de_idioma')  
     
     <!-- Footer -->
     <!--<footer>
