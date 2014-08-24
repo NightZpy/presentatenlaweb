@@ -66,7 +66,17 @@
         "View_dormitory_listing_and_their_status"=>"Lista Ver dormitorio y su estado",
         "View_noticeboard_and_school_events_in_calendar"=>"Ver tablón de anuncios de la escuela y los eventos en el calendario",
         "Manage_own_profile"=>"Gestionar propio perfil",
-
-
+    
+        "View_teacher_profile"=>"Ver perfil del profesor",
+        "View_own_childs_marks_and_attendances_and_other_comments_from_teacher"=>"Ver las marcas y asistencias propia del niño y otras observaciones de los maestros",
+        "View_own_childs_class_routine"=>"Ver rutina de la clase propia del niño",
+        "View_own_childs_invoice_and_payment_list"=>"Ver lista de facturas y pago propio del niño",
+        "Make_online_or_offline_payment"=>"Realizar un pago en línea o fuera de línea",
+        "Online_payment_can_be_paid_via_[paypal]"=>"El pago en línea se puede pagar a través de  [ paypal]",
+        "View_library_and_book_status"=>"Vista de la biblioteca y el estado del libro",
+        "View_school_transportaion_and_routes_status"=>"Ver el estado transportaion escuela y rutas",
+        "View_dormitory_listing_and_their_status"=>"Lista Ver dormitorio y su estado",
+        "View_noticeboard_and_school_events_in_calendar"=>"Ver tablón de anuncios de la escuela y los eventos en el calendario",
+        "Manage_own_profile"=>"Gestionar propio perfil",
 	);
 ?>
