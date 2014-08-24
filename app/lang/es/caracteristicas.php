@@ -52,6 +52,21 @@
         "View_school_transportation_routes_status"=>"Ver el estado de las rutas de transporte escolar",
         "View_edit_noticeboard_or_school_events"=>"Ver / editar tablón de anuncios o eventos escolares",
         "Create_backup_and_restore_anytime"=>"Crear copia de seguridad y restaurar en cualquier momento",
+        "manage_own_profile"=>"Gestionar propio perfil",
+        
+        "View_teacher_profile"=>"Ver perfil del profesor",
+        "View_own_class_subjects"=>"Ver los sujetos de clase propias",
+        "View_own_marks_and_attendances"=>"Ver propias marcas y asistencias",
+        "View_class_routine"=>"Ver rutina de la clase",
+        "View_invoice_and_payment_list"=>"Ver factura y lista de pagos",
+        "Make_online_or_offline_payment"=>"Realizar un pago en línea o fuera de línea",
+        "Online_payment_can_be_paid_via_[paypal]"=>"El pago en línea se puede pagar a través de [ paypal]",
+        "View_library_and_book_status"=>"Vista de la biblioteca y el estado del libro",
+        "View_school_transportaion_and_routes_status"=>"Ver el estado transportaion escuela y rutas",
+        "View_dormitory_listing_and_their_status"=>"Lista Ver dormitorio y su estado",
+        "View_noticeboard_and_school_events_in_calendar"=>"Ver tablón de anuncios de la escuela y los eventos en el calendario",
         "Manage_own_profile"=>"Gestionar propio perfil",
+
+
 	);
 ?>
