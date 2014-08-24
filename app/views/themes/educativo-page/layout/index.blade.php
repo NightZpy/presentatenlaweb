@@ -95,7 +95,9 @@
 	<!-- Seccion Cuenta Administrador -->
 	@yield('cuenta_administrador')
 	<!-- Seccion Cuenta Profesor -->
-    @yield('cuenta_profesor')    
+    @yield('cuenta_profesor')  
+    <!--Seccion Cuenta Estudiante -->
+    @yield('cuenta_estudiante')  
     
     <!-- Footer -->
     <!--<footer>
