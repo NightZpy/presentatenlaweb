@@ -14,11 +14,14 @@ $(function () {
             success: function (html) {
                 if (JSON.parse(html).success == 0) {                    
                     $('#frmContactBuy > .form-group').each(function() {
-                    	this.removeClass('has-error').addClass('has-success');
+                    	$(this).removeClass('has-error').addClass('has-success');
                     });
-                    $('#error').hide();
-                    //$('#success').show();
-                    $(this).html($('#btnRequested').val());
+                    $('#error').hide();                    
+                    $('#buy-send').html($('#btnRequested').val());
+                    $('#buy-send').removeClass('btn-primary').addClass('btn-success');                    
+                    setTimeout(changeButtomStatus(), 3000);
+                    $('#buy-send').html($('#btnRequest').val());
+                    $('#buy-send').removeClass('btn-success').addClass('btn-primary');
                 }
                 else {
                         $(this).html($('#btnRequest').val());
@@ -59,4 +62,6 @@ $(function () {
     });	
 });
 
-
+function changeButtomStatus () {
+	return false;
+}

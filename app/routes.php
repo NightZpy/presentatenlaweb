@@ -84,7 +84,7 @@ Route::post('contactBuy', function ()
 	$rules = array(
 					'name' => 'required|alpha_num|digits_between:3,128',
 					'email' => 'required|email|unique:software_applications,email',
-					'phone' => 'required|digits:20',
+					'phone' => 'required|digits_between:12,12',
 					'software' => 'required|alpha',
 				);
 
@@ -105,6 +105,6 @@ Route::post('contactBuy', function ()
 		$softwareApplication->phone 	= Input::get('phone');
 		$softwareApplication->software 	= Input::get('software');
 		$softwareApplication->save();
-		return json_encode(array('success' => 0, 'name' => $contact->name, 'email' => $contact->email));
+		return json_encode(array('success' => 0, 'name' => $softwareApplication->name, 'email' => $softwareApplication->email));
 	}
 });
