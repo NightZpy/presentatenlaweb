@@ -27,6 +27,14 @@ return array(
     "student" => "Estudiante",
     "parent" => "Representante",
     "account_administrator" => "Cuenta - Administrador permite:",
+    "account_teacher"=>"Cuenta - Profesor permite:",
+    "account_student"=>"Cuenta - Estudiante permite:",
+    "account_parent"=>"Cuenta - Representante permite",
+    "Convert_to_your_language"=>"Tradicir a tu idioma",
+    "Import_language_pack"=>"Importar paquete de idioma",
+    "Right_To_Left_text_align_option"=>"Derecho a la opción de alineación de texto Izquierda",
+    "Backup_restore"=>"Restaurar copia de seguridad",
+    "Source_code_structure"=>"Estructura del código fuente",
 );
 
 ?>

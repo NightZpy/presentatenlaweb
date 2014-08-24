@@ -94,8 +94,19 @@
 	@yield('caracteristicas')
 	<!-- Seccion Cuenta Administrador -->
 	@yield('cuenta_administrador')
-	
-      
+	<!-- Seccion Cuenta Profesor -->
+    @yield('cuenta_profesor')  
+    <!--Seccion Cuenta Estudiante -->
+    @yield('cuenta_estudiante')  
+    <!-- Seccion Cuenta Representante -->
+    @yield('cuenta_representante')
+    <!-- Seccion Elegir Idioma -->
+    @yield('elegir_idioma') 
+    <!--Seccion Importar Paquete De Idiomas-->
+    @yield('importar_paquete_de_idioma') 
+    <!-- Seccion Alineamiento del texto  -->
+    <!--@yield('alineacion_de_texto')-->
+    
     <!-- Footer -->
     <!--<footer>
         <div class="container">
