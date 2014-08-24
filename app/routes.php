@@ -83,8 +83,9 @@ Route::post('contactBuy', function ()
 {
 	$rules = array(
 					'name' => 'required|alpha_num|digits_between:3,128',
-					'email' => 'required|email|unique:contacts,email',
-					'software_id' => 'required|alphabet',
+					'email' => 'required|email|unique:software_applications,email',
+					'phone' => 'required|digits:20',
+					'software' => 'required|alpha',
 				);
 
 	$validator = Validator::make(Input::all(), $rules);
@@ -92,18 +93,18 @@ Route::post('contactBuy', function ()
 	if ($validator->fails()) {
 		return json_encode(array('success' => 1, $validator->messages()));
 	} else {
-		Mail::send('emails.suscribe', array('name' => Input::get('name')), function($message)
+		Mail::send('emails.softwareApplication', array('name' => Input::get('name')), function($message)
 		{
 		  $message->to(Input::get('email'), Input::get('email'))
 		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb Atención al cliente')
-		          	->subject('Te has suscrito a Presente en la Web!');
+		          	->subject('Solicitud compra Eduktivo.');
 		});
-		$contact = new Contact;
-		$contact->name = Input::get('name');
-		$contact->email = Input::get('email');
-		$contact->subject = Input::get('subject');
-		$contact->message = Input::get('message');
-		$contact->save();
+		$softwareApplication 			= new SoftwareApplication;
+		$softwareApplication->name 		= Input::get('name');
+		$softwareApplication->email 	= Input::get('email');
+		$softwareApplication->phone 	= Input::get('phone');
+		$softwareApplication->software 	= Input::get('software');
+		$softwareApplication->save();
 		return json_encode(array('success' => 0, 'name' => $contact->name, 'email' => $contact->email));
 	}
 });

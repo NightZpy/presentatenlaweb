@@ -83,37 +83,43 @@
 @section('solicitar')
     <div class="content-section-a">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-offset-1 col-lg-11 col-sm-offset-1 col-sm-11">
-                    <form class="form-inline" role="form">
-                        <input type="hidden" name="software_id" value="eduktivo">  
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="icon-user"></i></span>
-                                <input class="form-control input-lg" type="text" id="name" name="name" placeholder="Ingresar nombre">
-                            </div>
+            <div class="row has-error" id="error">
+                <div id="error" class="col-lg-offset-3 col-lg-10" style="display: none;">Hubo un problema al enviar los datos, intente de nuevo.</div>
+            </div>        
+            <div class="row">                
+                <form id="frmContactBuy" class="form-inline" role="form" action="#">
+                    <input type="hidden" name="software" value="eduktivo">  
+                    <input type="hidden" id="btnRequesting" value="Solicitando">
+                    <input type="hidden" id="btnRequested" value="Listo">
+                    <input type="hidden" id="btnRequest" value="Solicitar">                        
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span id="error-name" class="input-group-addon" data-toggle="tooltip"><i class="icon-user"></i></span>
+                            <input class="form-control input-lg" type="text" id="name" name="name" placeholder="Ingresar nombre">
+                            
                         </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon"><i class="icon-envelope"></i></div>
-                                <input class="form-control input-lg" type="email" id="email" name="email" placeholder="Ingresar e-mail">
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">                                
+                            <div class="input-group-addon"><i class="icon-envelope"></i></div>
+                            <input class="form-control input-lg" type="email" id="email" name="email" placeholder="Ingresar e-mail" data-toggle="tooltip">
+                        </div>                            
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="icon-phone"></i></span>
+                            <input class="form-control input-lg" type="phone" id="phone" name="phone" placeholder="Ingresar teléfono" data-toggle="tooltip">
+                        </div>                            
+                    </div>                                                              
+                    <div class="form-group">
+                        <div class="input-group">
+                            <button type="submit" id="buy-send" class="btn btn-primary btn-lg pull-right"><i class="icon-check"></i>Solicitar</button>
                         </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="icon-phone"></i></span>
-                                <input class="form-control input-lg" type="phone" id="phone" name="phone" placeholder="Ingresar teléfono">
-                            </div>
-                        </div>                                                              
-                        <div class="form-group">
-                            <div class="input-group">
-                                <button type="submit" class="btn btn-primary btn-lg pull-right"><i class="icon-check"></i>Solicitar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                    </div>                  
+                </form>
             </div>
         </div>
+    </div>
         <!-- /.container -->
-    </div>  
 @stop()
