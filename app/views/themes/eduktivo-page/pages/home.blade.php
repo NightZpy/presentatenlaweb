@@ -83,11 +83,13 @@
 @section('solicitar')
     <div class="content-section-a">
         <div class="container">
-            <div class="row has-error" id="error">
-                <div id="error" class="col-lg-offset-3 col-lg-10" style="display: none;">Hubo un problema al enviar los datos, intente de nuevo.</div>
+            <div class="row" id="message">
+                <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none;"><p class="bg-danger text-center">Hubo un problema al enviar los datos, intente otra vez.</p></div>
+                <div class="clearfix"></div>
+                <div id="success" class="col-lg-9 radius-p" style="display: none;"><p class="bg-success text-center">Sus datos han sido procesado exitosamente, hemos enviado un correo de respuesta a la dirección e-mail suministrada.</p></div>
             </div>        
             <div class="row">                
-                <form id="frmContactBuy" class="form-inline" role="form" action="#">
+                <form id="frmContactBuy" class="form-inline" role="form" action="#" method="post">
                     <input type="hidden" name="software" value="eduktivo">  
                     <input type="hidden" id="btnRequesting" value="Solicitando">
                     <input type="hidden" id="btnRequested" value="Listo">

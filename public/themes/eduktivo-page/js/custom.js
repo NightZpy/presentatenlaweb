@@ -18,13 +18,15 @@ $(function () {
                     });
                     $('#error').hide();                    
                     $('#buy-send').html($('#btnRequested').val());
-                    $('#buy-send').removeClass('btn-primary').addClass('btn-success');                    
-                    setTimeout(changeButtomStatus(), 3000);
+                    //$('#buy-send').removeClass('btn-primary').addClass('btn-success');
+                    $('#success').show();                    
                     $('#buy-send').html($('#btnRequest').val());
-                    $('#buy-send').removeClass('btn-success').addClass('btn-primary');
+                    //$('#buy-send').removeClass('btn-success').addClass('btn-primary');
                 }
                 else {
-                        $(this).html($('#btnRequest').val());
+                		$('#success').hide(); 
+                		$('#error').show();
+                        $('#buy-send').html($('#btnRequest').val());
                         var idItems = $('#frmContactBuy').find('.form-group > .input-group > input'); 
 						var inputs = [];
 						idItems.each(function(i, item) {
@@ -55,13 +57,10 @@ $(function () {
             },
             error: function () {
                 $(this).html($('#btnRequest').val());
+                $('#success').hide(); 
                 $('#error').show();
             }
         });
 
     });	
 });
-
-function changeButtomStatus () {
-	return false;
-}
