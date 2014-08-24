@@ -85,5 +85,15 @@
        "You_can_add_delete_any_language_to_the_database"=>"Usted puede añadir / eliminar cualquier idioma a la base de datos",
        "Update_the_default_phrases_into_your_language_and_save_it"=>"Actualización de las frases por defecto en su idioma y guardarlo",
        "Simply_and_easily_make_the_software_your_native"=>"Simple y fácil de hacer que el software de su nativa!",
+
+
+        "From_version_there_are_20_language_pack_available_Follow_these_steps_to_import_language_pac"=>"Desde la versión 2.0, hay 20 + paquete de idioma disponible. Siga estos pasos para importar el paquete de idioma",
+        "Login_to_phpmyadmin"=>"Ingresa para phpmyadmin",
+        "Go_to_your_database_where_you_have_installed_this_script"=>"Vaya a su base de datos, donde se ha instalado este script",
+        "Go_to_import_menu_in_right_side"=>"Ir al menú de importación en el lado derecho",
+        "Upload_the_language_sql_file_from_uploads_directory_and_import_it"=>"Sube el archivo language.sql de directorio 'archivos' e importarlo",
+        "You_will_see_20_language_pack_is_installed_in_your_admin_panel"=>"Verá 20 + paquete de idioma se instala en el panel de administración
+",
+        "Simply_and_easily_make_the_software_your_native"=>"Simple y fácil de hacer que el software de su nativa!",
 	);
 ?>
