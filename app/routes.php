@@ -1,4 +1,4 @@
-<?php
+P<?php
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::get('eduktivo', function()
 {
-	return View::make('themes.educativo-page.pages.home');
+	return View::make('themes.eduktivo-page.pages.home');
 });
 
 Route::get('change_locale/{local}',function($local) {
@@ -75,7 +75,7 @@ Route::post('registerContact', function ()
 		$contact->subject = Input::get('subject');
 		$contact->message = Input::get('message');
 		$contact->save();
-		return json_encode(array('success' => 0);
+		return json_encode(array('success' => 0));
 	}
 });
 
@@ -122,6 +122,6 @@ Route::post('contactBuy', function ()
 		$softwareApplication->phone 	= Input::get('phone');
 		$softwareApplication->software 	= Input::get('software');
 		$softwareApplication->save();
-		return json_encode(array('success' => 0);
+		return json_encode(array('success' => 0));
 	}
 });
