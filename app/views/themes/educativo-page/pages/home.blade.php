@@ -1,4 +1,4 @@
-@extends('themes.educativoPage.layout.index')
+@extends('themes.educativo-page.layout.index')
 
 @section('caracteristicas')	
 	<div class="content-section-a" id="jump2">
