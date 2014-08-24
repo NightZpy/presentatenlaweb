@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::get('eduktivo', function()
 {
-	return View::make('themes.educativoPage.pages.home');
+	return View::make('themes.eduktivo-page.pages.home');
 });
 
 Route::get('change_locale/{local}',function($local) {
@@ -26,17 +26,6 @@ Route::get('change_locale/{local}',function($local) {
 	Session::put('my.locale', $local);
     return Redirect::to('/');
 });
-
-Route::get('test', function() 
-{
-    $a = File::getRequire(base_path().'/app/lang/en/titulos.php');
-
-    foreach($a as $key => $value)
-    {
-        echo "$key => $value<br>";
-    }
-});
-
 
 Route::post('suscribe', function(){
 	$validator = Validator::make(Input::all(), array('email' => 'email'));
@@ -90,4 +79,49 @@ Route::post('registerContact', function ()
 	}
 });
 
+Route::post('contactBuy', function ()
+{
+	$rules = array(
+					'name' => 'required|alpha_num|digits_between:3,128',
+					'email' => 'required|email|unique:software_applications,email',
+					'phone' => 'required|digits_between:7,12',
+					'software' => 'required|alpha',
+				);
 
+	$validator = Validator::make(Input::all(), $rules);
+
+	if ($validator->fails()) {
+		return json_encode(array('success' => 1, $validator->messages()));
+	} else {
+		
+		Mail::send('emails.softwareApplication', array('name' => Input::get('name'), 'software' => Input::get('software')), function($message)
+		{
+		  $message->to(Input::get('name'), Input::get('email'))
+		  			->from('informacion@presentatenlaweb.com', 'Presentatenlaweb: Atención al cliente')
+		          	->subject('Solicitud adquisición ' . Input::get('software'));
+		});
+
+		Mail::send('emails.softwareApplication', array('name' => Input::get('name'), 'software' => Input::get('software')), function($message)
+		{
+		  $message->to('informacion@presentatenlaweb.com', 'Presentatenlaweb: Atención al cliente')
+		  			->from(Input::get('email'), Input::get('name'))
+		          	->subject('Solicitud adquisición ' . Input::get('software'));
+		});
+
+		Mail::send('emails.softwareApplication', array('name' => Input::get('name'), 'software' => Input::get('software')), function($message)
+		{
+		  $message->to('nightzpy@gmail.com', 'Lenyn Alcántara')
+		  			->from(Input::get('email'), Input::get('name'))
+		          	->subject('Solicitud adquisición ' . Input::get('software'));
+		});
+
+
+		$softwareApplication 			= new SoftwareApplication;
+		$softwareApplication->name 		= Input::get('name');
+		$softwareApplication->email 	= Input::get('email');
+		$softwareApplication->phone 	= Input::get('phone');
+		$softwareApplication->software 	= Input::get('software');
+		$softwareApplication->save();
+		return json_encode(array('success' => 0, 'name' => $softwareApplication->name, 'email' => $softwareApplication->email));
+	}
+});
