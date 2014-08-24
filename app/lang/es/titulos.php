@@ -31,6 +31,7 @@ return array(
     "account_student"=>"Cuenta - Estudiante permite:",
     "account_parent"=>"Cuenta - Representante permite",
     "Convert_to_your_language"=>"Tradicir a tu idioma",
+    "Import_language_pack"=>"Importar paquete de idioma"
 );
 
 ?>
