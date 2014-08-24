@@ -35,6 +35,7 @@ return array(
     "Right_To_Left_text_align_option"=>"Derecho a la opción de alineación de texto Izquierda",
     "Backup_restore"=>"Restaurar copia de seguridad",
     "Source_code_structure"=>"Estructura del código fuente",
+    "Educational_institute_management_system"=>"Sistema De Control De Procesos Escolares",
 );
 
 ?>
