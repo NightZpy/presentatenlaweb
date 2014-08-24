@@ -29,7 +29,8 @@ return array(
     "account_administrator" => "Cuenta - Administrador permite:",
     "account_teacher"=>"Cuenta - Profesor permite:",
     "account_student"=>"Cuenta - Estudiante permite:",
-    "account_parent"=>"Cuenta - Representante permite"
+    "account_parent"=>"Cuenta - Representante permite",
+    "Convert_to_your_language"=>"Tradicir a tu idioma",
 );
 
 ?>
