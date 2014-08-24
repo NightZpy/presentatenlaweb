@@ -10,13 +10,13 @@
     	<title>Eduktivo Sistema De Control De Procesos Escolares</title>
 
     	<!-- Bootstrap Core CSS -->
-    	<link href="{{asset('themes/educativo-page/css/bootstrap.min.css')}}" rel="stylesheet">
+    	<link href="{{asset('themes/eduktivo-page/css/bootstrap.min.css')}}" rel="stylesheet">
 
     	<!-- Custom CSS -->
-    	<link href="{{asset('themes/educativo-page/css/landing-page.css')}}" rel="stylesheet">
+    	<link href="{{asset('themes/eduktivo-page/css/landing-page.css')}}" rel="stylesheet">
 
     	<!-- Custom Fonts -->
-    	<link href="{{asset('themes/educativo-pagefont-awesome-4.1.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+    	<link href="{{asset('themes/eduktivo-pagefont-awesome-4.1.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
     	<link href="http://foassetnts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -94,6 +94,8 @@
 	@yield('caracteristicas')
 	<!-- Seccion Cuenta Administrador -->
 	@yield('cuenta_administrador')
+    <!--Seccion Solicitar-->
+    @yield('solicitar')
 	<!-- Seccion Cuenta Profesor -->
     @yield('cuenta_profesor')  
     <!--Seccion Cuenta Estudiante -->
@@ -119,12 +121,12 @@
     </footer>-->
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="{{asset('themes/educativo-page/js/jquery-1.11.0.js')}}"></script>
+    <script src="{{asset('themes/eduktivo-page/js/jquery-1.11.0.js')}}"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{asset('themes/educativo-page/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('themes/eduktivo-page/js/bootstrap.min.js')}}"></script>
     <!--<script type="text/javascript" src="{{asset('themes/meilleur/js/jquery.smooth-scroll.min.js')}}"></script>-->
-    <script type="text/javascript" src="{{asset('themes/educativo-page/js/custom.js')}}"></script>
+    <script type="text/javascript" src="{{asset('themes/eduktivo-page/js/custom.js')}}"></script>
 </body>
 
 </html>
