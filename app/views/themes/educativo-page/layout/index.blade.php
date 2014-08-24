@@ -100,7 +100,9 @@
     @yield('cuenta_estudiante')  
     <!-- Seccion Cuenta Representante -->
     @yield('cuenta_representante')
-       
+    <!-- Seccion Elegir Idioma -->
+    @yield('elegir_idioma')   
+    
     <!-- Footer -->
     <!--<footer>
         <div class="container">
