@@ -94,8 +94,9 @@
 	@yield('caracteristicas')
 	<!-- Seccion Cuenta Administrador -->
 	@yield('cuenta_administrador')
-	
-      
+	<!-- Seccion Cuenta Profesor -->
+    @yield('cuenta_profesor')    
+    
     <!-- Footer -->
     <!--<footer>
         <div class="container">
