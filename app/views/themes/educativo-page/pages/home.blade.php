@@ -232,3 +232,152 @@
        <!-- /.container -->
     </div>
 @stop()
+
+@section('alineacion_de_texto')
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{trans('titulos.Right_To_Left_text_align_option')}}</h2>
+                    <p class="lead">{{trans('caracteristicas.Text_alignment_can_be_changed_from_adminpanel_settings_menu')}}</p>
+                    <ul>
+                        <li>{{trans('caracteristicas.Login_to_admin')}}</li>
+                        <li>{{trans('caracteristicas.Go_to_your_settings_menu_general_settings')}}</li>
+                        <li>{{trans('caracteristicas.Select_text_align_option_as_you_needed')}}</li>
+                        <li>{{trans('caracteristicas.Save_settings_and_you_will_see_the_text_alignment_as_you_have_selected_changed')}}</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xdog.png.pagespeed.ic.Ga_lvw8zSc.png" alt="" pagespeed_url_hash="473355468">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+@stop()
+
+@section('')
+    <div class="content-section-a" id="jump2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Cuenta - Representante permite</h2>
+                    <ul>
+                        <li>Ver perfil del profesor</li>
+                        <li>Ver las marcas y asistencias propia del niño y otras observaciones de los maestros</li>
+                        <li>Ver rutina de la clase propia del niño</li>
+                        <li>Ver lista de facturas y pago propio del niño</li>
+                        <li>Realizar un pago en línea o fuera de línea</li>
+                        <li>El pago en línea se puede pagar a través de  [ paypal]</li>
+                        <li>Vista de la biblioteca y el estado del libro</li>
+                        <li>Ver el estado transportaion escuela y rutas</li>
+                        <li>Ver tablón de anuncios de la escuela y los eventos en el calendario</li>
+                        <li>Gestionar propio perfil</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xipad.png.pagespeed.ic.Hj9CKpLnDh.png" alt="" pagespeed_url_hash="1068595440">
+                </div>
+            </div>
+        </div>
+       <!-- /.container -->
+    </div>
+@stop
+
+@section('')
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Cuenta - Estudiante permite:</h2>
+                    <ul>
+                        <li>Ver perfil del profesor</li>
+                        <li>Ver los sujetos de clase propias</li>
+                        <li>Ver propias marcas y asistencias</li>
+                        <li>Ver rutina de la clase</li>
+                        <li>Ver factura y lista de pagos</li>
+                        <li>Realizar un pago en línea o fuera de línea</li>
+                        <li>El pago en línea se puede pagar a través de  [ paypal]</li>
+                        <li>Vista de la biblioteca y el estado del libro</li>
+                        <li>Ver el estado transportaion escuela y rutas</li>
+                        <li>Lista Ver dormitorio y su estado</li>
+                        <li>Ver tablón de anuncios de la escuela y los eventos en el calendario</li>
+                        <li>Gestionar propio perfil</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xdog.png.pagespeed.ic.Ga_lvw8zSc.png" alt="" pagespeed_url_hash="473355468">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+@stop
+
+@section('')
+    <div class="content-section-a" id="jump2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Cuenta - Representante permite</h2>
+                    <ul>
+                        <li>Ver perfil del profesor</li>
+                        <li>Ver las marcas y asistencias propia del niño y otras observaciones de los maestros</li>
+                        <li>Ver rutina de la clase propia del niño</li>
+                        <li>Ver lista de facturas y pago propio del niño</li>
+                        <li>Realizar un pago en línea o fuera de línea</li>
+                        <li>El pago en línea se puede pagar a través de  [ paypal]</li>
+                        <li>Vista de la biblioteca y el estado del libro</li>
+                        <li>Ver el estado transportaion escuela y rutas</li>
+                        <li>Ver tablón de anuncios de la escuela y los eventos en el calendario</li>
+                        <li>Gestionar propio perfil</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xipad.png.pagespeed.ic.Hj9CKpLnDh.png" alt="" pagespeed_url_hash="1068595440">
+                </div>
+            </div>
+        </div>
+       <!-- /.container -->
+    </div>
+@stop
+
+@section('')
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Cuenta - Estudiante permite:</h2>
+                    <ul>
+                        <li>Ver perfil del profesor</li>
+                        <li>Ver los sujetos de clase propias</li>
+                        <li>Ver propias marcas y asistencias</li>
+                        <li>Ver rutina de la clase</li>
+                        <li>Ver factura y lista de pagos</li>
+                        <li>Realizar un pago en línea o fuera de línea</li>
+                        <li>El pago en línea se puede pagar a través de  [ paypal]</li>
+                        <li>Vista de la biblioteca y el estado del libro</li>
+                        <li>Ver el estado transportaion escuela y rutas</li>
+                        <li>Lista Ver dormitorio y su estado</li>
+                        <li>Ver tablón de anuncios de la escuela y los eventos en el calendario</li>
+                        <li>Gestionar propio perfil</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/educativo-page/img/xdog.png.pagespeed.ic.Ga_lvw8zSc.png" alt="" pagespeed_url_hash="473355468">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+@stop()
