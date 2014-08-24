@@ -7,7 +7,7 @@
     	<meta name="description" content="">
     	<meta name="author" content="">
 
-    	<title>Eduktivo Sistema De Control De Procesos Escolares</title>
+    	<title>{{trans('titulos.Educational_institute_management_system')}}</title>
 
     	<!-- Bootstrap Core CSS -->
     	<link href="{{asset('themes/eduktivo-page/css/bootstrap.min.css')}}" rel="stylesheet">
