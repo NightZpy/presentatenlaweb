@@ -5,12 +5,13 @@
     	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>{{trans('titulos.Software_Development_Company')}}</title>
+      <link rel="shortcut icon" href="{{asset('themes/meilleur/favicon.png')}}">
     	
 		<!-- Stylesheets -->
-    	<link type="text/css" href="{{asset('themes/meilleur/css/bootstrap.css')}}" rel="stylesheet">
+    	<link type="text/css" href="{{asset('themes/meilleur/css/bootstrap.css')}}" rel="stylesheet">      
     	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,500italic,500,300italic,300'
     	rel='stylesheet' type='text/css'>
-		<link type="text/css" href="{{asset('themes/meilleur/icons/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> 
     	<link type="text/css" href="{{asset('themes/meilleur/icons/rondo/style.css')}}" rel="stylesheet">
     	<link href="{{asset('themes/meilleur/css/jquery.fancybox.css')}}" rel="stylesheet" type="text/css" />
     	<link type="text/css" href="{{asset('themes/meilleur/css/style.css')}}" rel="stylesheet">
@@ -27,7 +28,7 @@
                        		<span class="icon-bar"></span><span class="icon-bar"></span>
                    		</button>
                  		<a class="navbar-brand" href="#">
-                      		<img src="{{asset('themes/meilleur/img/logo.png')}}" alt="" />
+                      		<div id="logo"></div>
                   		</a>
               		</div>
   

@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+.radius-p {
+    border-radius: 50%;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
