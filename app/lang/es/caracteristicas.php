@@ -95,5 +95,12 @@
         "You_will_see_20_language_pack_is_installed_in_your_admin_panel"=>"Verá 20 + paquete de idioma se instala en el panel de administración
 ",
         "Simply_and_easily_make_the_software_your_native"=>"Simple y fácil de hacer que el software de su nativa!",
+        
+
+        "Text_alignment_can_be_changed_from_adminpanel_settings_menu"=>"Alineación del texto se puede cambiar desde el menú de configuración AdminPanel",
+        "Login_to_admin"=>"Accede al administrador",
+        "Go_to_your_settings_menu_general_settings"=>"Ir a la configuración por menú> Ajustes generales",
+        "Select_text_align_option_as_you_needed"=>"Seleccione la opción de alineación de texto como lo necesitaba",
+        "Save_settings_and_you_will_see_the_text_alignment_as_you_have_selected_changed"=>"Guardar la configuración y verá la alineación del texto como usted ha seleccionado cambiado",
 	);
 ?>
