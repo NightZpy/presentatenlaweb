@@ -6,7 +6,7 @@ return array(
 	"Contact_Us"=>"Contactenos",
 	"Home"=>"Inicio",
 	"Services"=>"Servicios",
-	"Portfolio"=>"Portfafolio",
+	"Portfolio"=>"Nuestro software",
     "Pricing"=>"Precios",
 	"Contact_Us"=>"Contáctenos",
 	"languages"=>"Idiomas",
