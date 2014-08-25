@@ -39,7 +39,7 @@
                     	<span class="icon-bar"></span>
                     	<span class="icon-bar"></span>
                 	</button>
-                	<a class="navbar-brand" href="#jump1">Start Bootstrap</a>
+                	<a class="navbar-brand" href="#jump1">Educativo</a>
             	</div>
             	<!-- Collect the nav links, forms, and other content for toggling -->
             	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -76,10 +76,10 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">{{trans('enlaces.demo')}}</span></a>
                             </li>
                             <li>
-                           		<a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                           		<a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">{{trans('enlaces.purchase')}}</span></a>
                             </li>
                         </ul>
                     </div>
