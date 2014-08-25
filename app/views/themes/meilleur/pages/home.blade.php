@@ -231,7 +231,7 @@
                 </li>
 
                 <li class="mix desktop">
-
+                    <a href="/eduktivo" target="_blank">
                     <div>
 
                         <div class="media-thumb">
@@ -255,7 +255,7 @@
                         </div>
 
                     </div>
-
+                    </a>
                 </li>
 
                 <li class="mix tablet">
