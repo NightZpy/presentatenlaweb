@@ -154,7 +154,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/eduktivo-page/img/eduktivo/Panel_Docente.png" alt="" pagespeed_url_hash="1068595440">
+                    <img class="img-responsive" src="{{asset('themes/eduktivo-page/img/eduktivo/Panel_Docente.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -186,7 +186,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/eduktivo-page/img/eduktivo/Panel_de_estudiante.png" alt="" pagespeed_url_hash="473355468">
+                    <img class="img-responsive" src="{{asset('themes/eduktivo-page/img/eduktivo/Panel_de_estudiante.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -216,7 +216,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/eduktivo-page/img/eduktivo/Panel_Representante.png" alt="" pagespeed_url_hash="1068595440">
+                    <img class="img-responsive" src="{{asset('themes/eduktivo-page/img/eduktivo/Panel_Representante.png')}}" alt="">
                 </div>
             </div>
         </div>
