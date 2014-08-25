@@ -15,7 +15,7 @@ return array(
 	"Responsive_Layout" => "Diseño sensible (Responsivo)", 
 	"Built_Using_Bootstrap_3"=>"Construimos usando Bootstrap 3",
 	"Get_To_Know_Us"=>"Conózcanos",
-	"FEATURED_WORKS"=>"Trabajos Destacados",
+	"FEATURED_WORKS"=>"Desarrollos",
 	"Exceptional_Work"=>"Proyectos Excepcionales Realizados",
 	"Pricing_Plans" =>"Planes de Precios",
 	"Our_Pricing_Packages" => "Nuestros paquetes de Precios",
@@ -36,6 +36,7 @@ return array(
     "Backup_restore"=>"Restaurar copia de seguridad",
     "Source_code_structure"=>"Estructura del código fuente",
     "Educational_institute_management_system"=>"Sistema De Control De Procesos Escolares",
+    "Eduktivo"=>"Eduktivo",
 );
 
 ?>
