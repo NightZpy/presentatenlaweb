@@ -33,7 +33,7 @@
 		"Create_your_own_language_and_convert_the_language_phrases_easily"=>"Agrega idiomas o lenguajes y escoge tu mismo las traducciones pertinentes",
 		"Create_backup_and_restore_anytime"=>"Crear copia de seguridad y restaurar en cualquier momento",
 		"Manage_own_profile"=>"Gestión de perfil",
-		"Access_account_from_anywhere_by_any_device_like_desktop_laptop_smartphone_and_tablet"=>"Acceso desde cualquier lugar usando cualquier dispositivo: escritorio, portátil, smartphone y tableta",
+		"Access_account_from_anywhere_by_any_device_like_desktop_laptop_smartphone_and_tablet"=>"Acceso desde cualquier ligar usando cualquier dispositivo: escritorio, portátil, smartphone y tableta",
         
         
         "Manage_students_class_group_wise"=>"Gestionar los estudiantes por clase/grupo.",
