@@ -14,5 +14,6 @@ return array(
     "requesting"=>"Solicitando",
     "ready"=>"Listo",
     "request"=>"Solicitar",
+    "send_your_request"=>"Envíe su solicitud",
 );
 ?>
