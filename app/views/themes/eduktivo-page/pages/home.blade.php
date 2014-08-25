@@ -84,34 +84,33 @@
     <div class="content-section-a">
         <div class="container">
             <div class="row" id="message">
-                <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none;"><p class="bg-danger text-center">Hubo un problema al enviar los datos, intente otra vez.</p></div>
+                <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none;"><p class="bg-danger text-center"  {{trans('formulario.message1')}}</p></div>
                 <div class="clearfix"></div>
-                <div id="success" class="col-lg-9 radius-p" style="display: none;"><p class="bg-success text-center">Sus datos han sido procesado exitosamente, hemos enviado un correo de respuesta a la dirección e-mail suministrada.</p></div>
+                <div id="success" class="col-lg-9 radius-p" style="display: none;"><p class="bg-success text-center">{{trans('formulario.message2')}}</p></div>
             </div>        
             <div class="row">                
                 <form id="frmContactBuy" class="form-inline" role="form" action="#" method="post">
                     <input type="hidden" name="software" value="eduktivo">  
-                    <input type="hidden" id="btnRequesting" value="Solicitando">
-                    <input type="hidden" id="btnRequested" value="Listo">
-                    <input type="hidden" id="btnRequest" value="Solicitar">                        
+                    <input type="hidden" id="btnRequesting" value={{trans('formulario.requesting')}}>
+                    <input type="hidden" id="btnRequested" value={{trans('formulario.ready')}}>
+                    <input type="hidden" id="btnRequest" value={{trans('formulario.request')}}>                        
 
                     <div class="form-group">
                         <div class="input-group">
                             <span id="error-name" class="input-group-addon" data-toggle="tooltip"><i class="icon-user"></i></span>
-                            <input class="form-control input-lg" type="text" id="name" name="name" placeholder="Ingresar nombre">
-                            
+                            <input class="form-control input-lg" type="text" id="name" name="name" placeholder={{trans('formulario.Your_Name')}}>                           
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="input-group">                                
                             <div class="input-group-addon"><i class="icon-envelope"></i></div>
-                            <input class="form-control input-lg" type="email" id="email" name="email" placeholder="Ingresar e-mail" data-toggle="tooltip">
+                            <input class="form-control input-lg" type="email" id="email" name="email" placeholder={{trans('formulario.Your_Email')}} data-toggle="tooltip">
                         </div>                            
                     </div>
                     <div class="form-group">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="icon-phone"></i></span>
-                            <input class="form-control input-lg" type="phone" id="phone" name="phone" placeholder="Ingresar teléfono" data-toggle="tooltip">
+                            <input class="form-control input-lg" type="phone" id="phone" name="phone" placeholder={{trans('formulario.Phone')}} data-toggle="tooltip">
                         </div>                            
                     </div>                                                              
                     <div class="form-group">
