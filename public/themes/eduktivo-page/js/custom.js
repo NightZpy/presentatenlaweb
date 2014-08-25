@@ -1,5 +1,5 @@
 $(function () {
-	//$('.navbar-nav a').smoothScroll();
+	$('.navbar-nav a').smoothScroll();
 
     $('#frmContactBuy input').tooltip();
 
