@@ -83,7 +83,7 @@
 @section('solicitar')
     <div class="content-section-b" id="formulario">
         <div class="container">
-            <h2 class="section-heading text-left">Envíe su solicitud:</h2>
+            <h2 class="section-heading text-left">{{trans('formulario.send_your_request')}}</h2>
             <div class="row" id="message">
                 <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none;"><p class="bg-danger text-center"  {{trans('formulario.error_contact_eduktivo')}}</p></div>
                 <div class="clearfix"></div>
