@@ -156,7 +156,7 @@
                     {{trans('textos.Exceptional_Work')}}
                 </div>
             </div>
-            <div class="gallery-control">
+          <!-- <div class="gallery-control">
                 <div data-toggle="buttons">
                     <label class="btn btn-outline filter active" data-filter="phone tablet desktop">
                         <input type="radio" name="options" id="option1">
@@ -176,15 +176,15 @@
                     </label>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="mixitup">
             <ul id="portfolio" class="unstyled">
                 <li class="mix phone">
-                    <div>
+                    <!--<div>
                         <div class="media-thumb">
                             <a href="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg" class="folio"><img src="http://www.egrappler.com/meilleur/img/portfolio/place-7.jpg"/>
-                            <!--<div class="media-desc">
+                            <div class="media-desc">
                                 <div>
                                     <p>
                                         <b>A Project</b></p>
@@ -192,15 +192,15 @@
                                         The generated Lorem Ipsum is therefore always free from repetition, injected humour,
                                         or non-characteristic words etc.</div>
                                 </div>
-                            </div>-->
+                            </div>
                             </a>
                         </div>
-                    </div>
+                    </div>-->
                 </li>
 
                 <li class="mix tablet">
 
-                    <div>
+                    <!--<div>
 
                         <div class="media-thumb">
 
@@ -226,17 +226,17 @@
 
                         </div>
 
-                    </div>
+                    </div>-->
 
                 </li>
 
                 <li class="mix desktop">
-
+                    <a href="/eduktivo" target="_blank">
                     <div>
 
                         <div class="media-thumb">
 
-                            <img src="http://www.egrappler.com/meilleur/img/portfolio/place-3.jpg">
+                            <img src="{{asset('themes/eduktivo-page/img/eduktivo/Panel_Administrativo.png')}}">
 
                             <div class="media-desc">
 
@@ -244,14 +244,10 @@
 
                                     <p>
 
-                                        <b>A Project</b></p>
+                                        <b>{{trans('titulos.Eduktivo')}}</b></p>
 
                                     <div>
-
-                                        The generated Lorem Ipsum is therefore always free from repetition, injected humour,
-
-                                        or non-characteristic words etc.</div>
-
+                                        {{trans('textos.Educativo')}}
                                 </div>
 
                             </div>
@@ -259,12 +255,12 @@
                         </div>
 
                     </div>
-
+                    </a>
                 </li>
 
                 <li class="mix tablet">
 
-                    <div>
+                    <!--<div>
 
                         <div class="media-thumb">
 
@@ -290,13 +286,13 @@
 
                         </div>
 
-                    </div>
+                    </div>-->
 
                 </li>
 
                 <li class="mix tablet">
 
-                    <div>
+                    <!--<div>
 
                         <div class="media-thumb">
 
@@ -322,13 +318,13 @@
 
                         </div>
 
-                    </div>
+                    </div>>-->
 
                 </li>
 
                 <li class="mix tablet">
 
-                    <div>
+                    <!--<div>
 
                         <div class="media-thumb">
 
@@ -354,13 +350,13 @@
 
                         </div>
 
-                    </div>
+                    </div>-->
 
                 </li>
 
                 <li class="mix tablet">
 
-                    <div>
+                    <!--<div>
 
                         <div class="media-thumb">
 
@@ -386,13 +382,13 @@
 
                         </div>
 
-                    </div>
+                    </div>-->
 
                 </li>
 
                 <li class="mix phone">
 
-                    <div>
+                    <!--<div>
 
                         <div class="media-thumb">
 
@@ -418,13 +414,13 @@
 
                         </div>
 
-                    </div>
+                    </div>-->
 
                 </li>
 
                 <li class="mix tablet">
 
-                    <div>
+                    <!--<div>
 
                         <div class="media-thumb">
 
@@ -450,13 +446,13 @@
 
                         </div>
 
-                    </div>
+                    </div>-->
 
                 </li>
 
                 <li class="mix desktop">
 
-                    <div>
+                    <!--<div>
 
                         <div class="media-thumb">
 
@@ -482,7 +478,7 @@
 
                         </div>
 
-                    </div>
+                    </div>-->
 
                 </li>
 

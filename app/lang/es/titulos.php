@@ -15,7 +15,7 @@ return array(
 	"Responsive_Layout" => "Diseño sensible (Responsivo)", 
 	"Built_Using_Bootstrap_3"=>"Construimos usando Bootstrap 3",
 	"Get_To_Know_Us"=>"Conózcanos",
-	"FEATURED_WORKS"=>"Trabajos Destacados",
+	"FEATURED_WORKS"=>"Desarrollos",
 	"Exceptional_Work"=>"Proyectos Excepcionales Realizados",
 	"Pricing_Plans" =>"Planes de Precios",
 	"Our_Pricing_Packages" => "Nuestros paquetes de Precios",
@@ -26,16 +26,18 @@ return array(
     "teacher" => "Maestro",
     "student" => "Estudiante",
     "parent" => "Representante",
-    "account_administrator" => "Cuenta - Administrador permite:",
-    "account_teacher"=>"Cuenta - Profesor permite:",
-    "account_student"=>"Cuenta - Estudiante permite:",
-    "account_parent"=>"Cuenta - Representante permite",
+    "account_administrator" => "Acceso Administrativo, permite:",
+    "account_teacher"=>"Acceso Profesor, permite:",
+    "account_student"=>"Acceso Estudiante, permite:",
+    "account_parent"=>"Acceso  Representante, permite",
     "Convert_to_your_language"=>"Tradicir a tu idioma",
     "Import_language_pack"=>"Importar paquete de idioma",
     "Right_To_Left_text_align_option"=>"Derecho a la opción de alineación de texto Izquierda",
     "Backup_restore"=>"Restaurar copia de seguridad",
     "Source_code_structure"=>"Estructura del código fuente",
     "Educational_institute_management_system"=>"Sistema De Control De Procesos Escolares",
+    "Eduktivo"=>"Eduktivo",
+    "All_Rights_Reserved"=>"Todos los derechos reservados"
 );
 
 ?>

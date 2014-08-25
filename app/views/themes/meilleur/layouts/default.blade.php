@@ -81,7 +81,7 @@
                             	<h1>Preséntate en La Web</h1>
                             	<p></p>
                         	</div>
-                        	<a href="#jump2" class="btn btn-outline btn-lg">{{trans('enlaces.Our_Portfolio')}}</a>&nbsp; 
+                        	<a href="#jump2" class="btn btn-outline btn-lg">{{trans('enlaces.Portfolio')}}</a>&nbsp; 
 							<a href="#jump6" class="btn btn-outline btn-lg">{{trans('enlaces.Contact_Us')}}</a>
                     	</div>
                 	</div>
@@ -114,7 +114,7 @@
         	<div class="container">
             	<div class="row">
                 	<div class="col-lg-12">
-                   		 &copy; Copyright  by presentatenlaweb.com - All Rights Reserved.</a>
+                   		 &copy; Copyright  by presentatenlaweb.com - {{trans('titulos.All_Rights_Reserved')}}.</a>
                 	</div>
             	</div>
         	</div>

@@ -41,7 +41,6 @@
 						<li>{{trans('caracteristicas.view_ID_card_of_student')}}</li>
 						<li>{{trans('caracteristicas.Manage_teacher_profile')}}</li>
 						<li>{{trans('caracteristicas.Add_edit_delete_teacher_information')}}</li>
-                        <li>{{trans('caracteristicas.Manage_parent_according_to_student_classwise')}}</li>
 						<li>{{trans('caracteristicas.Create_edit_delete_parent_information')}}</li>
                         <li>{{trans('caracteristicas.Create_edit_delete_class_group_for_students')}}</li>
 						<li>{{trans('caracteristicas.Create_edit_delete_subjects_here_from_subject_menu')}}</li>
@@ -63,7 +62,7 @@
 						
 						<li>{{trans('caracteristicas.Notices_are_visible_in_calendar_in_dashboard')}}</li>
                         <li>{{trans('caracteristicas.Edit_system_settings')}}</li>
-                        <li>{{trans('caracteristicas.Paypal_email_in_system_settings_is_paypal_payment_gateway_for_student_invoice_online_payments')}}</li>
+                        <li>{{trans('caracteristicas.Paypal_payment')}}</li>
                         <li>{{trans('caracteristicas.Manage_language_of_the_software')}}</li>
                         <li>{{trans('caracteristicas.Create_your_own_language_and_convert_the_language_phrases_easily')}}</li>
                         <li>{{trans('caracteristicas.Create_backup_and_restore_anytime')}}</li>
