@@ -81,7 +81,7 @@
 @stop()
 
 @section('solicitar')
-    <div class="content-section-a">
+    <div class="content-section-b" id="formulario">
         <div class="container">
             <div class="row" id="message">
                 <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none;"><p class="bg-danger text-center"  {{trans('formulario.message1')}}</p></div>
