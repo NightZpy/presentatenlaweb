@@ -17,6 +17,8 @@ return array(
     "account_teacher"=>"Cuenta - Profesor",
     "account_student"=>"Cuenta - Estudiante",
     "account_parent"=>"Cuenta - Representante",
+    "demo"=>"Demo",
+    "purchase"=>"Adquirir",
 );
 
 ?>
