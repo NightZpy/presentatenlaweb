@@ -41,7 +41,7 @@
                     	<span class="icon-bar"></span>
                     	<span class="icon-bar"></span>
                 	</button>
-                	<a class="navbar-brand" href="#jump1">Educativo</a>
+                	<a class="navbar-brand" href="#jump1">Eduktivo</a>
             	</div>
             	<!-- Collect the nav links, forms, and other content for toggling -->
             	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -72,7 +72,7 @@
         	<div class="row">
             	<div class="col-lg-12">
                		<div class="intro-message">
-                   		<h1>Educativo</h1>
+                   		<h1>Eduktivo</h1>
                         <h3>{{trans('titulos.Educational_institute_management_system')}}</h3>
                         <p>{{trans('textos.Educativo')}}</p>
                         <hr class="intro-divider">
