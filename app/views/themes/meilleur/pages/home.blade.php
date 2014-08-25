@@ -1220,7 +1220,7 @@
     <div class="container">
         <div class="section-headlines">
             <h4>{{trans('titulos.Contact_Us')}}</h2>
-            <h2>{{trans('titulos.have_a_coffee')}}</h2>
+            <h2 style="color: #888;">{{trans('titulos.have_a_coffee')}}</h2>
         </div>
             <div class="row">
                 <div class="col-lg-2">
@@ -1260,9 +1260,8 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="{{trans('formulario.Your_Name')}} *"><br class="gap-15" />
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="{{trans('formulario.Your_Name')}} *">
                                     <label for="name" id="name-error"></label>
-                                    <br class="gap-15" />
                                 </div>
                                 <div class="col-lg-6">
                                     <input type="text" class="form-control" id="email" name="email" placeholder="{{trans('formulario.Your_Email')}} *">

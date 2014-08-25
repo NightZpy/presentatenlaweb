@@ -1,9 +1,6 @@
 $(function () {
-<<<<<<< HEAD
-	$('.navbar-nav a').smoothScroll();
-=======
     //$('.navbar-nav a').smoothScroll();
->>>>>>> db4c021151c52281c67d8e3158ff24cbe3361656
+
 
     $('#frmContactBuy input').tooltip();
 
@@ -65,11 +62,5 @@ $(function () {
                 $('#error').show();
             }
         });
-
-<<<<<<< HEAD
     });	
 });
-=======
-    }); 
-});
->>>>>>> db4c021151c52281c67d8e3158ff24cbe3361656

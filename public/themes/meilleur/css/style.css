@@ -386,6 +386,7 @@ label {
   background: #2a333b;
   color: #a5b3bf;
 }
+
 .section.type-1 h1,
 .section.type-1 h2,
 .section.type-1 h3,
@@ -397,7 +398,7 @@ label {
   color: #fff;
 }
 .section.type-1 h4 {
-  color: #a5b3bf;
+  color: #777;
   border-color: #313b44;
 }
 .section.type-1 hr {
@@ -425,7 +426,7 @@ label {
   background: #fff;
 }
 .section.type-3 {
-  background: #f0f2f4;
+  background: #1243;
 }
 .section.big {
   height: 100%;

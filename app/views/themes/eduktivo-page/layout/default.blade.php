@@ -60,7 +60,7 @@
                     	</li>
                         <li><a href="#jump6">{{trans('enlaces.account_parent')}}</a></li>
                         
-                        <li><a href="#jump6">{{trans('enlaces.purchase')}}</a></li>
+                        <li><a href="#formulario">{{trans('enlaces.purchase')}}</a></li>
                 	</ul>
             	</div>
             	<!-- /.navbar-collapse -->
