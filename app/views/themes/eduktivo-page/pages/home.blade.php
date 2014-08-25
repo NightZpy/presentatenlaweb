@@ -84,9 +84,9 @@
     <div class="content-section-b" id="formulario">
         <div class="container">
             <div class="row" id="message">
-                <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none;"><p class="bg-danger text-center"  {{trans('formulario.message1')}}</p></div>
+                <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none;"><p class="bg-danger text-center"  {{trans('formulario.error_contact_eduktivo')}}</p></div>
                 <div class="clearfix"></div>
-                <div id="success" class="col-lg-9 radius-p" style="display: none;"><p class="bg-success text-center">{{trans('formulario.message2')}}</p></div>
+                <div id="success" class="col-lg-9 radius-p" style="display: none;"><p class="bg-success text-center">{{trans('formulario.success_contact_eduktivo')}}</p></div>
             </div>        
             <div class="row">                
                 <form id="frmContactBuy" class="form-inline" role="form" action="#" method="post">
