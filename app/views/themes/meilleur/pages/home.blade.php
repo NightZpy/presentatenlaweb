@@ -1216,7 +1216,7 @@
 <div id="jump6" class="jumper">
 </div>
 
-<div class="section type-1 section-contact">
+<div class="section type-2 section-contact">
     <div class="container">
         <div class="section-headlines">
             <h4>{{trans('titulos.Contact_Us')}}</h2>
