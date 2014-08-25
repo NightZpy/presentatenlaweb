@@ -15,7 +15,7 @@ return array(
 	Nuestros clientes vienen a nosotros con un paquete único de necesidades. Nosotros los entendemos y luego empezamos a trabajar para convertir esas necesidades y requerimientos complejos en productos simples y eficientes. Nuestro trabajo consiste en hacer frente a la complejidad del proceso de trabajo; ofreciendo a nuestros clientes y los usuarios finales de nuestros proyectos la experiencia más intuitiva y fácil de usar! Nos encanta hacer cosas complejas más fácil.
 ",
 	"Exceptional_Work" => "Trabajamos con nuestros clientes de una manera interactiva para definir los proyectos, así como los principios bajo los cuales vamos a trabajar juntos.",
-	"educativo" => "Sistema de gestión para todos los tipos de instituciones educativas como escuelas y colegios. Integra y facilita 
+	"educativo" => "Sistema de gestión para todo tipo de instituciones educativas como escuelas y colegios. Integra y facilita 
 4 tipos de cuentas de usuario:",
    "Educativo"=>"Educativo te ayudará a gestionar eficientemente el trabajo de todo tipos de instituciones educativas"
 );
