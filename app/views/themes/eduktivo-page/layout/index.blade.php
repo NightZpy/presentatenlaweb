@@ -8,16 +8,18 @@
     	<meta name="author" content="">
 
     	<title>{{trans('titulos.Educational_institute_management_system')}}</title>
+        <link rel="shortcut icon" href="{{asset('themes/meilleur/favicon.png')}}">
 
-    	<!-- Bootstrap Core CSS -->
-    	<link href="{{asset('themes/eduktivo-page/css/bootstrap.min.css')}}" rel="stylesheet">
+        <!-- Bootstrap Core CSS -->
+        <link href="{{asset('themes/eduktivo-page/css/bootstrap.min.css')}}" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">        
 
-    	<!-- Custom CSS -->
-    	<link href="{{asset('themes/eduktivo-page/css/landing-page.css')}}" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="{{asset('themes/eduktivo-page/css/landing-page.css')}}" rel="stylesheet">
 
-    	<!-- Custom Fonts -->
-    	<link href="{{asset('themes/eduktivo-pagefont-awesome-4.1.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
-    	<link href="http://foassetnts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <!-- Custom Fonts -->
+        <!-- <link href="{{asset('themes/eduktivo-pagefont-awesome-4.1.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css"> -->
+        <link href="http://foassetnts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
