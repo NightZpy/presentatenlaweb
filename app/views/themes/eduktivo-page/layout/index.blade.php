@@ -39,24 +39,24 @@
                     	<span class="icon-bar"></span>
                     	<span class="icon-bar"></span>
                 	</button>
-                	<a class="navbar-brand" href="#">Start Bootstrap</a>
+                	<a class="navbar-brand" href="#jump1">Start Bootstrap</a>
             	</div>
             	<!-- Collect the nav links, forms, and other content for toggling -->
             	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 	<ul class="nav navbar-nav navbar-right">
                     	<li>
-                        	<a href="#jump1">{{trans('enlaces.feature')}}</a>
+                        	<a href="#jump2">{{trans('enlaces.feature')}}</a>
                     	</li>
                     	<li>
-                        	<a href="#jump2">{{trans('enlaces.account_manager')}}</a>
+                        	<a href="#jump3">{{trans('enlaces.account_manager')}}</a>
                     	</li>
                     	<li>
-                        	<a href="#jump3">{{trans('enlaces.account_teacher')}}</a>
+                        	<a href="#jump4">{{trans('enlaces.account_teacher')}}</a>
                     	</li>
                     	<li>
-                        	<a href="#jump4">{{trans('enlaces.account_student')}}</a>
+                        	<a href="#jump5">{{trans('enlaces.account_student')}}</a>
                     	</li>
-                        <li><a href="#jump5">{{trans('enlaces.account_parent')}}</a></li>
+                        <li><a href="#jump6">{{trans('enlaces.account_parent')}}</a></li>
                 	</ul>
             	</div>
             	<!-- /.navbar-collapse -->
