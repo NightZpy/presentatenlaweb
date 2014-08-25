@@ -26,7 +26,7 @@
 @stop()
 
 @section('cuenta_administrador')
-	<div class="content-section-b">
+	<div class="content-section-b" id="jump3">
     	<div class="container">
         	<div class="row">
             	<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -127,7 +127,7 @@
 @stop()
 
 @section('cuenta_profesor')
-<div class="content-section-a" id="jump2">
+<div class="content-section-a" id="jump4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
@@ -164,7 +164,7 @@
 @stop
 
 @section('cuenta_estudiante')
-    <div class="content-section-b">
+    <div class="content-section-b" id="jump5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -196,7 +196,7 @@
 @stop
 
 @section('cuenta_representante')
-    <div class="content-section-a" id="jump2">
+    <div class="content-section-a" id="jump6">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
@@ -225,82 +225,4 @@
     </div>
 @stop()
 
-@section('elegir_idioma')
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{trans('titulos.Convert_to_your_language')}}</h2>
-                    <p class="lead">{{trans('caracteristicas.Converting_the_software_to_your_native_language_is_so_easy_Follow_these_steps')}}</p>
-                    <ul>
-                        <li>{{trans('caracteristicas.Login_to_administrative_panel')}}</li>
-                        <li>{{trans('caracteristicas.Go_to_settings_manage_language')}}</li>
-                        <li>{{trans('caracteristicas.You_can_add_delete_any_language_to_the_database')}}</li>
-                        <li>{{trans('caracteristicas.Update_the_default_phrases_into_your_language_and_save_it')}}</li>
-                        <li>{{trans('caracteristicas.Simply_and_easily_make_the_software_your_native')}}</li>
-                    </ul>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/eduktivo-page/img/xdog.png.pagespeed.ic.Ga_lvw8zSc.png" alt="" pagespeed_url_hash="473355468">
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-@stop()
-
-@section('importar_paquete_de_idioma')
-    <div class="content-section-a" id="jump2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{trans('titulos.Import_language_pack')}}</h2>
-                    <p class="lead">{{trans('caracteristicas.From_version_there_are_20_language_pack_available_Follow_these_steps_to_import_language_pac')}}</p>
-                    <ul>
-                        <li>{{trans('caracteristicas.')}}</li>
-                        <li>{{trans('caracteristicas.Login_to_phpmyadmin')}}</li>
-                        <li>{{trans('caracteristicas.Go_to_your_database_where_you_have_installed_this_script')}}</li>
-                        <li>{{trans('caracteristicas.Go_to_import_menu_in_right_side')}}</li>
-                        <li>{{trans('caracteristicas.Upload_the_language_sql_file_from_uploads_directory_and_import_it')}}</li>
-                        <li>{{trans('caracteristicas.You_will_see_20_language_pack_is_installed_in_your_admin_panel')}}</li>
-                        <li>{{trans('caracteristicas.Simply_and_easily_make_the_software_your_native')}}</li>
-                    </ul>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/eduktivo-page/img/xipad.png.pagespeed.ic.Hj9CKpLnDh.png" alt="" pagespeed_url_hash="1068595440">
-                </div>
-            </div>
-        </div>
-       <!-- /.container -->
-    </div>
-@stop()
-
-@section('alineacion_de_texto')
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{trans('titulos.Right_To_Left_text_align_option')}}</h2>
-                    <p class="lead">{{trans('caracteristicas.Text_alignment_can_be_changed_from_adminpanel_settings_menu')}}</p>
-                    <ul>
-                        <li>{{trans('caracteristicas.Login_to_admin')}}</li>
-                        <li>{{trans('caracteristicas.Go_to_your_settings_menu_general_settings')}}</li>
-                        <li>{{trans('caracteristicas.Select_text_align_option_as_you_needed')}}</li>
-                        <li>{{trans('caracteristicas.Save_settings_and_you_will_see_the_text_alignment_as_you_have_selected_changed')}}</li>
-                    </ul>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="http://presentatenlaweb.nightzpy.com:8080/themes/eduktivo-page/img/xdog.png.pagespeed.ic.Ga_lvw8zSc.png" alt="" pagespeed_url_hash="473355468">
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-@stop()
 
