@@ -79,7 +79,7 @@
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">{{trans('enlaces.demo')}}</span></a>
                             </li>
                             <li>
-                           		<a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">{{trans('enlaces.purchase')}}</span></a>
+                           		<a href="#formulario" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">{{trans('enlaces.purchase')}}</span></a>
                             </li>
                         </ul>
                     </div>
