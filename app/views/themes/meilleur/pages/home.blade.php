@@ -109,25 +109,25 @@
                     <div class="skills">
                         <p>{{ trans('titulos.HTML5_and_CSS3') }}</p>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
                             </div>
                         </div>
                         <hr>
                         <p>{{ trans('titulos.Mobile_Apps_Development') }}</p>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                             </div>
                         </div>
                         <hr>
                         <p>{{ trans('titulos.Software_Development') }}</p>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
                             </div>
                         </div>
                         <hr>
                         <p>{{ trans('titulos.Javascript') }}</p>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
                             </div>
                         </div>
                     </div>
@@ -1220,7 +1220,7 @@
     <div class="container">
         <div class="section-headlines">
             <h4>{{trans('titulos.Contact_Us')}}</h2>
-            <h2>{{trans('titulos.have_a_coffee')}}</h2>
+            <h2 style="color: #888;">{{trans('titulos.have_a_coffee')}}</h2>
         </div>
             <div class="row">
                 <div class="col-lg-2">
@@ -1260,9 +1260,8 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="{{trans('formulario.Your_Name')}} *"><br class="gap-15" />
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="{{trans('formulario.Your_Name')}} *">
                                     <label for="name" id="name-error"></label>
-                                    <br class="gap-15" />
                                 </div>
                                 <div class="col-lg-6">
                                     <input type="text" class="form-control" id="email" name="email" placeholder="{{trans('formulario.Your_Email')}} *">

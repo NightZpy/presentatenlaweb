@@ -59,7 +59,7 @@
                     	</li>
                         <li><a href="#jump6">{{trans('enlaces.account_parent')}}</a></li>
                         
-                        <li><a href="#jump6">{{trans('enlaces.purchase')}}</a></li>
+                        <li><a href="#formulario">{{trans('enlaces.purchase')}}</a></li>
                 	</ul>
             	</div>
             	<!-- /.navbar-collapse -->
@@ -79,7 +79,7 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">{{trans('enlaces.demo')}}</span></a>
+                                <a href="http://eduktivo.presentatenlaweb.com/index.php" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">{{trans('enlaces.demo')}}</span></a>
                             </li>
                             <li>
                            		<a href="#formulario" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">{{trans('enlaces.purchase')}}</span></a>

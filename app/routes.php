@@ -84,7 +84,7 @@ Route::post('contactBuy', function ()
 	$rules = array(
 					'name' => 'required|alpha_num|digits_between:3,128',
 					'email' => 'required|email|unique:software_applications,email',
-					'phone' => 'required|digits_between:7,12',
+					'phone' => 'required|numeric|digits_between:7,12',
 					'software' => 'required|alpha',
 				);
 
