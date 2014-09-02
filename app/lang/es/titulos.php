@@ -37,7 +37,8 @@ return array(
     "Source_code_structure"=>"Estructura del código fuente",
     "Educational_institute_management_system"=>"Sistema De Control De Procesos Escolares",
     "Eduktivo"=>"Eduktivo",
-    "All_Rights_Reserved"=>"Todos los derechos reservados"
+    "All_Rights_Reserved"=>"Todos los derechos reservados",
+	"graphic_design"=>"Diseño Grafico",
 );
 
 ?>
