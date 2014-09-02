@@ -17,7 +17,8 @@ return array(
 	"Exceptional_Work" => "Trabajamos con nuestros clientes de una manera interactiva para definir los proyectos, así como los principios bajo los cuales vamos a trabajar juntos.",
 	"educativo" => "Sistema de gestión para todo tipo de instituciones educativas como escuelas y colegios. Integra y facilita 
 4 tipos de cuentas de usuario:",
-   "Educativo"=>"Educativo te ayudará a gestionar eficientemente el trabajo de todo tipo de instituciones educativas."
+   "Educativo"=>"Educativo te ayudará a gestionar eficientemente el trabajo de todo tipo de instituciones educativas.",
+   "graphic_design"=>"Ofrecemos diseño para cubrir  las diferentes necesidades de su empresa, desarrollo de Identidad corporativa, comunicación gráfica publicitaria, Diseño de logotipos. Damos valor tanto al diseño, la imagen, los soportes, etc. que la presencia corporativa de cualquier empresa exige, para que sus esfuerzos publicitarios se conviertan en resultados positivos en su balanza comercial.",
 );
 
 
