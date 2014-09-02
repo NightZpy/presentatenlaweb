@@ -371,4 +371,5 @@
             <!--end:.pricing-table-->
         </div>
     </div>
+	<br/>
 @stop()
