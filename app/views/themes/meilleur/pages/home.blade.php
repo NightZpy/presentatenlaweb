@@ -36,14 +36,14 @@
                             <div>{{ trans('textos.mobile_applications') }}</div>
                         </div>
                     </div>
-                    <!--<br class="gap-30">
+                    <br class="gap-30">
                     <div class="media">
                         <i class=" icon-bar-chart pull-left animated bounce"></i>
                         <div class="media-body">
-                            <h3>{{ trans('titulos.hosting _and_Domains') }}</h3>
-                            <div>{{ trans('textos.hosting _and_Domains') }}</div>
+                            <h3>{{ trans('titulos.graphic_design') }}</h3>
+                            <div>{{ trans('textos.graphic_design') }}</div>
                             </div>
-                       </div>-->
+                       </div>
 
                     <div class="visible-xs visible-sm">
                         <br class="gap-30">

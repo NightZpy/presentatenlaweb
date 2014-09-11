@@ -223,4 +223,152 @@
         <!-- /.container -->
 @stop()
 
-
+@section('precios')
+ <div class="section type-2">
+        <div class="container">
+            <div class="section-headlines">
+                <h4>
+                    Pricing Plans</h4>
+                <h2>
+                    Our Pricing Packages</h2>
+                <div>
+                    There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected humour, or randomised words which
+                    don't look even slightly believable.
+                </div>
+            </div>
+            <div class="pricing-plans row">
+                <div class="col-lg-3">
+                    <div class="plan radius3">
+                        <div class="plan-name">
+                            <h2>
+                                Beginner</h2>
+                            <p class="muted">
+                                Simple dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="plan-price">
+                            <b>$1</b> / month
+                        </div>
+                        <div class="plan-details">
+                            <div>
+                                <span class="icon-remove"></span>&nbsp; <b>Beginner</b> Feature
+                            </div>
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; Feature 2
+                            </div>
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; Paid Support
+                            </div>
+                        </div>
+                        <div class="plan-action">
+                            <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
+                        </div>
+                    </div>
+                    <div class="visible-xs visible-sm">
+                        <br class="gap-30">
+                        <hr class="gap-divider">
+                        <br class="gap-30">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="plan radius3">
+                        <div class="plan-name">
+                            <h2>
+                                Basic</h2>
+                            <p class="muted">
+                                Simple dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="plan-price">
+                            <b>$10</b> / month
+                        </div>
+                        <div class="plan-details">
+                            <div>
+                                <span class="icon-remove"></span>&nbsp; <b>Basic</b> Feature
+                            </div>
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; <b>Feature</b> Number 2
+                            </div>
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; <b>Free</b> Support
+                            </div>
+                        </div>
+                        <div class="plan-action">
+                            <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
+                        </div>
+                    </div>
+                    <div class="visible-xs visible-sm">
+                        <br class="gap-30">
+                        <hr class="gap-divider">
+                        <br class="gap-30">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="plan plan-featured radius3">
+                        <div class="plan-name">
+                            <h2>
+                                HOT!</h2>
+                            <p class="muted">
+                                Simple dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="plan-price">
+                            <b>$15</b> / month
+                        </div>
+                        <div class="plan-details">
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; <b>Hot</b> Feature
+                            </div>
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; <b>Awesome</b> Services
+                            </div>
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; <b>Feature</b> No. 3
+                            </div>
+                        </div>
+                        <div class="plan-action">
+                            <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
+                        </div>
+                    </div>
+                    <div class="visible-xs visible-sm">
+                        <br class="gap-30">
+                        <hr class="gap-divider">
+                        <br class="gap-30">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="plan radius3">
+                        <div class="plan-name">
+                            <h2>
+                                Enterprise</h2>
+                            <p class="muted">
+                                Simple dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="plan-price">
+                            <b>$30</b> / month
+                        </div>
+                        <div class="plan-details">
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; <b>Awesome</b> Services
+                            </div>
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; <b>Awesome</b> Services
+                            </div>
+                            <div>
+                                <span class="icon-ok"></span>&nbsp; <b>Awesome</b> Services
+                            </div>
+                        </div>
+                        <div class="plan-action">
+                            <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
+                        </div>
+                    </div>
+                    <div class="visible-xs visible-sm">
+                        <br class="gap-30">
+                        <hr class="gap-divider">
+                        <br class="gap-30">
+                    </div>
+                </div>
+            </div>
+            <!--end:.pricing-table-->
+        </div>
+    </div>
+	<br/>
+@stop()
