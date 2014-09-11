@@ -8,7 +8,7 @@
     	<meta name="author" content="">
 
     	<title>{{trans('titulos.Educational_institute_management_system')}}</title>
-        <link rel="shortcut icon" href="{{asset('themes/meilleur/favicon.png')}}">
+        <link rel="shortcut icon" href="{{asset('themes/eduktivo-page/favicon.png')}}">
 
         <!-- Bootstrap Core CSS -->
         <link href="{{asset('themes/eduktivo-page/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -41,7 +41,9 @@
                     	<span class="icon-bar"></span>
                     	<span class="icon-bar"></span>
                 	</button>
-                	<a class="navbar-brand" href="#jump1">Eduktivo</a>
+                    <a class="navbar-brand" style="padding-top: 10px;" href="#jump1">
+                        <div id="logo"></div>
+                    </a>
             	</div>
             	<!-- Collect the nav links, forms, and other content for toggling -->
             	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -74,7 +76,7 @@
         	<div class="row">
             	<div class="col-lg-12">
                		<div class="intro-message">
-                   		<h1>Eduktivo</h1>
+                   		<h1 id="logo-main" style="margin: 0 auto;"></h1>
                         <h3>{{trans('titulos.Educational_institute_management_system')}}</h3>
                         <p>{{trans('textos.Educativo')}}</p>
                         <hr class="intro-divider">
@@ -97,8 +99,6 @@
 
 	<!-- Seccion Caracteristicas -->
 	@yield('caracteristicas')
-    <!--Seccion Solicitar-->
-    @yield('solicitar')
 	<!-- Seccion Cuenta Administrador -->
 	@yield('cuenta_administrador')
     <!-- Seccion Cuenta Profesor -->
@@ -107,6 +107,8 @@
     @yield('cuenta_estudiante')  
     <!-- Seccion Cuenta Representante -->
     @yield('cuenta_representante')
+    <!--Seccion Solicitar-->
+    @yield('solicitar')    
         
     <!-- Footer -->
     <!--<footer>

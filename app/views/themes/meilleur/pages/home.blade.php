@@ -231,7 +231,7 @@
                 </li>
 
                 <li class="mix desktop">
-                    <a href="/eduktivo" target="_blank">
+                    <a href="/software-eduktivo" target="_blank">
                     <div>
 
                         <div class="media-thumb">
@@ -1277,6 +1277,14 @@
                             <textarea class="form-control" id="message" name="message" rows="8"></textarea>
                             <label for="message" id="message-error"></label>
                         </div>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label for="subscriber">
+                                    <input type="checkbox" name="subscriber" id="subscriber">¿Desea suscribirse para recibir noticias de nosotros en su buzón de correo?
+                                </label>
+                            </div>
+                        </div>
+
                         <button id="button-send" class="btn btn-block btn-success">
                             
                         </button>

@@ -79,52 +79,6 @@
     </div>
 @stop()
 
-@section('solicitar')
-    <div class="content-section-b" id="formulario">
-        <div class="container">
-            <h2 class="section-heading text-left">{{trans('formulario.send_your_request')}}</h2>
-            <div class="row" id="message">
-                <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none;"><p class="bg-danger text-center"  {{trans('formulario.error_contact_eduktivo')}}</p></div>
-                <div class="clearfix"></div>
-                <div id="success" class="col-lg-9 radius-p" style="display: none;"><p class="bg-success text-center">{{trans('formulario.success_contact_eduktivo')}}</p></div>
-            </div>        
-            <div class="row">                
-                <form id="frmContactBuy" class="form-inline" role="form" action="#" method="post">
-                    <input type="hidden" name="software" value="eduktivo">  
-                    <input type="hidden" id="btnRequesting" value={{trans('formulario.requesting')}}>
-                    <input type="hidden" id="btnRequested" value={{trans('formulario.ready')}}>
-                    <input type="hidden" id="btnRequest" value={{trans('formulario.request')}}>                        
-
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span id="error-name" class="input-group-addon" data-toggle="tooltip"><i class="icon-user"></i></span>
-                            <input class="form-control input-lg" type="text" id="name" name="name" placeholder={{trans('formulario.Your_Name')}}>                           
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">                                
-                            <div class="input-group-addon"><i class="icon-envelope"></i></div>
-                            <input class="form-control input-lg" type="email" id="email" name="email" placeholder={{trans('formulario.Your_Email')}} data-toggle="tooltip">
-                        </div>                            
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="icon-phone"></i></span>
-                            <input class="form-control input-lg" type="phone" id="phone" name="phone" placeholder={{trans('formulario.Phone')}} data-toggle="tooltip">
-                        </div>                            
-                    </div>                                                              
-                    <div class="form-group">
-                        <div class="input-group">
-                            <button type="submit" id="buy-send" class="btn btn-primary btn-lg pull-right"><i class="icon-check"></i>Solicitar</button>
-                        </div>
-                    </div>                  
-                </form>
-            </div>
-        </div>
-    </div>
-        <!-- /.container -->
-@stop()
-
 @section('cuenta_profesor')
 <div class="content-section-a" id="jump4">
         <div class="container">
@@ -195,12 +149,10 @@
 @stop
 
 @section('cuenta_representante')
-    <div class="content-section-a" id="jump6">
+    <div class="content-section-a" style="padding-top: 15px; padding-bottom: 150px;" id="jump6">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
                     <h2 class="section-heading">{{trans('titulos.account_parent')}}</h2>
                     <ul>
                         <li>{{trans('caracteristicas.View_teacher_profile')}}</li>
@@ -222,6 +174,53 @@
         </div>
        <!-- /.container -->
     </div>
+@stop()
+
+@section('solicitar')
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" id="formulario" style="padding-top: 5px; padding-bottom: 5px;">
+        <div class="container-fluid">             
+            <div class="row" id="message">
+                <div id="error" class="col-lg-offset-3 col-lg-5  radius-p" style="display: none; height: 15px"><p class="bg-danger text-center">{{trans('formulario.error_contact_eduktivo')}}</p></div>
+                <div id="success" class="col-lg-9 radius-p" style="display: none; height: 15px"><p class="bg-success text-center">{{trans('formulario.success_contact_eduktivo')}}</p></div>
+            </div>                    
+            <div class="row">
+                <div class="col-lg-offset-3">
+                    <h2 class="section-heading text-left">{{trans('formulario.send_your_request')}}</h2>
+                    <form id="frmContactBuy" class="form-inline" role="form" action="#" method="post">                        
+                        <input type="hidden" name="software" value="eduktivo">  
+                        <input type="hidden" id="btnRequesting" value={{trans('formulario.requesting')}}>
+                        <input type="hidden" id="btnRequested" value={{trans('formulario.ready')}}>
+                        <input type="hidden" id="btnRequest" value={{trans('formulario.request')}}>                        
+                    
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span id="error-name" class="input-group-addon" data-toggle="tooltip"><i class="icon-user"></i></span>
+                                <input class="form-control input-lg" type="text" id="name" name="name" placeholder={{trans('formulario.Your_Name')}}>                           
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">                                
+                                <div class="input-group-addon"><i class="icon-envelope"></i></div>
+                                <input class="form-control input-lg" type="email" id="email" name="email" placeholder={{trans('formulario.Your_Email')}} data-toggle="tooltip">
+                            </div>                            
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="icon-phone"></i></span>
+                                <input class="form-control input-lg" type="phone" id="phone" name="phone" placeholder={{trans('formulario.Phone')}} data-toggle="tooltip">
+                            </div>                            
+                        </div>                                                              
+                        <div class="form-group">
+                            <div class="input-group">
+                                <button type="submit" id="buy-send" class="btn btn-primary btn-lg pull-right"><i class="icon-check"></i>Solicitar</button>
+                            </div>
+                        </div>                  
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <!-- /.container -->
 @stop()
 
 
