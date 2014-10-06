@@ -31,3 +31,4 @@ Thumbs.db
 
 # Packages
 _ide_helpers.php
+tests/_output/*
