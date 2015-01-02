@@ -1,9 +1,5 @@
 $(function () {
     //$('.navbar-nav a').smoothScroll();
-<<<<<<< HEAD
-=======
-
->>>>>>> 06865ab11a30ef428e6d9774afa00739d67f0798
 
     $('#frmContactBuy input').tooltip();
 
@@ -65,12 +61,6 @@ $(function () {
                 $('#error').show();
             }
         });
-<<<<<<< HEAD
-
     });	
 });
 
-=======
-    });	
-});
->>>>>>> 06865ab11a30ef428e6d9774afa00739d67f0798
