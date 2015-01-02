@@ -22,7 +22,7 @@ return array(
 	"array"                => "El :attribute must be an array.",
 	"before"               => "El :attribute must be a date before :date.",
 	"between"              => array(
-		"numeric" => "El :attribute must be between :min and :max.",
+		"numeric" => "El campo debe contener entre :min y :max digitos.",
 		"file"    => "El :attribute must be between :min and :max kilobytes.",
 		"string"  => "El campo debe contener entre :min and :max caracteres.",
 		"array"   => "El :attribute must have between :min and :max items.",
