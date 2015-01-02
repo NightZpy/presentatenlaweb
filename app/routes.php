@@ -82,9 +82,9 @@ Route::post('registerContact', function ()
 Route::post('contactBuy', function ()
 {
 	$rules = array(
-					'name' => 'required|alpha_num|digits_between:3,128',
+					'name' => 'required|alpha_num|between:3,128',
 					'email' => 'required|email|unique:software_applications,email',
-					'phone' => 'required|numeric|digits_between:7,12',
+					'phone' => 'required|numeric|digits_between:7,11',
 					'software' => 'required|alpha',
 				);
 
