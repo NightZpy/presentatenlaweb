@@ -52,10 +52,10 @@ Route::post('suscribe', function(){
 Route::post('registerContact', function ()
 {
 	$rules = array(
-					'name' => 'required|alpha_num|digits_between:3,128',
+					'name' => 'required|alpha_num|between:3,128',
 					'email' => 'required|email|unique:contacts,email',
-					'subject' => 'required|digits_between:3,128',
-					'message' => 'required|digits_between:10,512'
+					'subject' => 'required|between:3,128',
+					'message' => 'required|between:10,512'
 				);
 
 	$validator = Validator::make(Input::all(), $rules);
