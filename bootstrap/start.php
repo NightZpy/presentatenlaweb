@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('alvaro-12345', 'NightZpy-PC', 'nightzpy'),
+	'local' => array('AlvaroP', 'NightZpy-PC', 'nightzpy'),
 	'production' => array('gator4164.hostgator.com')
 ));
 
