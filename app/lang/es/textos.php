@@ -18,7 +18,32 @@ return array(
 	"educativo" => "Sistema de gestión para todo tipo de instituciones educativas como escuelas y colegios. Integra y facilita 
 4 tipos de cuentas de usuario:",
    "Educativo"=>"Educativo te ayudará a gestionar eficientemente el trabajo de todo tipo de instituciones educativas.",
-   "graphic_design"=>"Ofrecemos diseño para cubrir  las diferentes necesidades de su empresa, desarrollo de Identidad corporativa, comunicación gráfica publicitaria, Diseño de logotipos. Damos valor tanto al diseño, la imagen, los soportes, etc. que la presencia corporativa de cualquier empresa exige, para que sus esfuerzos publicitarios se conviertan en resultados positivos en su balanza comercial.",
+   "graphic_design" => "Ofrecemos diseño para cubrir  las diferentes necesidades de su empresa, desarrollo de Identidad corporativa, comunicación gráfica publicitaria, Diseño de logotipos. Damos valor tanto al diseño, la imagen, los soportes, etc. que la presencia corporativa de cualquier empresa exige, para que sus esfuerzos publicitarios se conviertan en resultados positivos en su balanza comercial.",
+   "plan_text" => "Contamos con los siguietes planes ajustados a tus necesidades:", 
+   "precio_subdominio_1" => "10.000 bs/mes - 95.000 bs/año",
+   "precio_subdominio_2" => "50.000 bs/ 6 meses",
+   "subdominio" => array(
+   		"asesoria" => "Asesorias tecnicas",
+   		"solucion" => "Solucion a problemas",
+   		"cambios" => "Cambios visuales basicos"
+   	),
+   "precio_dominio_1" => "13.000 bs/mes - 135.000 bs/año",
+   "precio_dominio_2" => "62.000 bs/ 6 meses",
+   "dominio" => array(
+   		"asesoria" => "Asesorias tecnicas",
+   		"solucion" => "Solucion a problemas",
+   		"cambios" => "Cambios visuales basicos"
+   	),
+
+   "precio_local_1" => "Costo total 200.000 bs",
+   "precio_local_2" => "65.000 bs/ 6 meses",
+   "local" => array(
+   		"asesoria" => "Asesorias tecnicas",
+   		"solucion" => "Solucion a problemas",
+   		"cambios" => "Cambios visuales basicos"
+   	),
+
+
 );
 
 
