@@ -94,19 +94,21 @@
     <!-- /.intro-header -->
     <!-- Page Content -->
 
-	<!-- Seccion Caracteristicas -->
+	<!-- Sección Caracteristicas -->
 	@yield('caracteristicas')
-    <!--Seccion Solicitar-->
+    <!--Sección Solicitar-->
     @yield('solicitar')
-	<!-- Seccion Cuenta Administrador -->
+	<!-- Sección Cuenta Administrador -->
 	@yield('cuenta_administrador')
-    <!-- Seccion Cuenta Profesor -->
+    <!-- Sección Cuenta Profesor -->
     @yield('cuenta_profesor')  
-    <!--Seccion Cuenta Estudiante -->
+    <!--Sección Cuenta Estudiante -->
     @yield('cuenta_estudiante')  
-    <!-- Seccion Cuenta Representante -->
+    <!-- Sección Cuenta Representante -->
     @yield('cuenta_representante')
-    <!--Seccion Precios -->
+    <!-- Seccón usuarios de prueba -->
+    @yield('usuarios_prueba')
+    <!--Sección Precios -->
     @yield('precios')     
     <!-- Footer -->
     <!--<footer>
