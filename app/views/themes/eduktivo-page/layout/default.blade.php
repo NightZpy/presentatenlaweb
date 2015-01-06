@@ -12,7 +12,7 @@
 
         <!-- Bootstrap Core CSS -->
         <link href="{{asset('themes/eduktivo-page/css/bootstrap.css')}}" rel="stylesheet">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">        
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
         <!-- Custom CSS -->
         <link href="{{asset('themes/eduktivo-page/css/landing-page.css')}}" rel="stylesheet">
@@ -60,7 +60,7 @@
                         	<a href="#jump5">{{trans('enlaces.account_student')}}</a>
                     	</li>
                         <li><a href="#jump6">{{trans('enlaces.account_parent')}}</a></li>
-                        
+
                         <li><a href="#formulario">{{trans('enlaces.purchase')}}</a></li>
                 	</ul>
             	</div>
@@ -96,20 +96,20 @@
     <!-- /.intro-header -->
     <!-- Page Content -->
 
-	<!-- Seccion Caracteristicas -->
+	<!-- Sección Caracteristicas -->
 	@yield('caracteristicas')
-	<!-- Seccion Cuenta Administrador -->
+    <!--Sección Solicitar-->
+    @yield('solicitar')
+	<!-- Sección Cuenta Administrador -->
 	@yield('cuenta_administrador')
-    <!-- Seccion Cuenta Profesor -->
-    @yield('cuenta_profesor')  
-    <!--Seccion Cuenta Estudiante -->
-    @yield('cuenta_estudiante')  
-    <!-- Seccion Cuenta Representante -->
+    <!-- Sección Cuenta Profesor -->
+    @yield('cuenta_profesor')
+    <!--Sección Cuenta Estudiante -->
+    @yield('cuenta_estudiante')
+    <!-- Sección Cuenta Representante -->
     @yield('cuenta_representante')
-    <!--Seccion Solicitar-->
-    @yield('solicitar')            
-    <!--Seccion Precios -->
-    @yield('precios')     
+    <!--Sección Precios -->
+    @yield('precios')
     <!-- Footer -->
     <!--<footer>
         <div class="container">

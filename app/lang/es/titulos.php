@@ -39,6 +39,12 @@ return array(
     "Eduktivo"=>"Eduktivo",
     "All_Rights_Reserved"=>"Todos los derechos reservados",
 	"graphic_design"=>"Diseño Grafico",
+	"subdominio" => "Subdominio", 
+	"Dominio_propio" => "Dominio propio",
+	"Local" => "Red local",
+	"Usuarios_prueba" => "Usuarios de prueba",
+	"Usuarios" => "Usuario",
+	"Claves" => "Clave"
 );
 
 ?>

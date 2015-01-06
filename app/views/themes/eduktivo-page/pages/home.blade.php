@@ -176,6 +176,7 @@
     </div>
 @stop()
 
+<<<<<<< HEAD
 @section('solicitar')
     <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" id="formulario" style="padding-top: 5px; padding-bottom: 5px;">
         <div class="container-fluid">             
@@ -222,47 +223,90 @@
     </nav>
         <!-- /.container -->
 @stop()
+=======
+
+@section('usuarios_prueba')
+    <div class="content-section-b" id="jump5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{trans('titulos.Usuarios_prueba')}}</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th>{{trans('titulos.Usuarios')}}</th>
+                                <th>{{trans('titulos.Claves')}}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>admin@eduktivo.com</td>
+                                <td>1234</td>
+                            </tr>
+                            <tr>
+                                <td>docente@eduktivo.com</td>
+                                <td>1234</td>
+                            </tr>
+                            <tr>
+                                <td>estudiante@eduktivo.com</td>
+                                <td>1234</td>
+                            </tr>
+                            <tr>
+                                <td>representante@eduktivo.com</td>
+                                <td>1234</td>
+                            </tr>
+                        </tbody>  
+                    </table>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="{{asset('themes/eduktivo-page/img/eduktivo/Panel_de_estudiante.png')}}" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+@stop
+>>>>>>> 9a31af5c03f96875954d757dfd5b00d7bcb58316
 
 @section('precios')
  <div class="section type-2">
         <div class="container">
             <div class="section-headlines">
-                <h4>
-                    Pricing Plans</h4>
-                <h2>
-                    Our Pricing Packages</h2>
+                <!--<h4>{{ trans('titulos.Pricing_Plans') }}</h4>-->
+                <h2>{{ trans('titulos.Our_Pricing_Packages') }}</h2>
                 <div>
-                    There are many variations of passages of Lorem Ipsum available, but the majority
-                    have suffered alteration in some form, by injected humour, or randomised words which
-                    don't look even slightly believable.
+                    {{ trans('textos.plan_text') }}
                 </div>
             </div>
             <div class="pricing-plans row">
                 <div class="col-lg-3">
                     <div class="plan radius3">
                         <div class="plan-name">
-                            <h2>
-                                Beginner</h2>
-                            <p class="muted">
-                                Simple dummy text of the printing and typesetting industry.</p>
+                            <h2>{{ trans('titulos.subdominio') }}</h2>
+                            <!--<p class="muted">Simple dummy text of the printing and typesetting industry.</p>-->
                         </div>
                         <div class="plan-price">
-                            <b>$1</b> / month
+                         {{ trans('textos.precio_subdominio_1') }}
+                        </div>
+                         <div class="plan-price">
+                         {{ trans('textos.precio_subdominio_2') }}
                         </div>
                         <div class="plan-details">
                             <div>
-                                <span class="icon-remove"></span>&nbsp; <b>Beginner</b> Feature
+                                <span class="icon-ok"></span>{{ trans('textos.subdominio.asesoria') }}
                             </div>
                             <div>
-                                <span class="icon-ok"></span>&nbsp; Feature 2
+                                <span class="icon-ok"></span>{{ trans('textos.subdominio.solucion') }}
                             </div>
                             <div>
-                                <span class="icon-ok"></span>&nbsp; Paid Support
+                                <span class="icon-ok"></span>{{ trans('textos.subdominio.cambios') }}
                             </div>
                         </div>
-                        <div class="plan-action">
+                        <!--<div class="plan-action">
                             <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="visible-xs visible-sm">
                         <br class="gap-30">
@@ -273,60 +317,29 @@
                 <div class="col-lg-3">
                     <div class="plan radius3">
                         <div class="plan-name">
-                            <h2>
-                                Basic</h2>
-                            <p class="muted">
-                                Simple dummy text of the printing and typesetting industry.</p>
+                            <h2>{{ trans('titulos.Dominio_propio') }}</h2>
+                            <!--<p class="muted">Simple dummy text of the printing and typesetting industry.</p>-->
                         </div>
                         <div class="plan-price">
-                            <b>$10</b> / month
+                         {{ trans('textos.precio_dominio_1') }}
+                        </div>
+                         <div class="plan-price">
+                         {{ trans('textos.precio_dominio_2') }}
                         </div>
                         <div class="plan-details">
                             <div>
-                                <span class="icon-remove"></span>&nbsp; <b>Basic</b> Feature
+                                <span class="icon-ok"></span>{{ trans('textos.dominio.asesoria') }}
                             </div>
                             <div>
-                                <span class="icon-ok"></span>&nbsp; <b>Feature</b> Number 2
+                                <span class="icon-ok"></span>{{ trans('textos.dominio.solucion') }}
                             </div>
                             <div>
-                                <span class="icon-ok"></span>&nbsp; <b>Free</b> Support
+                                <span class="icon-ok"></span>{{ trans('textos.dominio.cambios') }}
                             </div>
                         </div>
-                        <div class="plan-action">
+                        <!--<div class="plan-action">
                             <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
-                        </div>
-                    </div>
-                    <div class="visible-xs visible-sm">
-                        <br class="gap-30">
-                        <hr class="gap-divider">
-                        <br class="gap-30">
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="plan plan-featured radius3">
-                        <div class="plan-name">
-                            <h2>
-                                HOT!</h2>
-                            <p class="muted">
-                                Simple dummy text of the printing and typesetting industry.</p>
-                        </div>
-                        <div class="plan-price">
-                            <b>$15</b> / month
-                        </div>
-                        <div class="plan-details">
-                            <div>
-                                <span class="icon-ok"></span>&nbsp; <b>Hot</b> Feature
-                            </div>
-                            <div>
-                                <span class="icon-ok"></span>&nbsp; <b>Awesome</b> Services
-                            </div>
-                            <div>
-                                <span class="icon-ok"></span>&nbsp; <b>Feature</b> No. 3
-                            </div>
-                        </div>
-                        <div class="plan-action">
-                            <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="visible-xs visible-sm">
                         <br class="gap-30">
@@ -337,28 +350,29 @@
                 <div class="col-lg-3">
                     <div class="plan radius3">
                         <div class="plan-name">
-                            <h2>
-                                Enterprise</h2>
-                            <p class="muted">
-                                Simple dummy text of the printing and typesetting industry.</p>
+                            <h2>{{ trans('titulos.Local') }}</h2>
+                            <!--<p class="muted">Simple dummy text of the printing and typesetting industry.</p>-->
                         </div>
                         <div class="plan-price">
-                            <b>$30</b> / month
+                         {{ trans('textos.precio_local_1') }}
                         </div>
+                         <!--<div class="plan-price">
+                         {{ trans('textos.precio_local_2') }}
+                        </div>-->
                         <div class="plan-details">
                             <div>
-                                <span class="icon-ok"></span>&nbsp; <b>Awesome</b> Services
+                                <span class="icon-ok"></span>{{ trans('textos.local.asesoria') }}
                             </div>
                             <div>
-                                <span class="icon-ok"></span>&nbsp; <b>Awesome</b> Services
+                                <span class="icon-ok"></span>{{ trans('textos.local.solucion') }}
                             </div>
                             <div>
-                                <span class="icon-ok"></span>&nbsp; <b>Awesome</b> Services
+                                <span class="icon-ok"></span>{{ trans('textos.local.cambios') }}
                             </div>
                         </div>
-                        <div class="plan-action">
+                        <!--<div class="plan-action">
                             <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="visible-xs visible-sm">
                         <br class="gap-30">
