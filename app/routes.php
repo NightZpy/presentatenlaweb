@@ -60,11 +60,8 @@ Route::post('suscribe', function(){
 Route::post('registerContact', function ()
 {
 	$rules = array(
-<<<<<<< HEAD
-					'name' => 'required|digits_between:3,128',
-=======
+
 					'name' => 'required|alpha_num|between:3,128',
->>>>>>> 9a31af5c03f96875954d757dfd5b00d7bcb58316
 					'email' => 'required|email|unique:contacts,email',
 					'subject' => 'required|between:3,128',
 					'message' => 'required|between:10,512'
@@ -106,11 +103,7 @@ Route::post('registerContact', function ()
 Route::post('contactBuy', function ()
 {
 	$rules = array(
-<<<<<<< HEAD
-					'name' => 'required|digits_between:3,128',
-=======
 					'name' => 'required|alpha_num|between:3,128',
->>>>>>> 9a31af5c03f96875954d757dfd5b00d7bcb58316
 					'email' => 'required|email|unique:software_applications,email',
 					'phone' => 'required|numeric|digits_between:7,11',
 					'software' => 'required|alpha',
