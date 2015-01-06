@@ -13,8 +13,8 @@
 
 Route::get('/', function()
 {
-	//return View::make('themes.meilleur.pages.home');
-	return View::make('themes.coming-soon.pages.home');
+	return View::make('themes.meilleur.pages.home');
+	//return View::make('themes.coming-soon.pages.home');
 });
 
 
