@@ -176,7 +176,6 @@
     </div>
 @stop()
 
-<<<<<<< HEAD
 @section('solicitar')
     <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" id="formulario" style="padding-top: 5px; padding-bottom: 5px;">
         <div class="container-fluid">             
@@ -223,7 +222,6 @@
     </nav>
         <!-- /.container -->
 @stop()
-=======
 
 @section('usuarios_prueba')
     <div class="content-section-b" id="jump5">
@@ -268,7 +266,6 @@
         <!-- /.container -->
     </div>
 @stop
->>>>>>> 9a31af5c03f96875954d757dfd5b00d7bcb58316
 
 @section('precios')
  <div class="section type-2">
