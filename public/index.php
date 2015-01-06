@@ -16,9 +16,8 @@
 | into the script here so that we do not have to worry about the
 | loading of any our classes "manually". Feels great to relax.
 |
-*/
-
-require __DIR__.'/../bootstrap/autoload.php';
+ */
+require __DIR__ . '/../bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -30,9 +29,9 @@ require __DIR__.'/../bootstrap/autoload.php';
 | will load up this application so that we can run it and send
 | the responses back to the browser and delight these users.
 |
-*/
+ */
 
-$app = require_once __DIR__.'/../bootstrap/start.php';
+$app = require_once __DIR__ . '/../bootstrap/start.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,6 +43,6 @@ $app = require_once __DIR__.'/../bootstrap/start.php';
 | the client's browser allowing them to enjoy the creative
 | and wonderful application we have whipped up for them.
 |
-*/
+ */
 
 $app->run();
