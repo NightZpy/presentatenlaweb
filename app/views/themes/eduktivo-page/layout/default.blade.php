@@ -16,7 +16,7 @@
 
         <!-- Custom CSS -->
         <link href="{{asset('themes/eduktivo-page/css/landing-page.css')}}" rel="stylesheet">
-        <link href="{{asset('themes/eduktivo-page/css/modificar_bootstrap.css')}}"/>
+        <link href"{{asset('themes/pricing-plan/css/style.css')}}"  rel="stylesheet">
         <!-- Custom Fonts -->
         <!-- <link href="{{asset('themes/eduktivo-pagefont-awesome-4.1.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css"> -->
 
@@ -128,6 +128,7 @@
     <script src="{{asset('themes/eduktivo-page/js/bootstrap.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('themes/meilleur/js/jquery.smooth-scroll.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('themes/eduktivo-page/js/custom.js')}}"></script>
+    <script type="text/javascript" src="{{asset('themes/pricing-plan/js/index.js')}}"></script>
 </body>
 
 </html>
