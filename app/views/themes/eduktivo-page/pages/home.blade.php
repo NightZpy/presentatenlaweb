@@ -80,7 +80,7 @@
 @stop()
 
 @section('solicitar')
-    <div class="content-section-b" id="jump1">
+    <div class="content-section-b" id="formulario">e
         <div class="container">
             <h2 class="section-heading text-left">{{trans('formulario.send_your_request')}}</h2>
             <div class="row" id="message">
