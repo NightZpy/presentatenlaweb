@@ -39,6 +39,7 @@ return array(
     "Eduktivo"=>"Eduktivo",
     "All_Rights_Reserved"=>"Todos los derechos reservados",
 	"graphic_design"=>"Diseño Grafico",
+	"precing_plan" => "Nuestros precios",
 	"subdominio" => "Subdominio", 
 	"Dominio_propio" => "Dominio propio",
 	"Local" => "Red local",
