@@ -16,7 +16,7 @@
 
         <!-- Custom CSS -->
         <link href="{{asset('themes/eduktivo-page/css/landing-page.css')}}" rel="stylesheet">
-        <link href="{{asset('themes/eduktivo-page/css/modificar_bootstrap.css')}}"/>
+        <link href="{{asset('themes/pricing-plan/css/style.css')}}"  rel="stylesheet">
         <!-- Custom Fonts -->
         <!-- <link href="{{asset('themes/eduktivo-pagefont-awesome-4.1.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css"> -->
 
@@ -94,22 +94,30 @@
     <!-- /.intro-header -->
     <!-- Page Content -->
 
-	<!-- Sección Caracteristicas -->
-	@yield('caracteristicas')
-    <!--Sección Solicitar-->
-    @yield('solicitar')
-	<!-- Sección Cuenta Administrador -->
-	@yield('cuenta_administrador')
-    <!-- Sección Cuenta Profesor -->
-    @yield('cuenta_profesor')  
-    <!--Sección Cuenta Estudiante -->
-    @yield('cuenta_estudiante')  
-    <!-- Sección Cuenta Representante -->
-    @yield('cuenta_representante')
     <!-- Seccón usuarios de prueba -->
     @yield('usuarios_prueba')
+
+	<!-- Sección Caracteristicas -->
+	@yield('caracteristicas')
+
+    <!--Sección Solicitar-->
+    @yield('solicitar')
+
+	<!-- Sección Cuenta Administrador -->
+	@yield('cuenta_administrador')
+
+    <!-- Sección Cuenta Profesor -->
+    @yield('cuenta_profesor')  
+
+    <!--Sección Cuenta Estudiante -->
+    @yield('cuenta_estudiante')  
+
+    <!-- Sección Cuenta Representante -->
+    @yield('cuenta_representante')
+
     <!--Sección Precios -->
-    @yield('precios')     
+    @yield('precios')   
+      
     <!-- Footer -->
     <!--<footer>
         <div class="container">
@@ -128,6 +136,7 @@
     <script src="{{asset('themes/eduktivo-page/js/bootstrap.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('themes/meilleur/js/jquery.smooth-scroll.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('themes/eduktivo-page/js/custom.js')}}"></script>
+    <script type="text/javascript" src="{{asset('themes/pricing-plan/js/index.js')}}"></script>
 </body>
 
 </html>

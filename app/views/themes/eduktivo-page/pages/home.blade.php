@@ -270,118 +270,82 @@
 @stop
 
 @section('precios')
- <div class="section type-2">
+     <div class="content-section-a" id="jump6">
         <div class="container">
-            <div class="section-headlines">
-                <!--<h4>{{ trans('titulos.Pricing_Plans') }}</h4>-->
-                <h2>{{ trans('titulos.Our_Pricing_Packages') }}</h2>
-                <div>
-                    {{ trans('textos.plan_text') }}
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{trans('titulos.precing_plan')}}</h2>
+                    <p> {{ trans('textos.plan_text') }}</p>
                 </div>
             </div>
-            <div class="pricing-plans row">
-                <div class="col-lg-3">
-                    <div class="plan radius3">
-                        <div class="plan-name">
-                            <h2>{{ trans('titulos.subdominio') }}</h2>
-                            <!--<p class="muted">Simple dummy text of the printing and typesetting industry.</p>-->
-                        </div>
-                        <div class="plan-price">
-                         {{ trans('textos.precio_subdominio_1') }}
-                        </div>
-                         <div class="plan-price">
-                         {{ trans('textos.precio_subdominio_2') }}
-                        </div>
-                        <div class="plan-details">
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.subdominio.asesoria') }}
-                            </div>
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.subdominio.solucion') }}
-                            </div>
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.subdominio.cambios') }}
-                            </div>
-                        </div>
-                        <!--<div class="plan-action">
-                            <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
-                        </div>-->
+            <div class="row">
+                <div class="whole">
+                    <div class="type">
+                    <p>{{  trans('titulos.subdominio') }}</p>
                     </div>
-                    <div class="visible-xs visible-sm">
-                        <br class="gap-30">
-                        <hr class="gap-divider">
-                        <br class="gap-30">
+                    <div class="plan">
+                        <div class="header">
+                            {{ trans('textos.precio_subdominio_1') }}
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li id="sub-price"> {{ trans('textos.precio_subdominio_2') }} </li>
+                                <li>{{ trans('textos.subdominio.asesoria') }}</li>
+                                <li>{{ trans('textos.subdominio.solucion') }}</li>
+                                <li>{{ trans('textos.subdominio.cambios') }}</li>
+                            </ul>
+                        </div>
+                        <div class="price">
+                            <a href="#" class="bottom"><p class="cart">{{ trans('textos.add') }}</p></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="plan radius3">
-                        <div class="plan-name">
-                            <h2>{{ trans('titulos.Dominio_propio') }}</h2>
-                            <!--<p class="muted">Simple dummy text of the printing and typesetting industry.</p>-->
-                        </div>
-                        <div class="plan-price">
-                         {{ trans('textos.precio_dominio_1') }}
-                        </div>
-                         <div class="plan-price">
-                         {{ trans('textos.precio_dominio_2') }}
-                        </div>
-                        <div class="plan-details">
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.dominio.asesoria') }}
-                            </div>
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.dominio.solucion') }}
-                            </div>
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.dominio.cambios') }}
-                            </div>
-                        </div>
-                        <!--<div class="plan-action">
-                            <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
-                        </div>-->
+                <div class="whole">
+                    <div class="type">
+                    <p>{{  trans('titulos.Dominio_propio') }}</p>
                     </div>
-                    <div class="visible-xs visible-sm">
-                        <br class="gap-30">
-                        <hr class="gap-divider">
-                        <br class="gap-30">
+                    <div class="plan">
+                        <div class="header">
+                            {{ trans('textos.precio_dominio_1') }}
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li id="sub-price"> {{ trans('textos.precio_dominio_2') }} </li>
+                                <li>{{ trans('textos.subdominio.asesoria') }}</li>
+                                <li>{{ trans('textos.subdominio.solucion') }}</li>
+                                <li>{{ trans('textos.subdominio.cambios') }}</li>
+                            </ul>
+                        </div>
+                        <div class="price">
+                            <a href="#" class="bottom"><p class="cart">{{ trans('textos.add') }}</p></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="plan radius3">
-                        <div class="plan-name">
-                            <h2>{{ trans('titulos.Local') }}</h2>
-                            <!--<p class="muted">Simple dummy text of the printing and typesetting industry.</p>-->
-                        </div>
-                        <div class="plan-price">
-                         {{ trans('textos.precio_local_1') }}
-                        </div>
-                         <!--<div class="plan-price">
-                         {{ trans('textos.precio_local_2') }}
-                        </div>-->
-                        <div class="plan-details">
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.local.asesoria') }}
-                            </div>
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.local.solucion') }}
-                            </div>
-                            <div>
-                                <span class="icon-ok"></span>{{ trans('textos.local.cambios') }}
-                            </div>
-                        </div>
-                        <!--<div class="plan-action">
-                            <a href="#" class="btn btn-success btn-block btn-large">Buy</a>
-                        </div>-->
+                <div class="whole">
+                    <div class="type">
+                    <p>{{  trans('titulos.Local') }}</p>
                     </div>
-                    <div class="visible-xs visible-sm">
-                        <br class="gap-30">
-                        <hr class="gap-divider">
-                        <br class="gap-30">
+                    <div class="plan">
+                        <div class="header">
+                            {{ trans('textos.precio_local_1') }}
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li id="sub-price"> {{ trans('textos.precio_local_2') }} </li>
+                                <li>{{ trans('textos.subdominio.asesoria') }}</li>
+                                <li>{{ trans('textos.subdominio.solucion') }}</li>
+                                <li>{{ trans('textos.subdominio.cambios') }}</li>
+                            </ul>
+                        </div>
+                        <div class="price">
+                            <a href="#" class="bottom"><p class="cart">{{ trans('textos.add') }}</p></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!--end:.pricing-table-->
         </div>
+       <!-- /.container -->
     </div>
-	<br/>
 @stop()
